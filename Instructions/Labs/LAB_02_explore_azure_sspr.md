@@ -37,7 +37,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. On the **Azure Active Directory** home page, select **Password reset**.
 
-1. From the Properties page, under the option Self-service password reset enabled, select **Select group**
+1. From the Properties page, under the option Self-service password reset enabled, Choose **Selected**, then under **Select group** option, click on **No groups selected**.
 
 1. Browse for and select your Azure AD group, SSPRSecurityGroupUsers, after that choose Select, then select save.
 
@@ -89,13 +89,13 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 6. In the Number of methods required to rest, select **1**. Note the information box on the screen.
 
-7. Notice the different methods available to users.  **Email** and **Mobile phone (SMS only)** should already be checked; if not, select them and click save.
+7. Notice the different methods available to users.  **Email** and **Mobile phone** should already be checked; if not, select them and click save.
 
    ![](../Images/auth-methods.png)
 
 8. From the left navigation panel of Password reset, select **Registration**.  
 
-9. Ensure the setting to Require users to register when signing in is set to **Yes**.  Leave the Number of days before users are asked to re-confirm their authentication information, to the default of 180 and click save if any changes have been made.  Take note of the information box on the page.
+9. Ensure the setting to Require users to register when signing in is set to **Yes**.  Leave the Number of days before users are asked to re-confirm their authentication information, to the default of 90 and click save if any changes have been made.  Take note of the information box on the page.
 
 10. From the left navigation panel of Password reset, select **Notifications**.  
 
@@ -103,7 +103,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 12. Note how the Password reset navigation pane also includes options to view audit logs and Usage & insights.
 
-   ![](../Images/registration.png)
+   ![](../Images/registrations.png)
 
 13. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
@@ -144,6 +144,8 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
    ![](../Images/sms-verified-upd.png)
 
 8. Skip this step if you were able to configure SSPR with your mobile phone number.  Alternatively, you can set up a different method as shown on the bottom left of the window.  If you choose to set up a different method, select **I want to set up a different method**, a pop-up window shows up, asking Which method would you like to use?  From the drop-down, select your preferred method, **Email**, then select the **Confirm** button.  Enter the email you would like to use then select **Next**.  A new window opens indicating a code was just sent to the email you entered.  Access the email you entered to obtain the code.  Enter the code you are received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.
+
+>Note: if it's ask you to choose between **Email** and **Authenticator app**, select **Authenticator App** and proceed with the further steps.
 
 9. You can now complete your sign-in. You should be on the Office 365 landing page. If you see that your sign-in time has expired, just reenter the password, SC900-Lab.
 
