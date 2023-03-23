@@ -69,11 +69,13 @@ In this lab, you'll access Azure Active Directory. Additionally, you'll create a
 
    ![](../Images/azure-portal-aad-users.png)
 
-2. From the left navigation pane, select **Users**. Notice that your tenant is already configured with users. Select **+ New user** at the top of the page.
+2. From the left navigation pane, select **Users**. Notice that your tenant is already configured with users. Select **+ New user** dropdown at the top of the page.
 
-   ![](../Images/aad-add-user-upd.png)
+3. Select **Create new User**.
 
-4. **Create User** should already be selected, if not select that option.
+   ![](../Images/AAD-add-user.png)
+   
+4. In *Select Template* **Create User** should be selected, if not select that.
 
 5. Populate the **Identity** fields as follows:
 

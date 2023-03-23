@@ -68,9 +68,9 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 10. Under Cloud apps or actions, select **No cloud apps or actions selected**.
 
-11. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure **Cloud apps** is highlighted and **Include** is selected (underlined), then select **Select apps**.  The window to Select Cloud apps opens.
+11. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure **Cloud apps** is highlighted and **Include** is selected (underlined), then select **Select apps**.  Under **Select** pane click on **NONE**.
 
-12. In the search bar, enter **Azure**.  From the search results that appear under the search box, select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
+12. In the search bar, enter and select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
 
    ![](../Images/select-azure.png)
 
