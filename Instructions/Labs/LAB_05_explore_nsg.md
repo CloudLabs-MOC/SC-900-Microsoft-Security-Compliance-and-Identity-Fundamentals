@@ -29,13 +29,13 @@ In this lab, you will explore the function of network security groups in Azure. 
     1. Subscription:  Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
     1. Resource group:  select **Create new** then in the Name field enter **LabsSC900**, then select **OK**.
     1. Virtual machines name:  enter **SC900-WinVM**.
-    1. Image:  from the drop-down, select **Windows 10 Pro, Version 20H2 – Gen 1**.
+    1. Image:  from the drop-down, select **Windows 10 Pro, Version 22H2 – Gen 1**.
     1. Size:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
     1. Username:  enter **AzureUser**.
     1. Password:  enter **SC900AzureLabs**.
     1. Public inbounds ports:  select **None**.
        
-       ![Picture 1](../Images/2.png)
+       ![Picture 1](../Images/createvm.png)
        
     3. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
     4. Select **Next: Disks**. 
