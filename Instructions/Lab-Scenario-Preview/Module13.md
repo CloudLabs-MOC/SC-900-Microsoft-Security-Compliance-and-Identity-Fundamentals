@@ -19,4 +19,4 @@ After completing this lab, you will be able to:
 
 ![](../images/.png)
 
-Now that you know what the lab is going to be all about, you can launch next item **Hands-on Lab** which includes lab environment and lab guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/3c70de70-29a3-42e2-adce-84047fc7b191) if you want to go through detailed guide prior to launching lab environment.  
+Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here] (https://experience.cloudlabs.ai/#/labguidepreview/3c70de70-29a3-42e2-adce-84047fc7b191) if you want to go through a detailed guide prior to launching the lab environment.
