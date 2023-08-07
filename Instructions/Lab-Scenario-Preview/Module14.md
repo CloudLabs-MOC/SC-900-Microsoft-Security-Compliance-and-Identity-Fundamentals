@@ -21,4 +21,4 @@ After completing this lab, you will be able to:
 
 ![](../images/.png)
 
-Now that you know what the lab is going to be all about, you can launch next item **Hands-on Lab** which includes lab environment and lab guide. You can also preview the full lab guide [here]() if you want to go through detailed guide prior to launching lab environment.  
+Now that you know what the lab is going to be all about, you can launch next item **Hands-on Lab** which includes lab environment and lab guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/522bab3c-a6e7-4fe0-bb4f-1434ee6019a5) if you want to go through detailed guide prior to launching lab environment.  
