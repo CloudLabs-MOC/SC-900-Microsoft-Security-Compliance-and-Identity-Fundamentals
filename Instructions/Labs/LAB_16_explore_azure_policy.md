@@ -111,7 +111,8 @@ In this task you'll see the impact of the Azure policy assignment, by attempting
 1. You are now in the Azure services home page.  Keep this page open, you will need it for the next task.
  
  
-## Task 3 (Optional): In this task, you'll walk through the steps to remediate a non-compliant resource group. NOTE: the Azure subscription used for the lab will experience longer than normal delay to update the compliance status of a remediated resource group.
+## Task 3 (Optional): Steps to remediate a non-compliant resource group.
+In this task, you'll walk through the steps to remediate a non-compliant resource group. NOTE: the Azure subscription used for the lab will experience longer than normal delay to update the compliance status of a remediated resource group.
 
 1. From the Azure home page, select **policy**. This opens the Policy home page that provides a dashboard view.  The scope for the Dashboard view is the Azure subscription provided by the authorized lab hoster.  
 

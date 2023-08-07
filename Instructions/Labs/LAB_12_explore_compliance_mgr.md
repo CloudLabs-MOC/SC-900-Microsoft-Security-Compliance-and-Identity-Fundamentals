@@ -3,30 +3,23 @@
 ## Lab scenario
 In this lab, you will explore the Microsoft Purview compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
 
-## Task 1: Explore the Microsoft Purview compliance center home page and learn to customize the card view and the navigation panel.
+## Task 1: Explore the Microsoft Purview compliance center
+ In this task  you will Explore the Microsoft Purview compliance center home page and learn to customize the card view and the navigation panel.
 
-1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
-
-      ![](../Images/module4/lab12/main-1.png)
+1. If you not alredy login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
+   ![](../Images/module4/lab12/main-1.png)
 
 1. Sign in with your admin credentials.
-    1. In the Sign in window, enter following username and select **Next**.
+   
+1. In the Sign in window enter you will see a login screen, in that enter the following email/username and then click on **Next**. 
 
-       * Email/Username: <inject key="AzureAdUserEmail"></inject>
-     
-        ![](../Images/image(1).png)
-     
-    1. Enter the following admin password and Select **Sign in**.
+    * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+1. Now enter the password and click on Sign in.
+   
+   * Password: <inject key="AzureAdUserPassword"></inject>
   
-       * Password: <inject key="AzureAdUserPassword"></inject>
-    
-       ![](../Images/image(2).png)
-        
-    1. When prompted to Action Required, Please select **Ask later**
-
-        ![](../Images/image(3).png)    
-     
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+1. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -66,7 +59,8 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
      
 1. Leave the browser tab open.
 
-## Task 2: Learn about your organization’s compliance posture through Compliance Manager.
+## Task 2: Compliance posture through Compliance Manager.
+ In this tak you will learn about your organization’s compliance posture through Compliance Manager.
 
 1. From the left navigation panel of the Microsoft Purview compliance center, select **Compliance Manager**.  Alternatively, you can select Compliance Manager on the title bar of the Compliance Manager card. Select **Show all** , if the options are not seen in the left navigation pane. 
 

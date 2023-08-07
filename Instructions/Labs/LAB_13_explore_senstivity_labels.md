@@ -3,32 +3,24 @@
 ## Lab scenario
 In this lab you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
 
-## Task 1: In this task you will gain an understanding of what sensitivity labels can do by going through the settings for an existing sensitivity label that have been created and the corresponding policy to publish the label.
 
-1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
+## Task 1: Explore the capabilities of sensitivity labels
+In this task you will gain an understanding of what sensitivity labels can do by going through the settings for an existing sensitivity label that have been created and the corresponding policy to publish the label.
 
-      ![](../Images/module4/lab12/main-1.png)
+1. If you not alredy login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
+   ![](../Images/module4/lab12/main-1.png)
 
 1. Sign in with your admin credentials.
-    1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
-     
-        ![](../Images/98.png)
-     
-        ![](../Images/module4/lab12/main-2.png)
-    
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    
-        ![](../Images/module4/lab12/main-3.png)
-     
-    1. When prompted to protect the account, Please select **Skip for now**.
+   
+1. In the Sign in window enter you will see a login screen, in that enter the following email/username and then click on **Next**. 
 
-        ![](../Images/module4/lab12/main-4.png)
-        
-    1. When prompted to Action Required, Please select **Ask later**
+    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-        ![](../Images/lab14-1-3.png)          
-     
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+1. Now enter the password and click on Sign in.
+   
+   * Password: <inject key="AzureAdUserPassword"></inject>
+  
+1. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -56,7 +48,7 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
     | -- | -- |
     | **Name** text box | Enter **Confidential-Finance** |
     | **Display name** text box | Enter **Confidential-Finance** |
-    | **Description for users** text box | Enter **Confidential-Finance Demo | 
+    | **Description for users** text box | Enter **Confidential-Finance Demo** | 
 
     ![](../Images/sc-900-lab13-3.png)
 
@@ -174,7 +166,7 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 1. Select **+ New blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
 
-1. From the top menu bar, select **Sensitivity**.(**Note**: If the option is not available, it will take sometime to reflect Alternatively try refreshing the page or sign-out and sign-in again) From the drop down select **Confidential - Finance-Demo**.
+1. From the top menu bar, select **Sensitivity**.(**Note**: If the option is not available, it will take sometime to reflect Alternatively try refreshing the page or sign-out and sign-in again) From the drop down select **Confidential-Finance**
 
       ![](../Images/95.png)      
 
