@@ -1,0 +1,12 @@
+[
+    {
+    "Name": "Lab-07: Explore Microsoft Sentinel",
+    "Language": "English",
+    "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/self-paced/Instructions/Labs/Lab-Scenario-Preview/Module07.md",
+          "Order": 1
+        }
+      ]
+    } 
+]
