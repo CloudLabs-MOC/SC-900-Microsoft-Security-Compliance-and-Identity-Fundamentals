@@ -1,0 +1,16 @@
+[
+    {
+        "Name": "Microsoft Entra self-service password reset",
+        "Language": "English",
+        "Files": [
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/SachithaBS/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Oct-2024/Instructions/Labs/LabIntrov2.md",
+                "Order": 1
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/SachithaBS/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Oct-2024/Instructions/Labs/LAB_02_explore_azure_sspr.md",
+                "Order": 2
+            }
+        ]
+    }
+]

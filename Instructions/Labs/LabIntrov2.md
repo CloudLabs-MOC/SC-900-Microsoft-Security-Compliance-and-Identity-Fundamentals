@@ -64,11 +64,17 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 4. If a **Action Required** window appears, click on **Ask later**.
 
-5. If prompted to stay signed in, you can click "No."
+   ![](../Images/asklater.png)
+
+6. If prompted to stay signed in, you can click "No."
+
+   ![](../Images/Sign-in-no.png)
  
-6. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
+8. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Cancel" to skip the tour.
+
+   ![](../Images/Azure-cancel-tour.png)
  
-7. Click "Next" from the bottom right corner to embark on your Lab journey!
+10. Click "Next" from the bottom right corner to embark on your Lab journey!
  
      ![Start Your Azure Journey](../Images/sc900-image(3).png)
  
