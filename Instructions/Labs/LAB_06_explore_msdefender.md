@@ -58,7 +58,7 @@ In this lab, you will complete the following tasks:
 
 1. From the main left navigation panel, select **Regulatory compliance**. The regulatory compliance page provides a list of compliance controls based on the Microsoft Cloud security benchmark (verify that the Microsoft Cloud security benchmark tab is selected/underlined). Under each control domain is a subset of controls and for each control, there are one or more assessments. Each assessment provides information including description, remediation, and affected resources.
    
-    >**Note**: If the assessments are greyed out, go to **Manage Compliance Policies** and then **Environment Settings page** open select **Subscription**(decrease the resolution if it isn't visible) then the Defender plans page open then go to **Security policy** from the left navigation pane and against **Microsoft cloud security benchmar** click on the elipsis and choose **View in Azure policy** then initiative assignment page open here In **Scope** option select Azure subscription and **Assignment name** as **Microsoft cloud security benchmark** and leave remaining as default and select **Review + Create** and click on **Create**.
+    >**Note**: If the assessments are greyed out, go to **Manage Compliance Standards** and then **Environment Settings page** open select **Subscription**(decrease the resolution if it isn't visible) then the Defender plans page open then go to **Security policy** from the left navigation pane and against **Microsoft cloud security benchmar** click on the elipsis and choose **View in Azure policy** then initiative assignment page open here In **Scope** option select Azure subscription and **Assignment name** as **Microsoft cloud security benchmark** and leave remaining as default and select **Review + Create** and click on **Create**.
 
     ![Picture 1](../Images/s3.png)
 
@@ -82,8 +82,9 @@ In this lab, you will complete the following tasks:
      
 1. Keep the Microsoft Defender for Cloud overview page open, you'll use in the next task.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+ <validation step="7d126a53-2db7-496f-b825-52a4ed7740ef"/>
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. 
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
