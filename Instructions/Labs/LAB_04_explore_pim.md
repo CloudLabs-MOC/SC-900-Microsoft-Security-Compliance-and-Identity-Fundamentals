@@ -1,10 +1,11 @@
 
 # Lab-04: Explore Privileged Identity management
 
-## Lab scenario
+## Lab Overview
+
 In this lab, you will explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Microsoft Entra ID P2 license.  In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with Microsoft Entra user administrator role, through Privileged ID management (PIM).   With user admin privileges, Diego will be able to create users and groups manage licenses and more. Both the admin and the user, Diego, must be configured for the Microsoft Entra ID P2 license.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -22,7 +23,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you, as the admin, will reset the password for the user Diego Siciliani. This step is needed so you can initially sign in as the user in subsequent tasks.
  
-1. Open Microsoft Edge, and in the address bar, enter **https://entra.microsoft.com**.
+1. Open **Microsoft Edge**, and in the address bar, enter **https://entra.microsoft.com**.
    
 1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
 
