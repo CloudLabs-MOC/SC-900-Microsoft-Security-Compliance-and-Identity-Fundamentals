@@ -258,7 +258,7 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
    ![](../Images/Forget-pass-3.png)
 
-1. From the Pick an account information box, select **Adele@mocholxxxx.onmicrosoft.com**, enter your new password, then select the **Sign in** button. If you are prompted to Stay signed in. select **No**.
+1. From the Pick an account information box, select **Adele@mocholxxxx.onmicrosoft.com**, enter your new password, and then select the **Sign in** button. If you are prompted to Stay signed in. select **No**.
 
 1. You should now be on the **Office 365** Page.
 
