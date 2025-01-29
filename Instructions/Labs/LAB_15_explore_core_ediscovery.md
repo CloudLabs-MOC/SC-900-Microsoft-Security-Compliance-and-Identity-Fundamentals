@@ -1,9 +1,9 @@
 # Lab-15: Explore eDiscovery
 
-## Lab scenario
+## Lab Overview
 In this lab you will go through the steps required for setting up Core eDiscovery and then go through the Core eDiscovery workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search.  Note:  Licensing for Core eDiscovery requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support core eDiscovery, visit Get started with Core eDiscovery.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -162,7 +162,7 @@ With a hold in place, you will create a search query.  Once your search is compl
     
      ![](../Images/sc-900-lab15-T2-15upd.png)
 
-1. From the **Searches** window, select the search you just created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indciate that the search is completed.  You will see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete). 
+1. From the **Searches** window, select the search you just created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indicate that the search is completed.  You will see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete). 
 
     ![](../Images/sc-900-lab15-T2-16upd.png)
 
