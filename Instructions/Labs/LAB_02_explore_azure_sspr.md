@@ -1,7 +1,7 @@
 
 # Lab-02: Microsoft Entra self-service password reset
 
-## Lab scenario
+## Lab Overview
 
 In this lab, you, as an admin, will walk through the process of enabling self-service password reset. With SSPR enabled, you will then assume the role of a user and go through the process of registering for SSPR and also resetting your password.  Lastly, you as the admin will be able to view audit logs and usage data & insights for SSPR.
 
@@ -65,7 +65,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 1. Close the Properties window of Password reset by selecting the X at the top right corner of the page.
    
-1. In Microsoft Entra ID Overview page, click on the **Groups (2)** blade under the **Manage (1)** section.
+1. In **Microsoft Entra ID** Overview page, click on the **Groups (2)** blade under the **Manage (1)** section.
 
    ![](../Images/select-groups.png)
   
@@ -99,7 +99,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 1. Select **Reset password (1)** from the top of the page. Since you have not previously signed in as **Adele Vance**, you will need to reset the password
 
-1. When the Reset password window opens, select **Reset Password (2)**.  
+1. When the **Reset password** window opens, select **Reset Password (2)**.  
 
    ![](../Images/Passwordreset1.png)
 
