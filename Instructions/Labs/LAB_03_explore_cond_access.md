@@ -1,10 +1,11 @@
 
 # Lab-03 : Microsoft Entra Conditional Access
 
-## Lab scenario
+## Lab Overview
+
 In this lab, you will explore conditional access MFA, from the perspective of an admin and a user.  As the admin will create a policy that will require a user to go through multi-factor authentication when accessing a cloud-based Microsoft Azure Management application.  From a user perspective, you will see the impact of the conditional access policy, including the process to register for MFA.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -22,7 +23,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you, as the admin, will reset the password for the user Debra Berger.  This step is needed so you can initially sign in as the user in subsequent tasks.
 
-1. Open Microsoft Edge, and in the address bar, enter **https://entra.microsoft.com**, and sign in. 
+1. Open **Microsoft Edge**, and in the address bar, enter **https://entra.microsoft.com**, and sign in. 
 
 1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**.
    
