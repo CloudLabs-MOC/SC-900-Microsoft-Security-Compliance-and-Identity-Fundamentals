@@ -1,10 +1,10 @@
 # Lab-14: Explore Insider Risk Management in Microsoft Purview
 
-## Lab scenario
+## Lab Overview
 In this lab, you will walk through the process of setting up an insider risk policy, along with the basic prerequisites to configure and use insider risk management policies.  
 >**Note:** This lab will only provide visibility into what is required for setting up Insider risk management and options associated with creating a policy.  This lab does not include a task to trigger the policy, as the number of events that would need to occur to trigger a policy are outside of the scope of this exercise.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -27,7 +27,6 @@ In this task, you, as the global administrator, will enable permissions for Insi
 1. On **Sign in** blade, you will see a login screen, in that enter the following email/username 
  
     * Email/Username: **<inject key="AzureAdUserEmail"></inject>** and then click on **Next**.
-
         
 1. On **Enter Password** blade, enter the following password   
 
