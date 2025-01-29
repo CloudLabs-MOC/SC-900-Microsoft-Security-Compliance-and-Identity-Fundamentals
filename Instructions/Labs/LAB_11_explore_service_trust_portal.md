@@ -1,10 +1,10 @@
 # Lab-11: Explore the Service Trust Portal
 
-## Lab scenario
+## Lab Overview
 
 In this lab, you will explore the features and content available from the Service Trust Portal. You will also visit the Trust Center and navigate to the six key privacy principles.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
