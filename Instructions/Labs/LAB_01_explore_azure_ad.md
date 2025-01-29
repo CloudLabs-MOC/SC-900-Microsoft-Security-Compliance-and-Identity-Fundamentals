@@ -1,11 +1,11 @@
  
 # Lab-01: Explore Microsoft Entra ID User Settings
 
-## Lab scenario
+## Lab Overview
 
 In this lab, you'll access Microsoft Entra ID. Additionally, you'll create a user and configure the different settings, including adding licenses.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -184,7 +184,7 @@ To add a license, click on **Go to the Microsoft 365 admin center** from the ale
 
      ![](../Images/T3-S16.png)
 
-1. Sign out from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
+1. Sign out from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then close all the browser windows.
 
      ![](../Images/T3-S17a.png)
 
