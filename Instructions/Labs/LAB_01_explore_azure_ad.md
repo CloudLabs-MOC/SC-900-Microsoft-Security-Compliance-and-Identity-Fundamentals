@@ -72,6 +72,8 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 ## Task 2: Creating a basic group
 
+In this task, you will create a Microsoft 365 group in Microsoft Entra ID, assign a group name and description, and manage group settings.
+
 1. On the Microsoft Entra ID page, from left navigation pane select **Groups** under the **Manage** section and then select **New group**.
 
     ![](../Images/sc-900-dec24-lab1-4.png)
