@@ -1,9 +1,10 @@
 # Lab-08: Explore Microsoft Defender for Cloud Apps
 
-## Lab scenario
+## Lab Overview
+
 In this lab, you will explore the capabilities of Microsoft Cloud App.  You will walk through the information available on the Cloud Discovery dashboard as well as capabilities available to investigate findings and control impact to your organization through policies.  Note:  An organization must have a license to use Microsoft Cloud App which is a user-based subscription service. 
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -20,7 +21,7 @@ In this lab, you will complete the following tasks:
 
 ## Task 1: Explore Cloud Discovery
 
-1.	Open Microsoft Edge. In the address bar enter **https://portal.cloudappsecurity.com**.
+1. Open Microsoft Edge. In the address bar enter **https://portal.cloudappsecurity.com**.
 
 1. In the Sign in window enter following email  then select **Next**.
 
@@ -70,15 +71,15 @@ In this lab, you will complete the following tasks:
    
 1. After you upload your log files, it will take some minutes for them to be parsed and analyzed.
 
-1. Click on **Proccessing**.
+1. Click on **Processing**.
 
       ![Picture 1](../Images/sc-52.png)
 
-1. If you encounter error **All discovered cloud related transactions are more than 90 days**. Follow the below subpoints else proceed with next step.
+1. If you encounter an error **All discovered cloud related transactions are more than 90 days**. Follow the below subpoints else proceed with the next step.
 
     ![Picture 1](../Images/Asc-900-image30.png)
 
-    - Naviagte to the downloaded zip file in file explorer. Then right click on the file click on **Extract all**.
+    - Navigate to the downloaded zip file in File Explorer. Then right-click on the file and click on **Extract all**.
 
       ![Picture 1](../Images/sc-50.png)    
 
@@ -148,7 +149,7 @@ In this lab, you will complete the following tasks:
 
 1. In the Cloud Discovery page, select the **Discovered apps (1)** tab.  The discovered apps window provides a more detailed view of the discovered apps, including risk score, traffic, number of users and more.
 
-1. From any item on the list, select the ellipses **(⋮) (2)** in the actions’ column of the table.  Note the various options available, including the ability to tag an app as sanctioned or unsanctioned.  Select the ellipses, again, to close the actions box.
+1. From any item on the list, select the ellipses **(⋮) (2)** in the action's column of the table.  Note the various options available, including the ability to tag an app as sanctioned or unsanctioned.  Select the ellipses, again, to close the actions box.
 
     ![Picture 1](../Images/disapp.png)
 
@@ -195,7 +196,7 @@ In this lab, you will complete the following tasks:
 
 1. You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities. 
     
-1. Now you'll set up a another new app connector.  From the left side of the screen, under **Connected apps**, select **App connectors**.Select **+ Connect an app** and 
+1. Now you'll set up another new app connector.  From the left side of the screen, under **Connected apps**, select **App connectors**.Select **+ Connect an app** and 
    from the drop-down list select **Microsoft Azure**.
 
     ![Picture 1](../Images/Asc-900-image27.png)
@@ -218,7 +219,7 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
     ![Picture 1](../Images/appcatalog.png)
 
-    >**Note**: The Cloud app catalog enables you to choose apps that fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the page, which includes whether the app is sanctioned, unsanctioned, or has no tag, risk score, Compliance risk factor, and security risk factor.  For example, filtering by compliance risk factor lets you search for a specific standards, certification, and compliance that the app may comply with. Examples include HIPAA, ISO 27001, SOC 2, and PCI-DSS.
+    >**Note**: The Cloud app catalog enables you to choose apps that fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the page, which includes whether the app is sanctioned, unsanctioned, or has no tag, risk score, Compliance risk factor, and security risk factor.  For example, filtering by compliance risk factor lets you search for a specific standards, certifications, and compliance that the app may comply with. Examples include HIPAA, ISO 27001, SOC 2, and PCI-DSS.
 
 1. Select **Compliance risk factor (1)** to view the available options.  You can further filter by risk score, by moving the sliders on the risk score on the top of the page. If you moved the slide, be sure to set it so the range is set at 0 to 10 **(2)**.
 
@@ -236,7 +237,7 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
    ![Picture 1](../Images/L8T3S1-2412.png)
 
-1. From the left navigation pane that appers, select **Files (1)** under **Information Protection**. Select checkbox next to **Enable file monitoring (2)**, for enabling file monitoring, and click on **Save (3)**.
+1. From the left navigation pane that appears, select **Files (1)** under **Information Protection**. Select the checkbox next to **Enable file monitoring (2)**, for enabling file monitoring, and click on **Save (3)**.
 
    ![Picture 1](../Images/enable-file-monitoring-2412.png)
 
