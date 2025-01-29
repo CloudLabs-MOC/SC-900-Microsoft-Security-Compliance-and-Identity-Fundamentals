@@ -3,7 +3,7 @@
 
 ## Lab Overview
 
-In this lab, you will explore the function of network security groups in Azure.  You will do this by create the VM without any network security group (NSG).  Without any NSG to filter traffic, all the ports in the VM are exposed to the public internet.  You will then go through the process of creating an NSG and assigning the VM's interface to that NSG.  Once configured you will test the connection to the VM, using the default NSG rules and also rules that you will create.
+In this lab, you will explore the function of network security groups in Azure.  You will do this by creating the VM without any network security group (NSG).  Without any NSG to filter traffic, all the ports in the VM are exposed to the public internet.  You will then go through the process of creating an NSG and assigning the VM's interface to that NSG.  Once configured you will test the connection to the VM, using the default NSG rules and also rules that you will create.
 
 ## Lab Objectives
 
@@ -50,7 +50,7 @@ In this task, you’ll create a Windows 10 virtual machine to set up an isolated
    | **Licensing** |  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box. |
    | **Select** | **Next: Disks**. | 
         
-1. You are now in the **Disks** tab for the VM configuration, change the OS disk type to **Standard SSD** and Leave all other settings to the default .
+1. You are now in the **Disks** tab for the VM configuration, change the OS disk type to **Standard SSD** and Leave all other settings to the default.
 
     ![Picture 1](../Images/sc900-lab5-2.png)
       
@@ -62,7 +62,7 @@ In this task, you’ll create a Windows 10 virtual machine to set up an isolated
 
       ![Picture 1](../Images/sc900-5-11.png)
 
-1. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
+1. Leave the remaining defaults and then click the **Review + Create** button at the bottom of the page.
 
 1. Once Validation is passed click the **Create** button. It can take about five minutes to deploy the virtual machine.
 
@@ -80,7 +80,7 @@ In this task, you’ll create a Windows 10 virtual machine to set up an isolated
 
 1. You are now in the SC900-WinVM page.  Note the public IP address. 
 
-1. From the top of the page, select **Connect** > **Connect** then under **Navtive RDP** select **Download RDP file**. 
+1. From the top of the page, select **Connect** > **Connect** then under **Native RDP** select **Download RDP file**. 
 
 1. Open the downloaded file and select **Connect**. 
 
@@ -164,7 +164,7 @@ In this task, you’ll create a network security group, assign it to the VM’s 
     
     > **Note:** the warning sign at the bottom of the page. We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
   
-    > **Note:** Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a 
+    > **Note:** Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see
       warning sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
 
 > - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
@@ -176,9 +176,9 @@ In this task, you’ll create a network security group, assign it to the VM’s 
 
 ## Task 3: Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM
 
-In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM. 
+In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM. Once inside the VM you'll work to check outbound connectivity to the internet from the VM. 
 
-1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.If you previously closed the browser tab,
+1. Open the SC900-WinVM – Microsoft Azure Tab on your browser. If you previously closed the browser tab,
 
 1. select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**.
 
@@ -248,7 +248,7 @@ In this task, you’ll configure outbound internet traffic for the VM to ensure 
 
    > **Note:** if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes                   a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again. Azure subscriptions in the lab environment may experience                   longer than normal delays.   
 
-1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
+1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown. A pop-up window indicates Your remote session will be disconnected. Select **OK**.
 
 1. In this task you successfully configured an outbound rule in your NSG, to block outbound internet traffic.
 
