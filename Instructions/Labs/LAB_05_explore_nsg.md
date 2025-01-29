@@ -1,10 +1,11 @@
 
 # Lab-05: Explore Azure Network Security Groups (NSGs)
 
-## Lab scenario
+## Lab Overview
+
 In this lab, you will explore the function of network security groups in Azure.  You will do this by create the VM without any network security group (NSG).  Without any NSG to filter traffic, all the ports in the VM are exposed to the public internet.  You will then go through the process of creating an NSG and assigning the VM's interface to that NSG.  Once configured you will test the connection to the VM, using the default NSG rules and also rules that you will create.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
