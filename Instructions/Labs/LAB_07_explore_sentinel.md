@@ -1,10 +1,11 @@
 
 # Lab-07 : Explore Microsoft Sentinel 
 
-## Lab scenario
+## Lab Overview
+
 In this lab you will walk through the process of creating an  Microsoft Sentinel instance.  You will also set up the permissions to ensure access to the resources that will get deployed to support  Microsoft Sentinel.  Once this basic setup is done you will walk through the steps for connecting Microsoft Sentinel to your data sources, set up a workbook, and do a brief walk-through of some of key capabilities available in Microsoft Sentinel. 
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -29,7 +30,7 @@ In this lab, you will complete the following tasks:
 
    ![Picture 1](../Images/sc-15.png)
 
-1. From Add Microsoft Sentinel to a workspace, select **+ Create a new workspace**.
+1. From **Add Microsoft Sentinel to a workspace** page, select **+ Create a new workspace**.
 
    ![Picture 1](../Images/sc-16.png)
 
@@ -188,7 +189,7 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. Keep this page open, as you'll use it in the next task.
 
-## Task 4 : Explore on capabilities available in Sentinel
+## Task 4: Explore on capabilities available in Sentinel
 
 In this task, you'll walk through some of the options available in Sentinel.
 
@@ -202,7 +203,7 @@ In this task, you'll walk through some of the options available in Sentinel.
 
     ![Picture 1](../Images/sc-40.png) 
 
-1. Select **Notebooks**, and review the the **What is it?** section.
+1. Select **Notebooks**, and review the **What is it?** section.
 
     ![Picture 1](../Images/sc-41.png) 
 
@@ -216,7 +217,7 @@ In this task, you'll walk through some of the options available in Sentinel.
 
    >**Note**: You may need to select the "**>>**" at the far-right side of the window to see the information panel.
 
-1. From the left navigation panel, expand **Content Management**, then select **Community**. The community page includes *Cybersecurity insights and updates from Microsoft Research, a link to a list of Microsoft Sentinel Blogs, a link to Microsoft Sentinel Forums, links the the latest editions to the Microsoft Sentinel Hub, and more*. Explore this as well.
+1. From the left navigation panel, expand **Content Management**, then select **Community**. The community page includes *Cybersecurity insights and updates from Microsoft Research, a link to a list of Microsoft Sentinel Blogs, a link to Microsoft Sentinel Forums, links the latest editions to the Microsoft Sentinel Hub, and more*. Explore this as well.
 
     ![Picture 1](../Images/sc-44.png) 
 
