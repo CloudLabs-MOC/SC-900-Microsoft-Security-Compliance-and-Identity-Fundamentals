@@ -54,7 +54,7 @@ In this lab, you will complete the following tasks:
    
       ![Picture 1](../Images/sc-85.png)
 
-1. Click on **View recommeendation for all resources** from the top menu.
+1. Click on **View recommendation for all resources** from the top menu.
 
     ![Picture 1](../Images/sc-67.png)
    
@@ -86,7 +86,7 @@ In this lab, you will complete the following tasks:
 
     ![Picture 1](../Images/sc-79.png)
 
-1. Against **Microsoft cloud security benchmar** click on the elipsis **(...)(1)** and choose **View in Azure policy (2)**.     
+1. Against **Microsoft cloud security benchmark** click on the ellipsis **(...)(1)** and choose **View in Azure policy (2)**.     
 
     ![Picture 1](../Images/sc-80.png)
 
