@@ -3,7 +3,7 @@
 
 ## Lab Overview
 
-In this lab, you'll access Microsoft Entra ID. Additionally, you'll create a user and configure the different settings, including adding licenses.
+In this lab, you'll explore Microsoft Entra ID, which is part of Azure Active Directory, and perform essential tasks such as user and group management, licensing, and first-time user sign-in. You will create a user, configure group assignments, manage licenses, and explore some of the available services in Microsoft Entra ID.
 
 ## Lab Objectives
 
@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 ## Task 1: Accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal
 
-As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In this task, you will walk through accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal.
+In this task, you will walk through accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal.
 
 1. Open another tab in Microsoft Edge, in the address bar enter **[admin.microsoft.com](https://admin.microsoft.com/)** to access the Microsoft 365 admin center.
 
