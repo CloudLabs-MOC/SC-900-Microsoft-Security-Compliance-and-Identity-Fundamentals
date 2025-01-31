@@ -22,25 +22,19 @@ To get a better understanding of your lab resources and credentials, navigate to
 
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-![Adjust Zoom](../Images/new-get-start-25-6.png)
+![Adjust Zoom](../Images/zoomin.png)
 
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
-![Use the Split Window Feature](../Images/new-get-start-25-3.png)
+![Use the Split Window Feature](../Images/up(3).png)
  
 ## Managing Your Virtual Machine
  
-Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Feel free to **Start**, **Stop**, or **Restart** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-![Manage Your Virtual Machine](../Images/new-get-start-25-4.png)
-
-## Lab Validation
-
-1. After completing the task, hit the **Validate** button under Validation tab integrated within your lab guide. If you receive a success message, you can proceed to the next task, if not, carefully read the error message and retry the step, following the instructions in the lab guide.
-
-   ![Inline Validation](../Images/new-get-start-25-5.png)
+![Manage Your Virtual Machine](../Images/up4.png)
 
 ## **Lab Duration Extension**
 
@@ -55,6 +49,10 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    ![Manage Your Virtual Machine](../Images/gext2.png)
 
 3. If you have not extended the duration prior to when the lab is about to end, a pop-up will appear, giving you the option to extend. Click **OK** to proceed.
+
+## Pasting Commands in the PowerShell/CloudShell Environment
+
+Please make sure to use the CTRL+SHIFT+V or CTRL+V keys when pasting commands inside the PowerShell/CloudShell environment instead of right-clicking
 
 ## Let's Get Started with Azure Portal
 
