@@ -253,7 +253,7 @@ In this task, you’ll configure outbound internet traffic for the VM to ensure 
 1. In this task you successfully configured an outbound rule in your NSG, to block outbound internet traffic.
 
 > - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - Hit the Validate button for the corresponding task. If you receive a success message, you have successfully completed the task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
