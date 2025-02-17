@@ -74,10 +74,6 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
      ![Enter Your Password](../Images/sc900-image-2.png)
 
-4. If a **Action Required** window appears, click on **Ask later**.
-
-   ![](../Images/asklater.png)
-
 ## Steps to Proceed with MFA Setup if "Ask Later" Option is Not Visible
 
 1. At the **"More information required"** prompt, select **Next**.
