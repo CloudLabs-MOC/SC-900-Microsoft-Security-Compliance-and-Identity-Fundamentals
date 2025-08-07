@@ -1,5 +1,5 @@
 
-# Lab-06: Explore Microsoft Defender for Cloud
+# Lab 06: Explore Microsoft Defender for Cloud
 
 ## Lab Overview
 
