@@ -1,4 +1,4 @@
-# Lab-04: Explore Privileged Identity management
+# Lab 04: Explore Privileged Identity management
 
 ## Lab Overview
 

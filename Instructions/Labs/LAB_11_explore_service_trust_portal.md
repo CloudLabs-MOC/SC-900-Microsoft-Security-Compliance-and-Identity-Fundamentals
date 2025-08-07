@@ -1,4 +1,4 @@
-# Lab-11: Explore the Service Trust Portal
+# Lab 11: Explore the Service Trust Portal
 
 ## Lab Overview
 

@@ -1,4 +1,4 @@
-# Lab-09: Explore the Microsoft Defender portal
+# Lab 09: Explore the Microsoft Defender portal
 
 ## Lab Overview
 

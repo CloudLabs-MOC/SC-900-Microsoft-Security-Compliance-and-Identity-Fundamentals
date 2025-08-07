@@ -1,5 +1,5 @@
 
-# Lab-07 : Explore Microsoft Sentinel 
+# Lab 07 : Explore Microsoft Sentinel 
 
 ## Lab Overview
 
