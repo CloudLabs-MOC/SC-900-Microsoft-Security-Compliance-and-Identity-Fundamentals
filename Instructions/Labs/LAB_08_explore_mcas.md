@@ -1,4 +1,4 @@
-# Lab-08: Explore Microsoft Defender for Cloud Apps
+# Lab 08: Explore Microsoft Defender for Cloud Apps
 
 ## Lab Overview
 
