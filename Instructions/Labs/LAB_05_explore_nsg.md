@@ -1,5 +1,5 @@
 
-# Lab-05: Explore Azure Network Security Groups (NSGs)
+# Lab 05: Explore Azure Network Security Groups (NSGs)
 
 ## Lab Overview
 
