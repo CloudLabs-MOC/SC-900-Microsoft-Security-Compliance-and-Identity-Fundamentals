@@ -1,4 +1,4 @@
-# Lab-14: Explore Insider Risk Management in Microsoft Purview
+# Lab 14: Explore Insider Risk Management in Microsoft Purview
 
 ## Lab Overview
 In this lab, you will walk through the process of setting up an insider risk policy, along with the basic prerequisites to configure and use insider risk management policies.  
