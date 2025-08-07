@@ -1,5 +1,5 @@
 
-# Lab-02: Microsoft Entra self-service password reset
+# Lab 02: Microsoft Entra self-service password reset
 
 ## Lab Overview
 
