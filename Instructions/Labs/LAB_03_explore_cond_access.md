@@ -1,5 +1,5 @@
 
-# Lab-03 : Microsoft Entra Conditional Access
+# Lab 03 : Microsoft Entra Conditional Access
 
 ## Lab Overview
 
