@@ -1,4 +1,4 @@
-# Lab-12: Explore the Microsoft Purview portal and Compliance Manager
+# Lab 12: Explore the Microsoft Purview portal and Compliance Manager
 
 ## Lab Overview
 In this lab, you will explore the Microsoft Purview compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
