@@ -223,26 +223,9 @@ In this task, you will sign in as Sara Perez, for the first time.
    >**Note** : As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
 
      ![](../Images/sc900-image20.png)
-
-1. On the **"Keep your account secure"** page, select **Next** twice.
-
-1. **Note:** If you don’t have the Microsoft Authenticator app installed on your mobile device:
-   - Open **Google Play Store** (Android) or **App Store** (iOS).
-   - Search for **Microsoft Authenticator** and tap **Install**.
-   - Open the **Microsoft Authenticator** app, select **Add account**, then choose **Work or school account**.
-
-1. A **QR code** will be displayed on your computer screen.
-
-1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
-
-1. After scanning, click **Next** to proceed.
-
-1. On your phone, enter the number shown on your computer screen in the Authenticator app and select **Next**.
        
 1. If prompted to stay signed in, you can click "No."
  
-1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
-
 1. You should now be successfully signed in to Microsoft 365.
 
      ![](../Images/sc-900-dec24-lab1-6.png)
