@@ -42,7 +42,7 @@ In this task, you’ll create a Windows 10 virtual machine to set up an isolated
    | **Region** |  Leave the default region. |
    | **Availability Options** | Select **No infrastructure redundancy required** from the drop-down. |
    | **Security type** |  Select **Standard** from the drop-down.
-   | **Image** |  from the drop-down, select **Windows 10 Pro, Version 22H2 – x64 Gen 2**. |
+   | **Image** |  from the drop-down, select **Windows 11 Pro, Version 22H2 – x64 Gen 2**. |
    | **Size** |  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page. |
    | **Username** |  enter **AzureUser**. |
    | **Password** |  enter **SC900AzureLabs**. |
