@@ -62,7 +62,7 @@ In this task, you, as the admin, will assign Diego Microsoft Entra role in Privi
 
 1. Open the browser tab for the home page of the Microsoft Entra admin center.  
 
-1. From the left navigation panel, under "Identity", expand **ID Governance**, then select **Privileged Identity Management**, and in the Get started page, select **Manage** under Manage access.
+1. From the left navigation panel, expand **ID Governance**, then select **Privileged Identity Management**, and in the Get started page, select **Manage** under Manage access.
 
    ![](../Images/Asc-900-image64.png)
 
@@ -188,7 +188,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 
     ![](../Images/Asc-900-image72.png)
 
-1. From the left navigation panel, expand **Identity**, select **All Users** from the **Users** section.
+1. From the left navigation panel, expand **Entra ID**, then select **Users**, and go to **All users**.
 
 1. From the users list, select **Bianca Pisani**.
 
