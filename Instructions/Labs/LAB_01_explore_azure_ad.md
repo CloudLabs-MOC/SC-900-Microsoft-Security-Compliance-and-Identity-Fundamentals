@@ -38,17 +38,17 @@ In this task, you will walk through accessing Microsoft Entra ID through the Mic
           
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-    ![](../Images/sc900-image4.png)
+    ![](../Images/id1.png)
 
 1. Under Admin centers, select **Identity** (you may need to scroll down).  
 
-    ![](../Images/sc900-image5.png)
+    ![](../Images/id2.png)
 
 1. A new browser page opens to the My Dashboard page of the Microsoft Entra admin center. From the dashboard’s main windows, you will see several tiles, including the Organization’s Identity tile, a tile for users, groups, and more.
 
-1. From the left navigation pane, under favorites select **Identity**. In the main window, you will see another navigation panel that lists all the services that are available in Microsoft Entra ID. To the right, you will see information about the tenant and links to identity types you can create and featured services.  
+1. From the left navigation pane, under favorites select **Entra ID**. In the main window, you will see another navigation panel that lists all the services that are available in Microsoft Entra ID. To the right, you will see information about the tenant and links to identity types you can create and featured services.  
 
-    ![](../Images/sc900-image6.png)
+    ![](../Images/id3.png)
  
 1. Now open a new browser window and in the address bar, enter **portal.azure.com**.  Since you are already signed in as <inject key="Username" enableCopy="false" /> and you originally used those same credentials to redeem your Azure pass, you should be logged in as the admin when you access the Azure portal.  You can verify this by checking the email on the top-right corner of the page and hovering your mouse over the user icon.
 
@@ -224,7 +224,24 @@ In this task, you will sign in as Sara Perez, for the first time.
 
      ![](../Images/sc900-image20.png)
 
-1. In the **Action Required** tab, choose **Ask later**. If you're prompted to stay signed in, you can select **No**.
+1. On the **"Keep your account secure"** page, select **Next** twice.
+
+1. **Note:** If you don’t have the Microsoft Authenticator app installed on your mobile device:
+   - Open **Google Play Store** (Android) or **App Store** (iOS).
+   - Search for **Microsoft Authenticator** and tap **Install**.
+   - Open the **Microsoft Authenticator** app, select **Add account**, then choose **Work or school account**.
+
+1. A **QR code** will be displayed on your computer screen.
+
+1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
+
+1. After scanning, click **Next** to proceed.
+
+1. On your phone, enter the number shown on your computer screen in the Authenticator app and select **Next**.
+       
+1. If prompted to stay signed in, you can click "No."
+ 
+1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
 
 1. You should now be successfully signed in to Microsoft 365.
 
