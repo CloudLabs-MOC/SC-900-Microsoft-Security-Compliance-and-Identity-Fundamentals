@@ -128,7 +128,6 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 1. Open Microsoft Edge. In the address bar of the browser, enter **Entra.microsoft.com**.
 
 1. Sign in as Diego Siciliani.
-   
     - In the Sign in window enter **diegos@azureholxxxx.onmicrosoft.com** (user email id of the Diego Siciliani) then select **Next**.
     - Enter the temporary password that you noted from the previous task and select **Sign in**.
     - Since the password you entered was only a temporary password you need to update it now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab** and select **Sign in**
