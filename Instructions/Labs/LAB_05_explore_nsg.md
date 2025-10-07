@@ -175,13 +175,13 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. Open the SC900-WinVM Overview Page.
 
-1. select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**.
+1.  In the search bar on the top of the page .Type and select **Virtual machines**, then select the VM, **SC900-WinVM**.
 
 1.  From the top of the page, select **Connect** > **Connect** then select **Download RDP file**.
 
 1. A Remote Desktop Connection window opens, select **Connect**.
 
-1. You will be prompted for your credentials.  For Username, enter **AzureUser**.  For the Password, enter **SC900AzureLabs**.
+1. You will be prompted for your credentials.  For Username, enter **AzureUser**  For the Password, enter **SC900AzureLabs**
 
    >**Note**: If you encounter **The logon attempt failed** click on **More choices** > **Use a different account** provide username:  **.\AzureUser** and password : **SC900AzureLabs**
 
@@ -204,9 +204,9 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. Keep the browser tab open you'll use it the next task.
 
-## Task 4: Allow outbound internet traffic to validate that you can connect to the internet
+## Task 4: Deny outbound internet traffic to validate that you can restrict connectivity to the internet
 
-In this task, you’ll configure outbound internet traffic for the VM to ensure it can successfully connect to the internet for validation.
+In this task, you’ll configure outbound internet traffic for the VM to ensure you can restrict connectivity to the internet for validation.
 
 1. You should be on the SC900-WinVM | Networking page. If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**, then select **Network settings**.
 
@@ -241,7 +241,7 @@ In this task, you’ll configure outbound internet traffic for the VM to ensure 
 
 1. Open the Edge browser in your VM and enter **https://www.bing.com**.  The page should not display.
 
-   > **Note:** if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes                   a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again. Azure subscriptions in the lab environment may experience                   longer than normal delays.   
+   > **Note:** if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again. Azure subscriptions in the lab environment may experience longer than normal delays.   
 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown. A pop-up window indicates Your remote session will be disconnected. Select **OK**.
 
@@ -259,6 +259,6 @@ In this lab, you have completed:
 - In this task you will create a Windows 11 virtual machine
 - Create a network security group and assign the network interface of the VM to that NSG and create a new inbound rule for RDP traffic
 - Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM
-- Allow outbound internet traffic to validate that you can connect to the internet
+- Deny outbound internet traffic to validate that you can restrict connectivity to the internet
 
 ## You have successfully completed the lab
