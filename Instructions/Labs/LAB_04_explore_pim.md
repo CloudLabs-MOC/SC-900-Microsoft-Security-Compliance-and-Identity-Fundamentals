@@ -108,16 +108,13 @@ In this task, you, as the admin, will assign Diego Microsoft Entra role in Privi
 
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then close all the browser windows.
 
- <!--
- Commenting Below validation as it isn't working, please uncomment after fixing.
- 
  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
  > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
  > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
 
  <validation step="3bf29fd2-7b87-4aad-bd94-71ff0483cd5f" />  
- -->
+
 
 ## Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
 
@@ -128,14 +125,13 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 1. Open Microsoft Edge. In the address bar of the browser, enter **Entra.microsoft.com**.
 
 1. Sign in as Diego Siciliani.
-   
+    
     - In the Sign in window enter **diegos@azureholxxxx.onmicrosoft.com** (user email id of the Diego Siciliani) then select **Next**.
     - Enter the temporary password that you noted from the previous task and select **Sign in**.
     - Since the password you entered was only a temporary password you need to update it now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab** and select **Sign in**
-  
-1. Click **Next**, and follow the steps below to configure the Microsoft Authenticator app method.
+    - Click **Next**, and follow the steps below to configure the Microsoft Authenticator app method.
 
-    ![](../Images/Asc-900-imageMFA.png)
+        ![](../Images/Asc-900-imageMFA.png)
    
     - If you already have the Microsoft Authenticator app installed on your mobile device select **Next**. Otherwise, select **Download now** and follow the steps.
     - You'll begin to setup your account. Select **Next**.
