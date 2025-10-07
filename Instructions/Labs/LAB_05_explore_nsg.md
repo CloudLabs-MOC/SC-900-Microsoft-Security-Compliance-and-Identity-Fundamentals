@@ -30,7 +30,7 @@ In this task, you’ll create a Windows 11 virtual machine to set up an isolated
 
 1. From the top left of the page, select **+ Create (1)** then select **Virtual machine (2)**.
 
-     ![Picture 1](../Images/sc900-5-1.png)
+     ![Picture 1](../Images/sc900-5-1v2.png)
 
 1. From the **Basics** tab, fill in the following information (for anything not listed, leave the default settings):
 
