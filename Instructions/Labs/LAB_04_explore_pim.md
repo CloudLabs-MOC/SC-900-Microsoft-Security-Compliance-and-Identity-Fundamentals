@@ -32,7 +32,7 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
    * Password: <inject key="AzureAdUserPassword"></inject>
    
-1. From the left navigation pane, expand **Identity**, expand **Users**, then select **All users**.
+1. From the left navigation pane, expand **Entra ID** and click on **Users**, then select **All users**.
 
      ![](../Images/Asc-900-image1.png)
   
@@ -62,7 +62,7 @@ In this task, you, as the admin, will assign Diego Microsoft Entra role in Privi
 
 1. Open the browser tab for the home page of the Microsoft Entra admin center.  
 
-1. From the left navigation panel, under "Identity", expand **Identity Governance**, then select **Privileged Identity Management**, and in the Get started page, select **Manage** under Manage access.
+1. From the left navigation panel, under "Identity", expand **ID Governance**, then select **Privileged Identity Management**, and in the Get started page, select **Manage** under Manage access.
 
    ![](../Images/Asc-900-image64.png)
 
@@ -108,12 +108,16 @@ In this task, you, as the admin, will assign Diego Microsoft Entra role in Privi
 
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then close all the browser windows.
 
+ <!--
+ Commenting Below validation as it isn't working, please uncomment after fixing.
+ 
  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
  > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
  > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
 
- <validation step="3bf29fd2-7b87-4aad-bd94-71ff0483cd5f" />
+ <validation step="3bf29fd2-7b87-4aad-bd94-71ff0483cd5f" />  
+ -->
 
 ## Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
 
@@ -128,24 +132,11 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
     - In the Sign in window enter **diegos@azureholxxxx.onmicrosoft.com** (user email id of the Diego Siciliani) then select **Next**.
     - Enter the temporary password that you noted from the previous task and select **Sign in**.
     - Since the password you entered was only a temporary password you need to update it now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab** and select **Sign in**
-    - When prompted to stay signed- in, select **Yes**.
+  
+1. Click **Next**, and follow the steps below to configure the Microsoft Authenticator app method.
 
-1. From the left navigation panel, expand **Identity Governance** then select **Privileged Identity Management**.
-
-1. From the left navigation panel, select **My roles**. You're now seeing information for your eligible assignments. You'll see that you, Diego, are assigned the User administrator role.
-
-1. In the last column of the table, labeled action, select **Activate**.
-
-    ![](../Images/activate-role.png)
-
-1. You will see a warning icon indicating Additional verification is required.  Select **Click to continue**. Recall that the PIM settings for the User administrator role require multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once. 
-
-    ![](../Images/sc900lab4-image5.png)
-
-1. You are notified that more information is required, select **Next**.
-
-1. The window that appears and the steps that follow are for the Microsoft Authenticator app method.
-
+        ![](../Images/Asc-900-imageMFA)
+   
     - If you already have the Microsoft Authenticator app installed on your mobile device select **Next**. Otherwise, select **Download now** and follow the steps.
     - You'll begin to setup your account. Select **Next**.
     - Using the Microsoft Authenticator app on your mobile device, select the **+** to add an account and select **Work or school account**.
@@ -155,6 +146,16 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
     - Once you've setup your security info, you'll see a Success window.  Select **Done**.
 
         ![](../Images/settings_authenticator_app_new.png)
+      
+    - When prompted to stay signed- in, select **Yes**.
+
+1. From the left navigation panel, expand **ID Governance** then select **Privileged Identity Management**.
+
+1. From the left navigation panel, select **My roles**. You're now seeing information for your eligible assignments. You'll see that you, Diego, are assigned the User administrator role.
+
+1. In the last column of the table, labeled action, select **Activate**.
+
+    ![](../Images/activate-role.png)
 
 1. The Activate User Administrator window appears.  You are required to enter a reason for the activation.  In the box that appears, enter any reason you want (max of 500 characters), then select **Activate**.
 
