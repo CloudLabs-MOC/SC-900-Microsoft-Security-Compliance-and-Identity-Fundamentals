@@ -135,7 +135,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
   
 1. Click **Next**, and follow the steps below to configure the Microsoft Authenticator app method.
 
-        ![](../Images/Asc-900-imageMFA)
+    ![](../Images/Asc-900-imageMFA.png)
    
     - If you already have the Microsoft Authenticator app installed on your mobile device select **Next**. Otherwise, select **Download now** and follow the steps.
     - You'll begin to setup your account. Select **Next**.
