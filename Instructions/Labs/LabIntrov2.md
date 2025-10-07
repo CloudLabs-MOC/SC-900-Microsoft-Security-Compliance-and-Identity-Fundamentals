@@ -74,6 +74,8 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
      ![Enter Your Password](../Images/sc900-image-2.png)
 
+ >> **Kindly note:** If you're asked to enter a Temporary Access Pass instead of a Password when signing in to the Azure portal, don't worry—it refers to the same credential. You can find it under the **Environment Details** tab.
+
 ## Steps to Proceed with MFA Setup if "Ask Later" Option is Not Visible
 
 1. At the **"More information required"** prompt, select **Next**.
