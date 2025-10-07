@@ -74,9 +74,9 @@ In this task, you’ll create a Windows 11 virtual machine to set up an isolated
 
    >**Note**: This VM has a public IP address and no NIC network security group.  From a security perspective this leaves the VM exposed.  We will address this in a subsequent tasks.It may take several minutes for the VM deployment to complete.
 
-1. Note the name of the network interface, **sc900-winvmxxx** (the XXX will be random numeric value automatically concatenate to the network interface name of your VM).
-
 1. You are now in the SC900-WinVM page.  Note the **Public IP address**. 
+
+1. Note the name of the network interface, **sc900-winvmxxx** (the XXX will be random numeric value automatically concatenate to the network interface name of your VM).
 
 1. From the top of the page, select **Connect** > **Connect** then under **Native RDP** select **Download RDP file**. 
 
