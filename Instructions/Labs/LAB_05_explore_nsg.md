@@ -96,7 +96,6 @@ In this task, you’ll create a Windows 11 virtual machine to set up an isolated
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="24fbcf68-d975-439f-9d37-7e35ffd329f4" />
 
 ## Task 2:  Create a network security group and assign the network interface of the VM to that NSG and create a new inbound rule for RDP traffic
 
@@ -167,7 +166,6 @@ In this task, you’ll create a network security group, assign it to the VM’s 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="8ecbe441-8eed-4208-8da0-bbd3c55a6f26" />
 
 ## Task 3: Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM
 
@@ -252,7 +250,6 @@ In this task, you’ll configure outbound internet traffic for the VM to ensure 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="ce6c9e7b-b43c-4e76-8684-24dca8019552" />
 
 ## Review
 In this lab, you have completed:
