@@ -73,17 +73,9 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
    
 1. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen,
 
-
-
-#### Return to the **Microsoft Entra ID** page.
-
-1. From the left navigation panel select **Users (2)** under **Manage (1)**.
-
-   ![](../Images/select-users.png)
-   
+1. From the left navigation panel select **Users** under **Entra ID**.
+  
 1. Select **Adele Vance** from the list of users.
-
-   ![](../Images/select-users1.png)
 
 1. Select **Reset password (1)** from the top of the page. Since you have not previously signed in as **Adele Vance**, you will need to reset the password
 
@@ -100,8 +92,6 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 1. Close the Adele Vance window by selecting the **X** at the top right corner of the page.
 
 1. Close the Users window by selecting the **X** at the top right corner of the page.
-
-1. Keep the **Microsoft Entra ID** Overview window open as you will use it in the subsequent task.
 
 ## Task 2: Configure Password reset for users
 
