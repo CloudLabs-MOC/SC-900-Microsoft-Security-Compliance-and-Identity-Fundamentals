@@ -142,7 +142,7 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
 1. From the left navigation panel, select **Licenses (1)**.  Notice that there are no license assignments found for this user, also note the warning icon that says, `Adding, removing, and reprocessing licensing assignments is only available within the M365 Admin Center.`  To add a license, click on **Go to the Microsoft 365 admin center (2)** from the alert message.
 
-    ![](../Images/sc13.png)
+    ![](../Images/sc14.png)
 
 1. If prompted, log in to the **Microsoft 365 admin center**. Since you are already signed in as <inject key="Username" enableCopy="false" />, you will be automatically logged in when you access the portal.
 
