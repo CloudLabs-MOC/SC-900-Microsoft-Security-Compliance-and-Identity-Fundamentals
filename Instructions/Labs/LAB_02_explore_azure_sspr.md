@@ -25,17 +25,11 @@ In this lab, you will complete the following tasks:
 
 In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecurityUsers group.  Also, you will be resetting the user’s password so that you can do the first-time login, as the user, and register for SSPR.
 
-1. In the Azure portal, in the **Search resources, services, and docs (G+/)** text box at the top of the Azure portal page,  type **Microsoft Entra ID** and press the **Enter** key.
+1. Open the browser tab for the home page of the Microsoft Entra Admin center **[entra.microsoft.com](https://entra.microsoft.com)**.
 
-   ![](../Images/lab08-sc300-3.png)
+1. From the left navigation panel, under **Entra ID (1)**, expand **Groups (2)** then select **All groups (3)**.
 
-1. On the **Microsoft Entra ID** page, from the left navigation menu, select **Groups (2)** under **Manage (1)**.
-
-   ![](../Images/select-groups.png)
-   
-1. From the **Groups** page select **New group**.
-
-   ![](../Images/sc-5.png)
+   ![](../Images/sc19.png)
    
 1. Populate the **New Group** fields as follows and Select **Create (4)**
 
@@ -47,13 +41,11 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
        
      ![](../Images/new-group-field.png)
 
-1. Navigate back to the **Microsoft Entra ID** home page, from the left navigation menu, select **Password reset** under **Manage**.
+1. Navigate back to the **Microsoft Entra ID** home page, from the left navigation menu, select **Password reset (1)** under **Entra ID**.
 
-   ![](../Images/sc-4.png)
+   - On the **Password reset | Properties** page, under **Self service password reset enabled**, choose **Selected (2)** option and then select your Microsoft Entra ID group,by clicking on the **No group selected (3)**.
 
-1. On the **Password reset | Properties** page, under **Self service password reset enabled**, choose **Selected (1)** option and then select your Microsoft Entra ID group,by clicking on the **No group selected (2)**.
-
-   ![](../Images/sc-6.png)
+     ![](../Images/sc24.png)
    
 1. Select **SSPRSecurityGroupUsers (1)** group, after that choose **Select (2)**.
 
@@ -63,23 +55,17 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/sc-7.png)
 
-1. Close the Properties window of Password reset by selecting the X at the top right corner of the page.
+1. Close the Properties window of Password reset by selecting the **X** at the top right corner of the page.
    
-1. In **Microsoft Entra ID** Overview page, click on the **Groups (2)** blade under the **Manage (1)** section.
+1. Click on the **Groups (1)** blade under the **Entra ID** section.
 
-   ![](../Images/select-groups.png)
-  
-1. Navigate to **All groups** from the left Navigation pane. In the Search groups field, select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
+   - Navigate to **All groups (2)** from the left Navigation pane. In the Search groups field, select **SSPRSecurityGroupUsers (3)**.  It will take you to the configuration option for this group.
 
-   ![](../Images/select-created-group.png)
+     ![](../Images/sc--21.png)   
  
-1. From the left navigation pane, select **Members (2)** under **Manage (1)** section.
-
-   ![](../Images/choose-members.png)
-
 1. From the top of the page, select **+ Add members**.
 
-   ![](../Images/choose-members1.png) 
+   ![](../Images/sc22.png) 
 
 1. In the Search box, enter **Adele (1)**.  Once the user, **Adele Vance (2)**, appears below the search box, select the check box next to it then press **Select (3)** from the bottom of the page.
 
@@ -87,7 +73,9 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
    
 1. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen,
 
-1. Return to the **Microsoft Entra ID** page.
+
+
+#### Return to the **Microsoft Entra ID** page.
 
 1. From the left navigation panel select **Users (2)** under **Manage (1)**.
 
@@ -119,15 +107,11 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 In this task, you, as the admin, will learn how to configure Password reset for users, including the configuration of the types of authentication methods to use.
 
-1. Go to the **Microsoft Entra ID** home page.
+1. From the left navigation pane, select **Password reset (1)** under **Entra ID**.
 
-1. From the left navigation pane, select **Password reset**.
+   - The properties for self-service password reset are displayed.  Ensure that **Self-service reset** is **selected** for the group **(2)**, which is listed, the **SSPRSecurityUsers**.  Put your cursor over the information icon next to where it says **Select group** and note what it says, **Defines the group of users who are allowed to reset their own passwords**. You must include users in the group, you can’t individually select users.  Also, if you change the group, then the group you select replaces the group currently listed.  As such, it is recommended that you simply add users to the SSPR group.  Lastly, note the blue information box, **These settings only apply to end users in your organization. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password (3)**.
 
-   ![](../Images/select-password-reset.png)
-
-1. The properties for self-service password reset are displayed.  Ensure that **Self-service reset** is **selected** for the group, which is listed, the **SSPRSecurityUsers**.  Put your cursor over the information icon next to where it says **Select group** and note what it says, **Defines the group of users who are allowed to reset their own passwords**. You must include users in the group, you can’t individually select users.  Also, if you change the group, then the group you select replaces the group currently listed.  As such, it is recommended that you simply add users to the SSPR group.  Lastly, note the blue information box, **These settings only apply to end users in your organization. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password**.
-
-   ![](../Images/sc-9.png)
+     ![](../Images/sc25.png)
 
 1. From the left navigation panel of Password reset, select **Authentication Methods (1)**.
 
@@ -141,21 +125,21 @@ In this task, you, as the admin, will learn how to configure Password reset for 
 
    - Ensure the setting to *Require users to register when signing in* is set to **Yes (2)**.  Leave the *Number of days before users are asked to re-confirm their authentication information*, to the default of **180 (3)** and click save if any changes have been made.  Take note of the information box on the page.
 
-     ![](../Images/password-reset-registration.png)
+     ![](../Images/sc26.png)
 
 1. From the left navigation panel of Password reset, select **Notifications (1)**.  
 
    - Ensure the setting to *Notify users on password resets* is set to **Yes (2)**.  Leave the setting for *Notify all admins when other admins reset their password* to **No (3)**.
 
-     ![](../Images/password-reset-notification.png)
+     ![](../Images/sc27.png)
 
 1. Note how the Password reset navigation pane also includes options to view **Audit logs** and **Usage & insights** under Activity.
 
    ![](../Images/password-reset-auditlog-usage.png)    
 
-1. **Sign out (2)** from all the browser tabs by clicking on the user icon **(1)** next to the email address on the top right corner of the screen. Then close all the browser windows.
+1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then close all the browser windows.
 
-   ![](../Images/sc-11.png)   
+   ![](../Images/sc17.png)   
 
 ## Task 3: Registration process for a self-service password reset
 
@@ -171,7 +155,7 @@ In this task, you as user **Adele Vance**, will go through the registration proc
 
     ![](../Images/use-another-acc.png)
 
-1. Sign in as Adele Vance,
+1. Sign in as **Adele Vance**,
 
     - In the Sign in window enter **adelev@mocholxxxxx.onmicrosoft.com** (where xxxxxx can be found in the **Environment** Tab beside the Lab Guide section) or you can also paste the **User 01 UPN** value directly, then select **Next**.
        
@@ -191,40 +175,36 @@ In this task, you as user **Adele Vance**, will go through the registration proc
    
    >**Note:** We are using this password only for the convenience of the lab. As a best practice, you would typically enter a more secure password.
 
-1. In the **Action Required** tab, choose **Ask later**. In the **Action Required** tab, choose **Ask later**. If you're prompted to stay signed in, you can select **No**.
+1. A pop-up displays indicating that **Lets keep your account secure**. This is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in. Select the **Next** button.
 
-1. A pop-up displays indicating that **More information required**. This is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in. Select the **Next** button.
+   ![](../Images/sc28.png)
 
     >**Note**:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform a self-service password reset and reset a user’s password.
 
-   ![](../Images/sc-13.png)
+1. Now, Enter the phone number where you can receive a text code **(1)**, select **Text a code (2)** and select the **Next (3)** button.
 
-1. Now, Enter the phone number where you can receive a text code and select the **Next** button.
-
-   ![](../Images/sc-900-dec24-lab2-2.png)
+   ![](../Images/sc29.png)
 
 1. A new window opens indicating a code was just sent to the phone you entered **(1)**.  Enter the code you are received and select **Next (2)**.
 
-   ![](../Images/enter-code(1).png)
-
-1. A window opens indicating **Verification complete. Your phone has been registered**.  Select **Next**.
-
-   ![](../Images/auth71.png)
-   
+   ![](../Images/sc30.png)
+  
 1. Select **Done**, on the **Success!** page.
 
-   ![](../Images/auth8.png)
+   ![](../Images/sc31.png)
 
 1. You'r sign-in has been completed now. You should be on the **Office 365** landing page. If you see that your sign-in time has expired, just re-enter the password, SC900-Lab.
 
-   ![](../Images/MS365.png)
+   ![](../Images/sc32.png)
    
-1. Sign out of the Office 365 page and close your browser window.
+1. Sign out of the Office 365 page from the bottom left corner and close your browser window.
+
+   ![](../Images/sc33.png)
   
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
     <validation step="40262c29-497d-4b45-a9cb-48830f9bb272" />
 
@@ -236,7 +216,7 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
 1. Go to [login.microsoft.com](https://login.microsoft.com) portal.
 
-1. Sign in as **Adele Vance**, by entering your email **Adele@mocholxxxx.onmicrosoft.com** (user email id of Adel Vance) and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for **Adele Vance**.
+1. Sign in as **Adele Vance**, by entering your email **Adele@xxxx.onmicrosoft.com** (user email id of Adel Vance) and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for **Adele Vance**.
 
 1. From the Enter password window, select **Forgot my password**.
 
@@ -258,7 +238,9 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
    ![](../Images/Forget-pass-3.png)
 
-1. From the Pick an account information box, select **Adele@mocholxxxx.onmicrosoft.com**, enter your new password, and then select the **Sign in** button. If you are prompted to Stay signed in. select **No**.
+1. From the Pick an account information box, select **Adele@mocholxxxx.onmicrosoft.com**, enter your new password, and then select the **Sign in** button.
+
+1. If you are prompted to Stay signed in. select **No**.
 
 1. You should now be on the **Office 365** Page.
 
@@ -282,19 +264,15 @@ In this task, you, as the administrator, will briefly view the Audit logs and th
   
 1. When prompted to stay signed- in, select **Yes**. 
 
-1. Search **Microsoft Entra ID (1)** and then select **Microsoft Entra ID (2)** from the services.
+1. From the left navigation pane, select **Password reset** under **Entra ID**.
 
-   ![](../Images/lab08-sc300-3.png)
-
-1. From the left navigation pane, select **Password reset**.
-
-   ![](../Images/select-password-reset.png)
+   ![](../Images/sc34.png)
 
 1. From the left navigation pane, select **Audit logs (1)**.  Notice the information available and the available filters. 
 
-1. Note that you can download logs. To download Select **Download (2)**, You can even format the download as CSV or JSON then click on **Download (3)** if required.
+   - Note that you can download logs. To download Select **Download (2)**, You can even format the download as CSV or JSON then click on **Download (3)** if required.
 
-   ![](../Images/audit-download1.png)
+     ![](../Images/sc35.png)
 
 1. Close the window by selecting the **X** on the top right corner of the screen.
 
