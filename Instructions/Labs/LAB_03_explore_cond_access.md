@@ -27,11 +27,15 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**.
    
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+     ![Enter Your Username](../Images/sc900-image-1.png)
 
 1. Now enter the following password and click on **Sign in**.
    
-   * Password: <inject key="AzureAdUserPassword"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+     ![Enter Your Password](../Images/sc900-image-2.png)
 
 1. On the **Stay signed in ?** select **No**.   
 

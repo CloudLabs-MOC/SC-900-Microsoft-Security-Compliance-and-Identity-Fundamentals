@@ -42,7 +42,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![Inline Validation](../Images/new-get-start-25-5.png)
    
-## **Lab Duration Extension**
+## Lab Duration Extension
 
 1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
 
@@ -72,11 +72,11 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
    
-   >> **Note:** If you're asked to enter a Temporary Access Pass instead of a Password when signing in to the Azure portal, don't worry it refers to the same            credential. You can find it under the **Environment Details** tab.
+   > **Note:** If you're asked to enter a Temporary Access Pass instead of a Password when signing in to the Azure portal, don't worry it refers to the same            credential. You can find it under the **Environment Details** tab.
  
      ![Enter Your Password](../Images/sc900-image-2.png)
 
-  >> **Note:** If you're prompted to set up Multi-Factor Authentication (MFA), please proceed with the next step. Otherwise, you can skip the MFA setup and            continue with the remaining steps in the exercise.
+> **Note:** If you're prompted to set up Multi-Factor Authentication (MFA), please proceed with the next step. Otherwise, you can skip the MFA setup and continue with the remaining steps in the exercise.
 
 ## Steps to Proceed with MFA Setup if "Ask Later" Option is Not Visible
 
