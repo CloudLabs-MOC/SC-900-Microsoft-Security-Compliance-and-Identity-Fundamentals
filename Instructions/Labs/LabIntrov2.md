@@ -62,19 +62,23 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
     ![Launch Azure Portal](../Images/sc900-image(1).png)
 
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+2. You'll see the **Sign in to continue to Microsoft Azure** tab. Here, enter your credentials and click on **Next**:
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-     ![Enter Your Username](../Images/sc900-image-1.png)
+     ![Enter Your Username](../Images/sign-in-page.png)
  
-3. Next, provide your password:
+3. Next, provide your password and click on **Sign in**:
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
    
    > **Note:** If you're asked to enter a Temporary Access Pass instead of a Password when signing in to the Azure portal, don't worry it refers to the same            credential. You can find it under the **Environment Details** tab.
  
-     ![Enter Your Password](../Images/sc900-image-2.png)
+     ![Enter Your Password](../Images/tap-password.png)
+
+4. If you see the pop-up **Stay-Signed in?**, click **No**.
+
+   ![](../Images/Sign-in-no.png)
 
 > **Note:** If you're prompted to set up Multi-Factor Authentication (MFA), please proceed with the next step. Otherwise, you can skip the MFA setup and continue with the remaining steps in the exercise.
 
