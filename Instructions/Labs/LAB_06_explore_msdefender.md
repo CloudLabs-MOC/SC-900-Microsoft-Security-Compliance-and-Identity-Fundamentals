@@ -1,11 +1,10 @@
-
 # Lab 06: Explore Microsoft Defender for Cloud
 
 ## Lab Overview
 
 In this lab, you will explore Microsoft Defender for Cloud and learn how Azure Secure Score can be used to improve your organization's security posture. 
 
->> **NOTE:** The Azure subscription provided by the Authorized Lab Hoster (ALH) limits access and may experience longer than normal delays.
+> **NOTE:** The Azure subscription provided by the Authorized Lab Hoster (ALH) limits access and may experience longer than normal delays.
 
 ## Lab Objectives
 
@@ -27,10 +26,10 @@ In this lab, you will complete the following tasks:
     ![Picture 1](../Images/sc-62.png)
     
 1. From the **Overview** page of Microsoft Defender for Cloud, notice the information available on the page (if you see 0 assessed resources and active recommendations, refresh the browser page, it may take a few minutes).  Information on the top of the page includes the number of Azure subscriptions, the number of Assessed resources, the number of active recommendations, and any security alerts.  On the main body of the page, there are cards representing Security posture, Regulatory compliance, Insights, and more.
+ 
+   ![Picture 1](../Images/sc-83.png)  
 
->> **Note:** The Microsoft Defender for Cloud default policy initiative, which would normally have to be assigned by the admin, has already been assigned as part of the Azure subscription setup. The secure score, however, will show as 0% because there can be up to a 24 hour delay for Azure to reflect an initial score.
-   
-    ![Picture 1](../Images/sc-83.png)   
+    > **Note:** The Microsoft Defender for Cloud default policy initiative, which would normally have to be assigned by the admin, has already been assigned as part of the Azure subscription setup. The secure score, however, will show as 0% because there can be up to a 24 hour delay for Azure to reflect an initial score.
 
 1. From the top of the page, select **Assessed resources**.  (Note that this is equivalent to having selected Inventory from the left navigation panel of the Microsoft Defender for Cloud home page).
 
@@ -45,6 +44,10 @@ In this lab, you will complete the following tasks:
    - Navigate to  **Environment settings (1)** under **Management** section. On the **Microsoft Defender for Cloud | Environment settings** page, select **Subscription (2)**
 
      ![Picture 1](../Images/sc-900-lab6-image1.png)
+
+   - In the settings page, from the left navigation pane, choose **Defender plans (1)**, enable Defender CSPM status to **On (2)** and click on **Save**.
+
+     ![](../Images/sc-900-lab6-1.png)  
      
    - In the settings page, from the left navigation pane, choose **Security policies (1)** and enable the toggle for **Microsoft cloud security benchmark (2)**.
       
@@ -94,13 +97,13 @@ In this lab, you will complete the following tasks:
 
     ![Picture 1](../Images/sc-80.png)
 
-1. Click on **Assign**.
+1. Click on **Assign initative**.
 
-    ![Picture 1](../Images/sc-81.png)
+    ![Picture 1](../Images/sc-900-lab6-2.png)
 
 1. In **Scope** option select Azure subscription **(1)** then **Assignment name** as **Microsoft cloud security benchmark (2)** and leave remaining as default and select **Review + Create (3)**.
 
-    ![Picture 1](../Images/sc-82.png)
+    ![Picture 1](../Images/sc-900-lab6-3.png)
 
 1. Click on **Create**.    
 
@@ -152,7 +155,9 @@ Recall that Microsoft Defender for Cloud is offered in two modes: without enhanc
 1. Close all the open browser tabs.
       
 ## Review
+
 In this lab, you have completed:
+
 - Explored on Microsoft Defender for Cloud
 - Enabled/Disabled the various Microsoft Defender for Cloud plans
 
