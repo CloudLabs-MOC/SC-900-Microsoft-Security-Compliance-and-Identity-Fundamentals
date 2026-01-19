@@ -143,7 +143,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 
         ![](../Images/settings_authenticator_app_new.png)
       
-    - When prompted to stay signed- in, select **Yes**.
+1. When prompted to stay signed- in, select **Yes**.
 
 1. From the left navigation panel, expand **ID Governance** then select **Privileged Identity Management**.
 
