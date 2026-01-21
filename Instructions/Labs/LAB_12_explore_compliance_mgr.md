@@ -1,16 +1,17 @@
 # Lab 12: Explore the Microsoft Purview portal and Compliance Manager
 
 ## Lab Overview
+
 In this lab, you will explore the Microsoft Purview compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
 
 ## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Explore the Microsoft Purview compliance center
-+ Task 2: Compliance posture through Compliance Manager
++ **Task 1:** Explore the Microsoft Purview compliance center
++ **Task 2:** Compliance posture through Compliance Manager
 
-## Estimated timing: 60 minutes
+## Estimated timing: 60 Minutes
 
 ## Architecture diagram
 
@@ -36,15 +37,11 @@ In this lab, you will complete the following tasks:
 
 6. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-     ![](../Images/L12T1S6.png)
+     ![](../Images/lab12-l1.png)
 
-7. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance center.
+7. Under Admin centers, select **Microsoft Purview**.  A new browser page opens to the welcome page of the Microsoft Purview compliance center.
 
-     ![](../Images/L12T1S7.png)
-
-8. The Compliance portal is expired so click on **Go to new portal** to go to the new Microsoft Purview portal as highlighted in below image.
-
-     ![](../Images/E12T1S7.png)
+     ![](../Images/lab12-l2.png)
    
 9. At the bottom of the page, select the box next to **I agree to the terms of data flow disclosure and Privacy statements**, then select **Get started**.
 
