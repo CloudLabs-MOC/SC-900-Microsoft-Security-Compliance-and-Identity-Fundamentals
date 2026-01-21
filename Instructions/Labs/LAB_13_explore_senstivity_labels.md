@@ -11,7 +11,7 @@ In this lab, you will complete the following tasks:
 + Task 2: How to apply a label
 + Task 3: Impact of that label
 
-## Estimated timing: 60 minutes
+## Estimated timing: 60 Minutes
 
 ## Architecture diagram
 
@@ -22,55 +22,48 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
 1. Open Microsoft Edge. In the address bar enter https://admin.microsoft.com. 
    
-1. In the Sign-in window, enter the following **email/username** and click on **Next**.
+1. In the Sign-in window, enter the following **Email/Username** and click on **Next**.
 
-    * Email/Username: <inject key="AzureAdUserEmail"></inject>
+    * **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
 1. Now enter the password and click on **Sign in**.
    
-   * Password: <inject key="AzureAdUserPassword"></inject>
+   * **Password:** <inject key="AzureAdUserPassword"></inject>
   
 1. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-    ![](../Images/L13-T1-S5.png)
+    ![](../Images/lab13-t1p1.png)
 
-1. Under **Admin centers (1)**, select **Compliance (2)**.
+1. Under **Admin centers (1)**, select **Microsoft Purview (2)**.
 
-    ![](../Images/sc-900-dec24-lab13-1.png)
+    ![](../Images/lab13-t1p1.png)
 
 1. Sometimes, A new browser page opens. Since you are already signed in, your email will be listed. You can select your email address, to log in to Microsoft Purview.
     
     ![](../Images/L13-T1-S7.png)
 
-1. Upon logging in to the portal, a pop-up window will appear. Select checkbox for **I agree to the terms of data flow disclosure** then select **Get started**.
+1. Upon logging in to the portal, a **Welcome to the new Microsoft Purview portal!** pop-up window will appear, select **Get started**.
 
-    ![](../Images/sc-900-dec24-lab13-2.png)
+    ![](../Images/lab13-t1p3.png)
 
 1. You are now located on the homepage of the New Microsoft Purview portal.
 
-    ![](../Images/sc-900-dec24-lab13-8.png)
+    ![](../Images/lab13-t1p4.png)
 
-1. Navigate to **Audit (1)** under **Solution** from the left Navigation pane. If auditing isn't turned on, a banner is displayed prompting you *Start recording user and admin activity*. Select the **Start recording user and admin activity (2)** banner. It has to be turned on to create  **auto-label policy** in further tasks.
 
-    ![](../Images/sc-900-dec24-lab13-10.png)
-
-    ![](../Images/sc-900-dec24-lab13-9.png) 
-
-    >**Note:** It may take up to 60 minutes for the change to take effect.
-
-1. In the left navigation panel of Microsoft Purview, go to **Solutions (1)**, select **Information Protection (2)**, and then choose **Overview**. On the overview page, click **Turn on now (4)** inside the yellow information box to enable processing of encrypted sensitivity labels in Office online files stored in OneDrive and SharePoint.
+1. In the left navigation panel of Microsoft Purview, go to **Solutions (1)**, select **Information Protection (2)**, and then choose **Sensitivity labels (3)**. On the Sensitivity labels page, click **Turn on now (4)** inside the yellow information box to enable processing of encrypted sensitivity labels in Office online files stored in OneDrive and SharePoint.
 
    > **Note**: There can be a delay for the setting to propagate through the system. Refresh the Page once.
 
-    ![](../Images/sc-900-dec24-lab13-3.png)
+    ![](../Images/lab13-t1p7.png)
 
-    ![](../Images/sc-900-dec24-lab13-11.png)    
+    ![](../Images/lab13-t1p8.png)    
 
-1. Now select **Sensitivity Labels (1)** from the left navigation panel and then select **+ Create a label (2)**.
+1. Now select **+ Create a label (2)**.
 
-    ![](../Images/sc-900-dec24-lab13-5.png)
+    ![](../Images/lab13-t1p9.png)
 
 1. On the new label configuration page, enter the details provided below and click **Next (4)**.
 
@@ -80,27 +73,29 @@ In this task you will gain an understanding of what sensitivity labels can do by
     | **Display name** | **Confidential-Finance (2)** |
     | **Description for users** | **Confidential-Finance Demo (3)** | 
 
-    ![](../Images/L13-T1-S13.png)
+    ![](../Images/lab13-t1p10.png)
 
 1. On the **Define the scope for this label** page, read the description but **do not** change any settings. Select **Next** at the bottom of the page.
 
-      ![](../Images/sc-86.png)
+      ![](../Images/lab13-t1p11.png)
 
-1. On the Choose protection settings for labeled items page, select **Control access (1)** and **Apply content marking (2)** options and then click **Next (3)**.
+1. On the Choose protection settings for labeled items page, check **Apply content marking (1)** options and then click **Next (2)**.
 
-    ![](../Images/L13-T1-S15.png)
+    ![](../Images/lab13-t1p12.png)
 
-1. Under **Access Control (1)** section, scroll down and click on **Assign Permissions**.
+    >**Note:** The **Control access** option is not selected in this lab because it requires **Rights Management (Azure RMS / Microsoft Purview Information Protection)** to be enabled and fully configured in the organization. Since RM services may not be activated in the newly created lab tenant, this option is intentionally skipped to avoid configuration or policy enforcement issues.
 
-    ![](../Images/L13-T1-S16.png)
+1. Under **Access Control (1)** section, scroll down and click on **Assign Permissions (2)**.
+
+    ![](../Images/lab13-t1p13.png)
     
-1. Click on **+Add Users or Groups** in the **Assign Permissions** page that shows up. 
+1. Click on **+ Add Users or Groups** in the **Assign Permissions** page that shows up. 
 
     ![](../Images/L13-T1-S17.png)
 
-1. Select your username **odl_user_<inject key="deploymentID"></inject> (2)** and **Megan Bowen (1)** and click on **Add (3)**.
+1. Select your username **Megan Bowen (1)** and  **odl_user_<inject key="deploymentID"></inject> (2)**  and click on **Add (3)**.
 
-    ![](../Images/L13-T1-S18.png)
+    ![](../Images/lab13-t1p14.png)
 
 1. On the Assign permissions page, check the users you selected in the previous step. These users can interact with the content that has this label applied. Then, click **Save**.
 
@@ -112,34 +107,29 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
 1. On the content markings page, take note of the information box on the top of the page. **Turn on (1)** the Content Making and select **Add a watermark (2)**, **Add a header (3)**, & **Add a footer (4)**. Click on **Customize text (5),(6),(7)** on each and provide the text **customize watermark test** and click on **Save**.  Content markings will be applied to the documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails. The content marking associated with this label is a watermark. Select **Next (8)** on the bottom of the page.
 
-    ![](../Images/L13-T1-S21.png)
+    ![](../Images/lab13-t1p15(1).png)
 
-    ![](../Images/L13-T1-S21b.png)
+    ![](../Images/lab13-t1p15.png)
 
 1. You are now in the Auto-labeling for files and emails window. Turn on the **Auto-labeling for files and emails (1)** and read the description of auto-labeling on the top of the page and the information box below it. Select **Next (2)** on the bottom of the page.
 
-    ![](../Images/L13-T1-S22.png)
+    ![](../Images/lab13-t1p16.png)
 
 1. This next window defines protection settings for groups, and sites that have this label applied. This is not enabled, select **Next** on the bottom of the page.
 
-    ![](../Images/L13-T1-S23.png)
-
-1. This next window is a preview feature to automatically apply this label to Azure database columns (such as SQL, Synapse, and more) that contain the sensitive info types you choose. This feature is not enabled. Select **Next** on the bottom of the page.
-
-      ![](../Images/sc-900-jap19.png)
-       
+    ![](../Images/lab13-t1p17.png)
       
 1.  Review the settings and click on **Create label**.
 
-      ![](../Images/L13-T1-S25.png)
+      ![](../Images/lab13-t1p18.png)
       
 1. Click on **Done** on next window.   
 
-      ![](../Images/sc-900-jap21.png)
+      ![](../Images/lab13-t1p19.png)
 
 1. A new window of **Publish label** will open. Click on **Create new label policy**.
 
-      ![](../Images/sc-900-dec24-lab13-6.png)
+      ![](../Images/lab13-t1p21.png)
 
 1. A new window of Create policy will open. Select **Choose sensitivity labels to publish (1)**. A window opens that provides information about the policy. This policy serves to publish the IT-Department-Demo. Select **Confidential-Finance (2)** from label and select **Add (3)** on the bottom of the page. And then click on **Next (4)**.
 
