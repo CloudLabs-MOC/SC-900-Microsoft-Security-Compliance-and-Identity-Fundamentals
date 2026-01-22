@@ -40,7 +40,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
     ![](../Images/lab13-t1p2.png)
 
-1. Sometimes, A new browser page opens. Since you are already signed in, your email will be listed. You can select your email address, to log in to Microsoft Purview.
+1. A new browser page will open. Since you are already signed in, your email will be listed. You can select your email address, to log in to Microsoft Purview.
     
     ![](../Images/L13-T1-S7.png)
 
@@ -48,7 +48,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
     ![](../Images/lab13-t1p3.png)
 
-1. You are now located on the homepage of the New Microsoft Purview portal.
+1. You are now on the homepage of the New Microsoft Purview portal.
 
     ![](../Images/lab13-t1p4.png)
 
