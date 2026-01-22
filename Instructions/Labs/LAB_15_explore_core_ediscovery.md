@@ -1,7 +1,8 @@
 # Lab 15: Explore eDiscovery
 
 ## Lab Overview
-In this lab you will go through the steps required for setting up Core eDiscovery and then go through the Core eDiscovery workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search.  Note:  Licensing for Core eDiscovery requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support core eDiscovery, visit Get started with Core eDiscovery.
+
+In this lab, you will explore the end-to-end workflow of Microsoft Purview Core eDiscovery. You will begin by preparing sample data to ensure searchable content exists in the environment. Next, you will configure the required role-based access by adding users to the eDiscovery Manager role group. You will then create an eDiscovery case, perform a content search using keywords and custodians, review and analyze the search results, add the results to a review set, and finally apply an eDiscovery hold to preserve relevant data. This lab demonstrates how organizations use Core eDiscovery to identify, preserve, and manage data for legal, compliance, and investigation purposes.
 
 ## Lab Objectives
 
@@ -9,14 +10,14 @@ In this lab, you will complete the following tasks:
 
 + **Task 1:** Add specific users as members of the eDiscovery Manager role group
 + **Task 2:** Create a case to start using Core eDiscovery
-+ **Task 3:** Create an eDiscovery hold
-+ **Task 4:** Create a search query
++ **Task 3:** Create a search query
+
 
 ## Estimated timing: 60 Minutes
 
 ## Architecture diagram
 
-![](../Images/sc900lab15.png)
+![](../Images/lab15-arch.png)
 
 ## Task 0: Create sample data for eDiscovery search
 
@@ -125,7 +126,8 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
 1. Keep this browser tab open, as you'll use it in the next task.
 
 ## Task 2: Create a case to start using Core eDiscovery
-In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery administrator), will create a case to start using eDiscovery (Standard).
+
+In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery administrator), will create a case to start using eDiscovery.
 
 1. You should still be on the compliance portal roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **https://purview.microsoft.com/** to get to the Microsoft Purview portal.
 
@@ -133,7 +135,7 @@ In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 
      ![Picture 1](../Images/lab15-l10.png)
    
-1. In the New case window, enter a Case name, **SC900 Test Case** then select the **Create** at the bottom of the page.
+1. In the New case window, enter a Case name, **SC900 Test Case (1)** then select the **Create (2)** at the bottom of the page.
 
      ![Picture 1](../Images/lab15-l11.png)
 
@@ -151,46 +153,65 @@ With a case created, you can begin to work with the case. This includes creating
 
 1. Open the SC900 Test Case tab on your browser.
 
-2. From the SC900 Test Case page, select  **Create a search**. 
+1. From the SC900 Test Case page, select  **Create a search**. 
 
      ![Picture 1](../Images/lab15-l13.png)
 
-3. In the name field, enter **SC900 case search (1)** then select **Create (2)**.
+1. In the name field, enter **SC900 case search (1)** then select **Create (2)**.
 
     ![Picture 1](../Images/lab15-l14.png)
 
-4. Select **Add sources**. Note the filter options and default settings. In the search box, enter **ODL-User-<inject key="DeploymentID" enableCopy="false" /> (1)** then select **Search**. From the search results select **ODL-User-<inject key="DeploymentID" enableCopy="false" /> (2)**, then select **Save and close (3)**. 
+1. Select **Add sources**. Note the filter options and default settings. In the search box, enter **ODL-User<inject key="DeploymentID" enableCopy="false" /> (1)** then select **Search**. From the search results select **ODL-User<inject key="DeploymentID" enableCopy="false" /> (2)**, then select **Save and close (3)**. 
 
      ![Picture 1](../Images/lab15-l15.png)
 
      ![Picture 1](../Images/lab15-l16.png)
 
-5. The Condition builder allows you to build a search query based on specific Keywords or Conditions that are satisfied, In the keyword box, enter **Sales (1)**. From here you can select to **Run query (2)**
+1. The Condition builder allows you to build a search query based on specific Keywords or Conditions that are satisfied, In the keyword box, enter **Sales (1)**. From here you can select to **Run query (2)**
 
-     ![Picture 1](../Images/lab15-l17.png)
+     ![Picture 1](../Images/lab15-l17n.png)
 
-6. From the Choose search results window. For the lab tenant, only the statistics view of the search results is available. Note the options to arrange by top indicators. Select **Run query**. This may take several minutes.
+1. From the Choose search results window. For the lab tenant, only the statistics view of the search results is available. Note the options to arrange by top indicators. Select **Run query**. This may take several minutes.
 
      ![Picture 1](../Images/lab15-l18.png)
 
      ![Picture 1](../Images/search.png)
 
-7. With query results returned in the form of statistics, you can export results. Select **Export** to vew available options then select **Cancel**.
+1. With query results returned in the form of statistics, you can export results. Select **Export (1)** to vew available options then select **Cancel (2)**.
 
      ![Picture 1](../Images/lab15--l19.png)
 
-5. You can add to a review set for further processing.  Select **Add to review set (1)**. Enter a name for the new review set, **`SC900-review-set` (2)**, leave the default settings, then select **Add to review set (3)**. This can take several minutes to complete. Once the review set results are presented, you can explore the different options, which include Analytics, Query, Actions, Tag files, and Manage.
+1. You can add to a review set for further processing.  Select **Add to review set (1)**. Enter a name for the new review set, **`SC900-review-set` (2)**, leave the default settings, then select **Add to review set (3)**. This can take several minutes to complete. Once the review set results are presented, you can explore the different options, which include Analytics, Query, Actions, Tag files, and Manage.
 
     ![Picture 1](../Images/lab15-l27.png)
     
-6. You can also create a hold policies to preserve content relevant to your case. From the Review set window, select the **Hold** tab.  This takes to you the Hold policies window. Select **New policy**.  Enter a Policy name, **`SC900-hold`**, and select **Create**.  As in the search, you need to add data sources for the hold and you can add keywords and conditions to use in the hold policy, then you can select **Apply hold**.  Actions you can take on a hold policy include retry, turn off a policy, and deleting a hold policy.
+1. You can also create a hold policies to preserve content relevant to your case. From the Review set window, select the **Hold** tab.  This takes to you the Hold policies window. 
+
+     ![Picture 1](../Images/lab15--l20.png)
+
+1. Select **New policy**. Enter a Policy name, **`SC900-hold` (1)**, and select **Create (2)**. 
+
+     ![Picture 1](../Images/lab15--l21.png)
+
+     ![Picture 1](../Images/lab15--l22.png)
+
+1. As in the search, you need to add data sources for the hold select **Add sources**. In the search box, enter **ODL-User<inject key="DeploymentID" enableCopy="false" /> (1)** then select **Search**. From the search results select **ODL-User<inject key="DeploymentID" enableCopy="false" /> (2)**, then select **Save and close (3)**. 
+
+     ![Picture 1](../Images/lab15--l23.png)
+
+     ![Picture 1](../Images/lab15--l24.png)
+
+1. In the keyword box, enter **sales (1)**. From here you can select to **Apply hold (2)**, actions you can take on a hold policy include retry, turn off a policy, and deleting a hold policy.
+
+     ![Picture 1](../Images/lab15--l25.png)
+
+1. Sign out and close all open browser windows.
 
 
 ## Review
 In this lab, you have completed:
 - Added specific users as members of the eDiscovery Manager role group
 - Created a case to start using Core eDiscovery
-- Created an eDiscovery hold
 - Created a search query
   
 ## You have successfully completed the lab
