@@ -2,8 +2,8 @@
 
 ## Lab Overview
 
-In this lab, you will explore the capabilities of Microsoft Cloud App.  You will walk through the information available on the Cloud Discovery dashboard as well as capabilities available to investigate findings and control impact to your organization through policies.  
->**Note:**  An organization must have a license to use Microsoft Cloud App which is a user-based subscription service. 
+In this lab, you will explore the capabilities of Microsoft Cloud App.  You will walk through the information available on the Cloud Discovery dashboard, as well as the capabilities available to investigate findings and control the impact on your organization through policies.  
+>**Note:**  An organization must have a license to use Microsoft Cloud App, which is a user-based subscription service. 
 
 ## Lab Objectives
 
@@ -24,9 +24,9 @@ In this lab, you will complete the following tasks:
 
 In this task, you will explore Cloud Discovery by creating snapshot reports, uploading and analyzing traffic logs, reviewing discovered apps, users, and IP data, and configuring app connectors for enhanced cloud visibility.
 
-1. Open Microsoft Edge. In the address bar enter **https://portal.cloudappsecurity.com**.
+1. Open Microsoft Edge. In the address bar, enter **https://portal.cloudappsecurity.com**.
 
-1. In the Sign in window enter following email  then select **Next**.
+1. In the Sign in window, enter the following email, then select **Next**.
 
    * **Email** : <inject key="AzureAdUserEmail"></inject>
 
@@ -58,7 +58,7 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
      ![Picture 1](../Images/Asc-900-image18.png)
 
-1. Under **Report Details** tab, enter the following details.
+1. Under the **Report Details** tab, enter the following details.
 
    - **Report name**: Enter **snapshot (1)**
 
@@ -86,7 +86,7 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
       ![Picture 1](../Images/lab08-t1p6.png)
 
-1. If you encounter an error **All discovered cloud related transactions are more than 90 days**. Follow the below subpoints else proceed with the next step.
+1. If you encounter an error, **All discovered cloud-related transactions are more than 90 days**. Follow the subpoints below, else proceed with the next step.
 
     ![Picture 1](../Images/Asc-900-image30.png)
 
@@ -102,11 +102,11 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
       ![Picture 1](../Images/sc-53.png)
 
-    - Here we need to changes the month ensure they fall within a 90-day period.
+    - Here we need to change the month to ensure they fall within a 90-day period.
 
       ![Picture 1](../Images/sc-54.png)
 
-      >**Note:** Use **Ctrl + F** (Find) or **Ctrl + H** (Find & Replace). In **Find what**, enter **2024-06 (1)**, and in **Replace with (2)** enter a date that falls within the last **90 days** from today. Click on **Replace All (3)**.
+      >**Note:** Use **Ctrl + F** (Find) or **Ctrl + H** (Find & Replace). In **Find what**, enter **2024-06 (1)**, and in **Replace with (2)**, enter a date that falls within the last **90 days** from today. Click on **Replace All (3)**.
 
          ![Picture 1](../Images/lab08-t1p7.png)
 
@@ -124,11 +124,11 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
     - Under **Report Details** tab, Enter a **Report name** and a **Description**.
 
-    - Under **Upload Traffic Logs** Tab, click on **browse** and upload the extracted log file which you modified. Click **Upload logs >**.
+    - Under the **Upload Traffic Logs** Tab, click on **browse** and upload the extracted log file that you modified. Click **Upload logs >**.
 
-    - After the upload completes, click on **snapshot reports** link on **Create new Cloud Discovery snapshot report** page.
+    - After the upload completes, click on the **snapshot reports** link on the **Create new Cloud Discovery snapshot report** page.
 
-    - Click on **Progressing** and this time you should not encounter with the error **All discovered cloud related transactions are more than 90 days**. You should get the result like the below screenshot.
+    - Click on **Progressing**, and this time you should not encounter the error **All discovered cloud related transactions are more than 90 days**. You should get the result like the screenshot.
 
       ![Picture 1](../Images/sc-57.png)    
 
@@ -140,7 +140,7 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
     >**Note** This may take 30–40 minutes to change to the Ready state. In the meantime, you can proceed with Task 2 and return once all tasks have been completed.
 
-1. Open a new tab  enter **admin.microsoft.com**
+1. Open a new tab,  enter **admin.microsoft.com**
 
 1. Sign in with your admin credentials.
     
@@ -176,25 +176,25 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
     ![Picture 1](../Images/sc-59.png)
 
-1. When you're done exploring the details page, return to discovered apps page, by selecting **Cloud Discovery** from the bread crumb on the top of the page.
+1. When you're done exploring the details page, return to the discovered apps page by selecting **Cloud Discovery** from the bread crumb at the top of the page.
 
 1. If you select Cloud discovery from the left navigation panel, it will take you back to the dashboard view.
  
 1. From the top of the page, select the **IP addresses** tab (this is equivalent to selecting IP addresses from the left navigation pane).
 
-   >**Note:** Here you will find data including number of transactions, amount of traffic and upload amounts, by IP addresses.  Note that you can also filter by specific IP 
+   >**Note:** Here you will find data including the number of transactions, the amount of traffic, and upload amounts, by IP addresses.  Note that you can also filter by specific IP 
    address or    export the data for further analysis.
 
    ![Picture 1](../Images/lab08-t1p13.png)
   
-1. From the top of the page select **Users**.
+1. From the top of the page, select **Users**.
 
    >**Note:** This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific 
     user and export data for further analysis.
  
 1. Click on view all discovered app to view the detailed information.
 
-1. The information provided in these tabs is based on either snap-shot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.
+1. The information provided in these tabs is based on either snapshot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.
    
 1. You can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top right corner of the screen, select **Actions (1)** and then select **Cloud Discovery Settings (2)**.
 
@@ -236,9 +236,9 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
     ![Picture 1](../Images/lab08-t2p1.png)
 
-    >**Note**: The Cloud app catalog enables you to choose apps that fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the page, which includes whether the app is sanctioned, unsanctioned, or has no tag, risk score, Compliance risk factor, and security risk factor.  For example, filtering by compliance risk factor lets you search for a specific standards, certifications, and compliance that the app may comply with. Examples include HIPAA, ISO 27001, SOC 2, and PCI-DSS.
+    >**Note**: The Cloud app catalog enables you to choose apps that fit your organization's security requirements. Admins can do basic filtering of apps as shown at the top of the page, which includes whether the app is sanctioned, unsanctioned, or has no tag, risk score, Compliance risk factor, or security risk factor.  For example, filtering by compliance risk factor lets you search for a specific standard, certification, or compliance that the app may comply with. Examples include HIPAA, ISO 27001, SOC 2, and PCI-DSS.
 
-1. Select **Compliance risk factor (1)** to view the available options.  You can further filter by risk score, by moving the sliders on the risk score on the top of the page. If you moved the slide, be sure to set it so the range is set at 0 to 10 **(2)**.
+1. Select **Compliance risk factor (1)** to view the available options.  You can further filter by risk score by moving the sliders on the risk score at the top of the page. If you moved the slide, be sure to set it so the range is set at 0 to 10 **(2)**.
 
      ![Picture 1](../Images/lab08-t2p2.png)
 
@@ -272,11 +272,11 @@ In this task, you will enable file monitoring, explore file and activity visibil
 
 1. Select **Cancel** to exit of the policy creation window, then select **Leave page**.
 
-1. From the left navigation panel, select **Activity Log (1)**, under **Cloud apps**. Here you get visibility into all the activities from your connected apps **(2)**.
+1. From the left navigation panel, select **Activity Log (1)**, under **Cloud apps**. Here, you get visibility into all the activities from your connected apps **(2)**.
    
    ![Picture 1](../Images/lab08-t3p5.png)
 
-1. You may not see any data listed as it can take several hours to perform retroactive scans once audit is enabled and lab tenants may experience longer than normal delays. Note the available filter options and the option to create new a policy from search.
+1. You may not see any data listed as it can take several hours to perform retroactive scans once audit is enabled, and lab tenants may experience longer than normal delays. Note the available filter options and the option to create a new policy from search.
 
 ## Task 4: Explore Policies
 
@@ -286,15 +286,15 @@ In this task, you will explore Cloud Apps policies, review existing policies and
 
 1. Selecting any line item provides more detailed information about the policy. Select an item from the list.
 
-    >**Note**: You can also create a policy. Select **+ Create policy (3)** to view the types of policies you can create.  Select **Activity policy** to view the different options available for creating the policy.  Select **Cancel** to exit out of the configuration window.
+    >**Note**: You can also create a policy. Select **+ Create policy (3)** to view the types of policies you can create.  Select **Activity policy** to view the different options available for creating the policy.  Select **Cancel** to exit the configuration window.
  
      ![Picture 1](../Images/lab08-t4p1.png)
      
      ![Picture 1](../Images/L8T4S2.2-2412.png)
      
-    >**Note**: that you can also have the option to export policy information.
+    >**Note**: You can also have the option to export policy information.
 
-1. From the left navigation panel, select **Policy templates (1)**. To create a policy from one the available templates, select the **+ (2)** on the left side of the template line item.  View the different configuration options for the policy.  Select **Cancel** to exit out of the page.
+1. From the left navigation panel, select **Policy templates (1)**. To create a policy from one of the available templates, select the **+ (2)** on the left side of the template line item.  View the different configuration options for the policy.  Select **Cancel** to exit the page.
 
    ![Picture 1](../Images/lab08-t4p3.png)
 
@@ -313,6 +313,6 @@ In this lab, you have completed:
 - Explore Cloud Discovery
 - Explore the Cloud app catalog
 - Explore the Activity log and Files
-- In this task you will explore the policies and alerts pages in Microsoft Cloud app security
+- In this task, you will explore the policies and alerts pages in Microsoft Cloud App Security
 
 ## You have successfully completed the lab
