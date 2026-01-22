@@ -187,21 +187,9 @@ In this task, you'll walk through some of the options available in Sentinel.
 
    >**Note:** You may need to select the "**>>**" at the far-right side of the window to see the information panel.
 
-1. Select **Incidents**, Although no incidents are found, review the **What is it?** section.
-
-    ![Picture 1](../Images/sc-39.png) 
-
 1. From the left navigation panel, expand **Content Management (1)**, then select **Community (2)**. The community page includes *Cybersecurity insights and updates from Microsoft Research, a link to a list of Microsoft Sentinel Blogs, a link to Microsoft Sentinel Forums, links the latest editions to the Microsoft Sentinel Hub, and more*. Explore this as well.
 
     ![Picture 1](../Images/lab7-l30.png) 
-
-1. From the left navigation panel, select **Analytics (1)**.  Select the first item from the list **Advanced Multistage Attack Detection (2)**.
-
-    >**Note:** The detailed information.  Microsoft Sentinel uses Fusion, a correlation engine based on scalable machine learning algorithms, to automatically detect multistage attacks (also known as advanced persistent threats) by identifying combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain. On the basis of these discoveries, Microsoft Sentinel generates incidents that would otherwise be difficult to catch **(3)**.
-
-    ![Picture 1](../Images/sc-45.png)     
-    
-    >**Note:** You may need to select the "**>>**" at the far-right side of the window to see the information panel.
 
 1. From the left navigation panel, select **Automation (2)** under **Configuration (1)**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create (3)** dropdown, and then select **Automation rule (4)**. Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel (5)** from the bottom of the screen.
  
