@@ -33,7 +33,7 @@ In this task, you will explore the Microsoft 365 Defender landing page, review a
   
 1. When prompted to **Stay signed-in?**, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
-1. From the left navigation pane of the Microsoft 365 admin center, select **Show all (1)**, and 
+1. From the left navigation pane of the Microsoft 365 admin center, select **Show all (1)**. 
 
      ![Picture 1](../Images/lab09-t1p1.png)
 
