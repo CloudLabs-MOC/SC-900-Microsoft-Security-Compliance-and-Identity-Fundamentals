@@ -1,24 +1,68 @@
 # Lab 15: Explore eDiscovery
 
 ## Lab Overview
-In this lab you will go through the steps required for setting up Core eDiscovery and then go through the Core eDiscovery workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search.  Note:  Licensing for Core eDiscovery requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support core eDiscovery, visit Get started with Core eDiscovery.
+
+In this lab, you will explore the end-to-end workflow of Microsoft Purview Core eDiscovery. You will begin by preparing sample data to ensure searchable content exists in the environment. Next, you will configure the required role-based access by adding users to the eDiscovery Manager role group. You will then create an eDiscovery case, perform a content search using keywords and custodians, review and analyze the search results, add the results to a review set, and finally apply an eDiscovery hold to preserve relevant data. This lab demonstrates how organizations use Core eDiscovery to identify, preserve, and manage data for legal, compliance, and investigation purposes.
 
 ## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Add specific users as members of the eDiscovery Manager role group
-+ Task 2: Create a case to start using Core eDiscovery
-+ Task 3: Create an eDiscovery hold
-+ Task 4: Create a search query
++ **Task 1:** Add specific users as members of the eDiscovery Manager role group
++ **Task 2:** Create a case to start using Core eDiscovery
++ **Task 3:** Create a search query
 
-## Estimated timing: 60 minutes
+
+## Estimated timing: 60 Minutes
 
 ## Architecture diagram
 
-![](../Images/sc900lab15.png)
+![](../Images/lab15-arch.png)
+
+## Task 0: Create sample data for eDiscovery search
+
+1. On the Lab VM click **Microsoft edge** shortcut on the desktop and in the new browser, enter the URL below to Microsoft 365 Copilot and click on Sign in.
+
+     ```
+     https://www.office.com/
+     ```
+
+     ![](../Images/lab15-l0.png)
+
+1. You'll see the **Sign in** tab. Here, enter your credentials:
+ 
+    * **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+      ![](../Images/lab15--l2.png)
+
+1. Next, provide your password:
+
+    * Enter **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject>
+  
+      ![](../Images/lab15--l3.png)
+
+1. When prompted to stay signed in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+
+1. On Welcome to Copilot Chat window, click **Apps (1)**, then select **word (2)**.
+
+     ![](../Images/lab15--l1.png)
+
+1. On word document select **Blank document** to create a new blank document and then enter the content **(1)** and enter name as **Sales Report Q1 (2)** 
+
+    ```
+    This document contains the Sales performance details for Q1.
+
+    The Sales team achieved good growth this quarter.
+    Future Sales targets and projections will be discussed in the next review meeting.
+
+    This file is created for testing Microsoft Purview eDiscovery search using the keyword "Sales".
+    ```
+
+    ![](../Images/lab15--l4.png)
+
 
 ## Task 1: Add specific users as members of the eDiscovery Manager role group
+
 To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
 1. If you not already login to admin center, in the address bar of Microsoft edge enter **[admin.microsoft.com](https://admin.microsoft.com)**.
@@ -31,152 +75,143 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-    ![](../Images/sc-900-lab15-1-01.png)
+    ![](../Images/lab12-l1.png)
 
-1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview portal.  
+1. Under Admin centers, select **Microsoft Purview**.  A new browser page opens to the welcome page of the Microsoft Purview portal. 
 
-    ![](../Images/sc-900-lab15-1-02upd.png)
+     ![](../Images/lab12-l2.png)
 
-1.  The Compliance portal is expired so click on **Go to new portal** to go to the new Microsoft Purview portal as highlighted in below image.
+1. On **Welcome to the new Microsoft Purview portal!**, select **Get started**.
 
-    [](../Images/E12T1S7.png)
+     ![](../Images/lab12-l3.png)
 
-1.  A new browser page opens to the **"Welcome page of the Microsoft Purview portal!"**, click on **"I agree to the terms of data flow disclosure and Privacy Statements"** and select **"Get started"**.
+1. From the left navigation panel, select **Settings (1)**, expand **Roles & scopes (2)** then select **Role groups (3)**.
 
-    ![](../Images/pureviewwelcome.png)
+    ![](../Images/lab15-l1.png)
 
-1. From the left navigation panel, select **Settings**, expand **Roles & scopes** then select **Role groups**.
+1. In the search field, on the top, right of the page, enter **eDiscovery (1)** then hit Enter on your keyboard.  Select **eDiscovery Manager (2)**.
 
-    ![](../Images/sc-900-lab14-002upd.png)
-
-1. In the search field, on the top, right of the page, enter **eDiscovery** then hit Enter on your keyboard.  Select **eDiscovery Manager**.
-
-    ![Picture 1](../Images/Asc-900-image36upd.png)
+    ![Picture 1](../Images/lab15-l2.png)
     
-1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator. For this lab, we will add members to the eDiscovery Administrator sub-group.
+1. Select **Edit**. For the purpose of this lab, you'll set yourself as MOD administrator as the eDiscovery Manager and administrator.  In practice, you would designate specific users for specific roles.
 
-1. Select **Edit** 
+    ![Picture 1](../Images/lab15-l3.png)
 
-    ![](../Images/image1upd.png)
+1. The "Manage eDiscovery Manager" page allows you to add users to the role of eDiscovery manager.
+
+1. On **Manage eDiscovery Manager** page, click **Choose users (1)**. Search for and select **ODL_User<inject key="DeploymentId"></inject> (2)** then press **Select (3)**
+    
+    ![Picture 1](../Images/lab15-l4.png)
 
 1. On **eDiscovery Manager** page, select **Next** on  **Manage eDiscovery Manager**.
 
-   ![](../Images/image2.png)
+   ![Picture 1](../Images/lab15-l5.png)
 
-1. On **Manage ediscovery Administrator**, click on **Choose User (1)** and select **ODL_User **<inject key="DeploymentId"></inject>** and Megan Bowen (2)** from the list and click on **Select (3)** and **Next**.
+1. On **Manage ediscovery Administrator**, click on **Choose User (1)** and select **ODL_User<inject key="DeploymentId"></inject> (2)** from the list and click on **Select (3)** and **Next**.
 
-   ![](../Images/image3.png)
+    ![Picture 1](../Images/lab15-l6.png)
+
+    ![Picture 1](../Images/lab15-l7.png)
 
 1. On **Review and finish** page, select **Save**.
 
-   ![](../Images/image4.png)
+    ![Picture 1](../Images/lab15-l8.png)
 
 1. On **You successfully updated the role group** window, click **Done**.
 
-     ![Picture 1](../Images/Asc-900-image37.png)
+     ![Picture 1](../Images/lab15-l9.png)
 
 1. Close all the tabs except the **[admin.microsoft.com](https://admin.microsoft.com)** and then **sign out** from the admin center page and **sign-in** back again to reflect the permissions added for users faster.
 
 1. Keep this browser tab open, as you'll use it in the next task.
 
 ## Task 2: Create a case to start using Core eDiscovery
-In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery administrator), will create a case to start using eDiscovery (Standard).
 
-1. You should still be on the compliance portal roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **https://compliance.microsoft.com** to get to the Microsoft Purview portal.
+In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery administrator), will create a case to start using eDiscovery.
 
-1. From the left navigation panel, under **Solutions**, expand **eDiscovery** then select **Standard Cases** click on **+ Create a case**.
+1. You should still be on the compliance portal roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **https://purview.microsoft.com/** to get to the Microsoft Purview portal.
 
-      ![Picture 1](../Images/stdcase1.png)
+1. From the left navigation panel, under **Solutions (1)**, expand **eDiscovery** then select **Cases (2)** click on **Create case (3)**. If you select the down arrow you will open the window to create a search and in the process of creating a search will create a case.
+
+     ![Picture 1](../Images/lab15-l10.png)
    
-1. In the New case window, enter a Case name, **SC900 Test Case** then select the **Save** at the bottom of the page.
+1. In the New case window, enter a Case name, **SC900 Test Case (1)** then select the **Create (2)** at the bottom of the page.
 
-    ![Picture 1](../Images/Asc-900-image41.png)
+     ![Picture 1](../Images/lab15-l11.png)
 
 1. The case should now appear on the list.
 
-    ![](../Images/sc-900-lab15-T2-3upd2.png)
+    ![Picture 1](../Images/lab15-l12.png)
 
 1. As the creator of the case and because you have eDiscovery Administrator privileges, you can begin to work with it.  
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
-## Task 3: Create an eDiscovery hold
-Now that you have created a Core eDiscovery case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the exchange mailbox belonging to ODL-User.
+## Task 3: Create a search query
 
-1. Open the **eDiscovery (Standard)** tab on your browser.
+With a case created, you can begin to work with the case. This includes creating a search query to find data and content that is relevant to your case, applying a hold policy, creating a review set, and exporting data. In this task you'll explore some of these options.
 
-2. From the Core eDiscovery page, select the case you created in the previous tab, **SC900 Test Case**. 
+1. Open the SC900 Test Case tab on your browser.
 
-3. From the Home page of the case, select the **Hold** tab then select **+ Create**.
+1. From the SC900 Test Case page, select  **Create a search**. 
 
-    ![](../Images/sc-900-lab15-T2-4upd2.png)
+     ![Picture 1](../Images/lab15-l13.png)
 
-4. In the name field, enter **Test hold** then select **Next**.
+1. In the name field, enter **SC900 case search (1)** then select **Create (2)**.
 
-    ![Picture 1](../Images/Asc-900-image42.png)
+    ![Picture 1](../Images/lab15-l14.png)
 
-5. In the Choose locations page, select toggle switch next to Exchange mailboxes to set the status to **On**, select **Choose users, groups, or teams** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** user and click on **Done**, select **Next**, for expediency with the lab, no other locations will be included in this hold.
+1. Select **Add sources**. Note the filter options and default settings. In the search box, enter **ODL-User<inject key="DeploymentID" enableCopy="false" /> (1)** then select **Search**. From the search results select **ODL-User<inject key="DeploymentID" enableCopy="false" /> (2)**, then select **Save and close (3)**. 
+
+     ![Picture 1](../Images/lab15-l15.png)
+
+     ![Picture 1](../Images/lab15-l16.png)
+
+1. The Condition builder allows you to build a search query based on specific Keywords or Conditions that are satisfied, In the keyword box, enter **Sales (1)**. From here you can select to **Run query (2)**
+
+     ![Picture 1](../Images/lab15-l17n.png)
+
+1. From the Choose search results window. For the lab tenant, only the statistics view of the search results is available. Note the options to arrange by top indicators. Select **Run query**. This may take several minutes.
+
+     ![Picture 1](../Images/lab15-l18.png)
+
+     ![Picture 1](../Images/search.png)
+
+1. With query results returned in the form of statistics, you can export results. Select **Export (1)** to vew available options then select **Cancel (2)**.
+
+     ![Picture 1](../Images/lab15--l19.png)
+
+1. You can add to a review set for further processing.  Select **Add to review set (1)**. Enter a name for the new review set, **`SC900-review-set` (2)**, leave the default settings, then select **Add to review set (3)**. This can take several minutes to complete. Once the review set results are presented, you can explore the different options, which include Analytics, Query, Actions, Tag files, and Manage.
+
+    ![Picture 1](../Images/lab15-l27.png)
     
-    ![Picture 1](../Images/Asc-900-image43.png)
+1. You can also create a hold policies to preserve content relevant to your case. From the Review set window, select the **Hold** tab.  This takes to you the Hold policies window. 
 
-    ![Picture 1](../Images/Asc-900-image(433).png)
+     ![Picture 1](../Images/lab15--l20.png)
 
-    ![Picture 1](../Images/Asc-900-image(43)1.png)
-    
-6. The Query conditions page enables you to create a hold, based on specific Keywords or Conditions that are satisfied, select **Select a filter** to view the available options. Select **Next**. Without any conditions, the hold will preserve all content in the specified location.
+1. Select **New policy**. Enter a Policy name, **`SC900-hold` (1)**, and select **Create (2)**. 
 
-    ![Picture 1](../Images/Asc-900-image44.png)
-    
-7. Review your settings and select **Submit**, it may take a minute, then select **Done**.  The **Test hold** should appear on the list.  If you don't immediately see it, select **Refresh**
+     ![Picture 1](../Images/lab15--l21.png)
 
-    ![](../Images/sc-900-lab15-T2-9upd.png)
+     ![Picture 1](../Images/lab15--l22.png)
 
-8. Keep this browser tab open, as you will use it in the subsequent task.
+1. As in the search, you need to add data sources for the hold select **Add sources**. In the search box, enter **ODL-User<inject key="DeploymentID" enableCopy="false" /> (1)** then select **Search**. From the search results select **ODL-User<inject key="DeploymentID" enableCopy="false" /> (2)**, then select **Save and close (3)**. 
 
-## Task 4: Create a search query
-With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   
+     ![Picture 1](../Images/lab15--l23.png)
 
-1. Open the SC900 Test case tab on your browser.
+     ![Picture 1](../Images/lab15--l24.png)
 
-1. From the Holds page of the case, select **Searches** > **+ New Search**.
+1. In the keyword box, enter **sales (1)**. From here you can select to **Apply hold (2)**, actions you can take on a hold policy include retry, turn off a policy, and deleting a hold policy.
 
-    ![Picture 1](../Images/Asc-900-image45upd.png)
+     ![Picture 1](../Images/lab15--l25.png)
 
-1. In the Name field, enter **Test Hold – Sales Search**, then select **Next** from the bottom of the page.
+1. Sign out and close all open browser windows.
 
-    ![Picture 1](../Images/Asc-900-image46.png)
-
-1. In the Choose locations page, select toggle switch next to Exchange mailbox to set the status to **On (1)**, select **Choose users, groups, or teams (2)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" /> (3)** user and click on **Done (4)**, select **Next**.  
-
-    ![Picture 1](../Images/Asc-900-image47.png)
-
-    ![Picture 1](../Images/Asc-900-image48.png)
-
-1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, in the keyword field enter **Sales** select **Next**.
-
-    ![Picture 1](../Images/Asc-900-image50.png)
-
-1. Review your settings and select **Submit**, it may take a minute, then select **Done**.  The search should appear on the list.  If you don't immediately see it, select **Refresh**
-
-    ![](../Images/sc-900-lab15-T2-14upd.png)
-    
-     ![](../Images/sc-900-lab15-T2-15upd.png)
-
-1. From the **Searches** window, select the search you just created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indicate that the search is completed.  You will see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete). 
-
-    ![](../Images/sc-900-lab15-T2-16upd.png)
-
-1. From the bottom of the page, select **Actions**.  Note the available options that include export options (the export options cannot be selected from within the lab platform provided by the authorized lab hoster, but are available in a production environment and are considered part of the standard workflow). Select **Close**.
-
-      ![](../Images/sc-900-lab15-T2-18upd.png)
-
-1. Sign out and close all open browser windows. 
 
 ## Review
 In this lab, you have completed:
 - Added specific users as members of the eDiscovery Manager role group
 - Created a case to start using Core eDiscovery
-- Created an eDiscovery hold
 - Created a search query
   
 ## You have successfully completed the lab
