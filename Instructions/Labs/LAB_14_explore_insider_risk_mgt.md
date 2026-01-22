@@ -2,6 +2,7 @@
 
 ## Lab Overview
 In this lab, you will walk through the process of setting up an insider risk policy, along with the basic prerequisites to configure and use insider risk management policies.  
+
 >**Note:** This lab will only provide visibility into what is required for setting up Insider risk management and options associated with creating a policy.  This lab does not include a task to trigger the policy, as the number of events that would need to occur to trigger a policy are outside of the scope of this exercise.
 
 ## Lab Objectives
@@ -13,7 +14,7 @@ In this lab, you will complete the following tasks:
 + Task 3: Apply to all insider risk management policies
 + Task 4: Create policy
 
-## Estimated timing: 60 minutes
+## Estimated timing: 60 Minutes
 
 ## Architecture diagram
 
@@ -22,7 +23,7 @@ In this lab, you will complete the following tasks:
 ## Task 1: Process of setting up an insider risk policy
 In this task, you, as the global administrator, will enable permissions for Insider Risk Management.  Specifically, you will add users to the Insider Risk Management role group to ensure that designated users can access and manage insider risk management features.  It may take up to 30 minutes for the role group permissions to apply to users across the organization. 
 
-1. If you not alredy login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
+1. In the address bar of Microsoft edge enter **admin.microsoft.com**.
 
 1. On **Sign in** blade, you will see a login screen, in that enter the following email/username 
  
