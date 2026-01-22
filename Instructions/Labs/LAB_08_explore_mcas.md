@@ -30,13 +30,13 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
    * **Email** : <inject key="AzureAdUserEmail"></inject>
 
-    ![](../Images/lab08-t1p1.png)
+        ![](../Images/lab08-t1p1.png)
      
 1. Enter the admin following password and select **Sign in**.
 
    * **Password** : <inject key="AzureAdUserPassword"></inject> 
 
-    ![](../Images/lab08-t1p2.png)
+        ![](../Images/lab08-t1p2.png)
 
 1. If prompted to **Stay signed in?**, click **Yes**.
 

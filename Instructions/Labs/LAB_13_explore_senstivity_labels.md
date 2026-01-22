@@ -36,7 +36,7 @@ In this task, you will gain an understanding of what sensitivity labels can do b
 
     ![](../Images/lab13-t1p1.png)
 
-1. Under **Admin centers (1)**, select **Microsoft Purview (2)**.
+1. Under **Admin centers**, select **Microsoft Purview**.
 
     ![](../Images/lab13-t1p2.png)
 
@@ -167,7 +167,7 @@ In this task, you will gain an understanding of what sensitivity labels can do b
 
 1. It can take up to 24 hours to publish the labels to the selected users' apps.
 
-1. From the left navigation panel, under **Information protection (1)**, select **Auto-labeling policies (2)**. Then click on select **+ Create auto-label policy (3)**.
+1. From the left navigation panel, under **Information protection (1)**, select **Auto-labeling policies (2)**. Then click on **+ Create auto-label policy (3)**.
 
       ![](../Images/lab13-t1p22.png)
 
@@ -235,7 +235,7 @@ In this task, you will go through the process of applying a label from the persp
 
     ![](../Images/lab13-t2p2(1).png)
 
-1. From the left navigation pane, select Apps (1) and then select **Word (2)**.
+1. From the left navigation pane, select **Apps (1)** and then select **Word (2)**.
 
     ![](../Images/lab13-t2p3.png)
 
@@ -261,7 +261,7 @@ In this task, you will go through the process of applying a label from the persp
 
     >**Note:** If the option is not available, it will take some time to reflect, and if selecting the label shows error label cannot be added to Word on the web, please try refreshing the page once or sign out and sign in again.   
 
-1. From the top menu bar, select **View (1)**, then select **Reading view (2)**.
+1. From the top menu bar, select **View (1)**, then select **Reading View (2)**.
 
     ![](../Images/lab13-t2p8.png)            
 

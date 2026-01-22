@@ -34,7 +34,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
 You can use the **Progress** tab to track your progress while working on the lab. A score will be provided after successful validation.
 
-![](./images/gs-progtab.png)
+![](../images/gs-progtab.png)
 
 ## Managing Your Virtual Machine
  

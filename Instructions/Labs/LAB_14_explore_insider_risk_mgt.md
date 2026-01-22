@@ -37,7 +37,7 @@ In this task, you, as the global administrator, will enable permissions for Insi
 
     ![](../Images/lab13-t1p1.png)
 
-1. Under **Admin centers (1)**, select **Microsoft Purview (2)**.
+1. Under **Admin centers**, select **Microsoft Purview**.
 
     ![](../Images/lab13-t1p2.png)
 
