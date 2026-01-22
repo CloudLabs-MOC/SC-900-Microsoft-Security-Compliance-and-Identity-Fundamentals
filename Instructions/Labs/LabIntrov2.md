@@ -4,41 +4,47 @@ Welcome to your SC-900: Microsoft Security, Compliance, and Identity Fundamental
  
 ## Accessing Your Lab Environment
  
-Once you're ready to dive in, your virtual machine and **Lab guide** will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
  
-![Access Your VM and Lab Guide](../Images/new-get-start-25-1.png)
+![Access Your VM and Lab Guide](../Images/gs-guidetab.png)
 
 ### Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
  
-## Exploring Your Lab Resources
- 
-To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
- 
-![Explore Lab Resources](../Images/new-get-start-25-2.png)
-
 ## Lab Guide Zoom In/Zoom Out
  
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-![Adjust Zoom](../Images/new-get-start-25-6.png)
+![Adjust Zoom](../Images/gs-zoomintab.png)
+
+## Exploring Your Lab Resources
+ 
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
+ 
+![Explore Lab Resources](../Images/gs-envtab.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-![Use the Split Window Feature](../Images/new-get-start-25-3.png)
- 
+![Use the Split Window Feature](../Images/gs-splittab.png)
+
+## Lab Progress
+
+You can use the **Progress** tab to track your progress while working on the lab. A score will be provided after successful validation.
+
+![](./images/gs-progtab.png)
+
 ## Managing Your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-![Manage Your Virtual Machine](../Images/new-get-start-25-4.png)
+![Manage Your Virtual Machine](../Images/gs-resourcetab.png)
 
 ## Lab Validation
 
-1. After completing the task, hit the **Validate** button under Validation tab integrated within your lab guide. If you receive a success message, you can proceed to the next task, if not, carefully read the error message and retry the step, following the instructions in the lab guide.
+1. After completing the task, hit the **Validate** button under the Validation tab integrated within your lab guide. If you receive a success message, you can proceed to the next task; if not, carefully read the error message and retry the step, following the instructions in the lab guide.
 
    ![Inline Validation](../Images/new-get-start-25-5.png)
    
@@ -72,7 +78,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
    
-   > **Note:** If you're asked to enter a Temporary Access Pass instead of a Password when signing in to the Azure portal, don't worry it refers to the same            credential. You can find it under the **Environment Details** tab.
+   > **Note:** If you're asked to enter a Temporary Access Pass instead of a Password when signing in to the Azure portal, don't worry, it refers to the same credential. You can find it under the **Environment Details** tab.
  
      ![Enter Your Password](../Images/tap-password.png)
 
@@ -112,7 +118,7 @@ The CloudLabs support team is available 24/7, 365 days a year, via email and liv
 
 Learner Support Contacts:
 
-   - Email Support: labs-support@spektrasystems.com
+   - Email Support: cloudlabs-support@spektrasystems.com
 
    - Live Chat Support: https://cloudlabs.ai/labs-support
 
