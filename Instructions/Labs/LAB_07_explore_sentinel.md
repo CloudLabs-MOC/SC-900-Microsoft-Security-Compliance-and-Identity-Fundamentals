@@ -173,7 +173,7 @@ In this task, you'll walk through some of the options available in Sentinel.
 
 1. Select **Notebooks**, and review the **What is it?** section.
 
-    ![Picture 1](../Images/lab7-l26.png) 
+    ![Picture 1](../Images/lab7-l26n.png) 
 
 1. Select **Threat intelligence (1)**, click on **Open intel management (2)** and review the information on the page..    
 
