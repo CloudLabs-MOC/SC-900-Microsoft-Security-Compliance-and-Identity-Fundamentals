@@ -111,7 +111,7 @@ In this tak you will learn about your organization’s compliance posture throug
 
 ## Review
 In this lab, you have completed:
-- Explore the Microsoft Purview compliance center
+- Explored the Microsoft Purview compliance center
 - Compliance posture through Compliance Manager
   
 ## You have successfully completed the lab
