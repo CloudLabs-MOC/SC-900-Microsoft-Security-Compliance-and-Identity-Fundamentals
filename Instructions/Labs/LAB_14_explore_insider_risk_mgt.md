@@ -203,10 +203,12 @@ In this task, you will walk through the creation of a policy.
     ![](../Images/lab14-t3p11.png)
 
 ## Review
-In this lab, you have completed:
-- Process of setting up an insider risk policy
-- Enable the Audit log search capability
-- Apply to all insider risk management policies
-- Create policy
 
-## You have successfully completed the lab
+In this lab, you completed:
+
+* Reviewed the process of setting up an insider risk policy
+* Enabled the Audit log search capability
+* Applied settings to all insider risk management policies
+* Created a policy
+
+### You have successfully completed the lab

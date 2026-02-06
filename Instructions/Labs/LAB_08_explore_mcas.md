@@ -309,10 +309,12 @@ In this task, you will explore Cloud Apps policies, review existing policies and
 <validation step="b4c3792a-aa76-445e-b825-9c9cc8b935f8" /> 
 
 ## Review
-In this lab, you have completed:
-- Explore Cloud Discovery
-- Explore the Cloud app catalog
-- Explore the Activity log and Files
-- In this task, you will explore the policies and alerts pages in Microsoft Cloud App Security
 
-## You have successfully completed the lab
+In this lab, you completed:
+
+* Explored Cloud Discovery
+* Explored the Cloud app catalog
+* Explored the Activity log and Files
+* Explored the policies and alerts pages in Microsoft Cloud App Security
+
+### You have successfully completed the lab
