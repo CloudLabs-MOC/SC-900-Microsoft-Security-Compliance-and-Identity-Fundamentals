@@ -272,10 +272,12 @@ In this task, you will go through the process of applying a label from the persp
 1. Close the Microsoft Word tabs that are open on your browser to exit from Word.
 
 ## Review
-In this lab, you have completed:
-- Explore the capabilities of sensitivity labels
-- How to apply a label
-- Impact of that label
+
+In this lab, you completed:
+
+* Explored the capabilities of sensitivity labels
+* Learned how to apply a label
+* Reviewed the impact of that label
 
 ## You have successfully completed the lab
 
