@@ -118,7 +118,7 @@ In this task you will visit the Trust Center and navigate to Microsoft’s six, 
 
 ## Review
 In this lab, you have completed:
-- Explore the Service Trust portal
-- Explore on Trust Center and navigate to Microsoft’s six, key privacy principles
+- Explored the Service Trust portal
+- Explored on Trust Center and navigate to Microsoft’s six, key privacy principles
   
 ## You have successfully completed the lab
