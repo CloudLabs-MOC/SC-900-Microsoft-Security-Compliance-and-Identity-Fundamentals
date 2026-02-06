@@ -41,7 +41,7 @@ To create an instance of Microsoft Sentinel, you first have to create a Log Anal
     | Name | **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/> (3)** |
     | Region | leave this default **(4)** |
    
-    ![Picture 1](../Images/lab7-l3.png)
+    ![Picture 1](../Images/sc-lab7-l3.png)
 
 1. Once the Validation is passed, then select **Create**.
 
@@ -120,7 +120,7 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 > - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> - If you need any assistance, please contact us at Cloudlabs-support@spektrasystems.com.com. We are available 24/7 to help you out.
 
 <validation step="6ef79789-58a4-4dc4-a65e-8b5aacef02c1" />
 
