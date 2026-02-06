@@ -279,5 +279,5 @@ In this lab, you completed:
 * Learned how to apply a label
 * Reviewed the impact of that label
 
-## You have successfully completed the lab
+### You have successfully completed the lab
 
