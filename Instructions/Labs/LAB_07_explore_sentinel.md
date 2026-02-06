@@ -199,7 +199,7 @@ In this task, you'll walk through some of the options available in Sentinel.
     
 ## Review
 In this lab, you have completed:
-- Creating a Microsoft Sentinel instance
+- Created a Microsoft Sentinel instance
 - Built-in Microsoft Sentinel roles
 - Data connector to your instance of Microsoft Sentinel
 - Explored on capabilities available in Sentinel
