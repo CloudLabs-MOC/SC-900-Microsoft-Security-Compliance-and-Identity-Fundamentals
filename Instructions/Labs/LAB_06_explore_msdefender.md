@@ -43,7 +43,7 @@ In this lab, you will complete the following tasks:
 
 1. In the settings page, from the left navigation pane, choose **Security policies (1)** and enable the toggle for **Microsoft cloud security benchmark (2)**.
       
-     ![Picture 1](../Images/lab6-02-6.png)
+     ![Picture 1](../Images/lab6-02-19.png)
 
 1. Return to the Inventory page and refresh to view the resources.
 
@@ -99,7 +99,7 @@ Recall that Microsoft Defender for Cloud is offered in two modes: without enhanc
 
    ![Picture 1](../Images/lab6-02-16.png)
       
-1. On the Defender plans page, notice how you can select Enable all or select individual Defender plans.
+1. On the Defender plans page, notice the availabe options (Enable all or select individual Defender plans).
 
 1. Verify that Foundational CSPM status is set to **On**, if not, set it now.  
 
