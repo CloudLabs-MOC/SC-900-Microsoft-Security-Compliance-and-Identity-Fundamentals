@@ -46,10 +46,14 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
      ![Picture 1](../Images/lab08-t1p4.png)
 
+     > **Note:** If the options do not appear, refresh the page a few times and wait for the menu to load completely.
+
 1. On the **Settings** page, select **Cloud apps**.
 
      ![Picture 1](../Images/lab08-t1p5.png)
-   
+
+     >**Note:** If Cloud Apps is not visible on this page, refresh the browser.
+
 1. On the **Cloud apps** page, scroll down and under **Cloud Discovery**, select **Snapshot Reports (1)** and then click on **+ Create Snapshot Report (2)**.
 
     ![Picture 1](../Images/Asc-900-image17.png)
