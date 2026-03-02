@@ -57,7 +57,9 @@ In this lab, you will complete the following tasks:
 
     ![Picture 1](../Images/lab6-02-7.png)
 
-    >**Note:** **<font color="red">It may take approximately 1 to 1.5 hours for all resources to appear in the Inventory.</font>**
+    > **Note:** It may take approximately **1 to 1.5 hours** for all resources to appear in the **Inventory** because **Microsoft Defender for Cloud** requires time to discover, onboard, and assess Azure resources. In the meantime, please **proceed with the next lab 7**, and after **1 to 1.5 hours**, return to this lab and check the options again.
+
+    > **Note:** If the **Assessed resources** section is still not populated after 1.5 hours, it may be due to a delay in the initial security assessment or backend synchronization. In that case, please contact **Cloudlabs-Support@spektrasystems.com** for assistance.
    
 1. This brings you to the **Inventory** page that lists the current resources. Select the virtual machine resource, **sc900-win2**. This resource is associated with the virtual machine you used in the previous lab.
        
@@ -73,7 +75,7 @@ In this lab, you will complete the following tasks:
 
     ![Picture 1](../Images/lab6-02-11.png)
    
-1. Note the detailed description. Select the drop-down arrow next to the Remediation. Note how remediation instructions (or links to instructions) are provided along with the option to take action.  Exit the window without taking any action.
+1. Note the detailed description. Select the drop-down arrow next to the Remediate. Note how remediate instructions (or links to instructions) are provided along with the option to take action.  Exit the window without taking any action.
 
     ![Picture 1](../Images/lab6-02-12.png)
   
