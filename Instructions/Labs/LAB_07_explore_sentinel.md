@@ -51,7 +51,7 @@ To create an instance of Microsoft Sentinel, you first have to create a Log Anal
 
 1. In the Azure portal, in the **Search resources, services, and docs** search for **Microsoft Sentinel (1)** then select **Microsoft Sentinel (2)** from the search results.
 
-   ![Picture 1](../Images/sc-14.png)
+   ![Picture 1](../Images/lab7-02-2.png)
 
 1. From the Microsoft Sentinel page, select **+ Create**.
 
@@ -92,13 +92,9 @@ With the Microsoft Sentinel instance created, it is important that users that wi
   
    >**NOTE:**  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel: https://docs.microsoft.com/en-us/azure/sentinel/roles
    
-1. Select the **Access Control (IAM) (1)**, on looking for the previous check access view **Click here (2)** 
+1. Select the **Access Control (IAM) (1)**, select **View my access (2)** to confirm the **Owner (3)** role has been added, then close the window by select the **X (4)** on the top-right corner of the window.
 
-    ![Picture 1](../Images/lab7-l10.png)
-
-1. Select **View my access (2)** to confirm the **Owner (3)** role has been added, then close the window by select the **X (4)** on the top-right corner of the window.
-
-   ![Picture 1](../Images/lab7-l11.png)
+   ![Picture 1](../Images/lab7-02-1.png)
 
 1. From the Access control page, select the **Roles (1)** tab on the top of the page.
 
@@ -127,39 +123,70 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 ## Task 3: Data connector to your instance of Microsoft Sentinel
 
 In this task you will walk through the steps involved in setting up a data connector to your instance of Microsoft Sentinel and selecting a built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source. 
-   >**Note**: Azure lab subscriptions may experience greater than normal delays in connecting to a data source and/or visualizing data.
+   
+   >**Note:** Azure lab subscriptions may experience greater than normal delays in connecting to a data source and/or visualizing data.
 
-1. On a new tab in the browser, go to **https://security.microsoft.com**.
+1. In the **Search resources, services, and docs** search for **Microsoft Sentinel (1)** then select **Microsoft Sentinel (2)** from the search results.
 
-    ![Picture 1](../Images/lab7-d.png)
+   ![Picture 1](../Images/lab7-02-2.png)
 
-1. You will be redirected to the Microsoft Defender portal home page.
+1. From the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>**.
 
-1.  In Microsoft Defender portal, in the left navigation pane, select **Microsoft Sentinel (1)**, expand **Content management (2)**, and select **Content hub (3)**. In the search bar, type **Microsoft Defender for Cloud**, then select the checkbox **Microsoft Defender for Cloud (4)** from the results.
+   ![Picture 1](../Images/lab7-02-3.png)
 
-    ![Picture 1](../Images/lab7-l17.png)
+1.  In Microsoft Sentinel page, in the left navigation pane, expand **Content management (2)**, and select **Content hub (3)**. In the search bar, type **Microsoft Defender for Cloud**, then select the checkbox **Microsoft Defender for Cloud (4)** from the results and click **Install (5)**.
 
-1. On **Microsoft Defender for Cloud** page click **Install**.
+    ![Picture 1](../Images/lab7-02-4.png)
 
-    ![Picture 1](../Images/lab7-l17.1.png)
+    >**Note:** You may need to select the "**>>**" at the far-right side of the window to see the information panel
 
-    >**Note**: You may need to select the "**>>**" at the far-right side of the window to see the information panel
+    >**Note:** If you see the message **This page has been moved to the Defender portal for the optimal, unified SecOps experience**, refresh the page and continue this lab in the Microsoft Azure portal, as the lab environment is configured for the Azure portal and the Microsoft Defender portal experience may take longer to load for this lab.
    
 1. Once again, select **Microsoft Defender for Cloud** from the list. From the window on the right, select **Manage**.
 
-   ![Picture 1](../Images/lab7-l18.png)
+   ![Picture 1](../Images/lab7-02-5.png)
 
-1. On **Microsoft Defender for Cloud** tab, Select the box next to where it says, **Detect CoreBackUp Deletion Activity from related security alerts (1)**. This brings up the Analytics Rules page. Again, select the **Detect CoreBackUp Deletion Activity from related security alerts** rule. A window that opens on the right, that provides information about the rule and what it does. Select **Create rule (2)**.
+1. On the **Microsoft Sentinel | Data connector** page , select **Subscription-based Microsoft Defender for Cloud (Legacy) (1)**. On the **Subscription-based Microsoft Defender for Cloud (Legacy)** window opens. Review the description then Select **Open connector page (2)**.
 
-    ![Picture 1](../Images/lab7-l21.png)
+    ![Picture 1](../Images/lab7-02-6.png)
 
-   >**Note**: You may need to zoom out a little in the browser window to see the Create rule option.
-   
+    >**Note**: You may need to select the "**>>**" at the far-right side of the window to see the information panel
+
+1. From the **Subscription-based Microsoft Defender for Cloud (Legacy)** connector page, review the Description on the left side of the window. 
+
+   ![Picture 1](../Images/lab7-02-7.png)
+
+1. The instructions tab in the main window, provides the prerequisites. Review the instructions and configuration information.
+
+1. From the configuration section, select listed subscription, select your **azure subscription (1)** so that a checkmark appears in a blue box and then select **Connect (2)** (the connect option is shown above the search box).
+
+   ![Picture 1](../Images/lab7-02-8.png)
+
+   >**Note:** If a Connect window appears, select **OK**.
+
+1. In the status column, next to the subscription you should see that status update to Connected. The connector is now enabled, although it may take some time for the connector to show up in the data connectors page.
+
+   ![Picture 1](../Images/lab7-02-9.png)
+
+1. Now view information about the analytics rule. From the top of the page (in the breadcrumb) select **Microsoft Defender for Cloud**. 
+
+    ![Picture 1](../Images/lab7-02-10.png)
+
+1. Select the **Detect CoreBackUp Deletion Activity from related security alerts (1)**. A window that opens on the right, that provides information about the rule and what it does. Select **Create rule (2)**.
+
+   ![Picture 1](../Images/lab7-02-11.png)
+
 1. Although the details of the rule logic are beyond the scope of the fundamentals, go through each tab in the rule creation to view the type of information that can be configured.
 
-1. When you reach the **Review + create** tab, select **Save**.
+1. When you reach the **Review + create (1)** tab, select **Save (2)**.
 
-    ![Picture 1](../Images/lab7-l22.png)
+   ![Picture 1](../Images/lab7-02-12.png)
+
+1. Return to the Sentinel page by selecting Microsoft Sentinel | Content hub from the bread-crumb at the top of the page
+
+   >**Note:** If you see the message **This page has been moved to the Defender portal for the optimal, unified SecOps experience**, refresh the page and continue this lab in the Microsoft Azure portal, as the lab environment is configured for the Azure portal and the Microsoft Defender portal experience may take longer to load for this lab.
+
+1. Keep this page open, as you'll use it in the next task.
 
 ## Task 4: Explore on capabilities available in Sentinel
 
@@ -167,35 +194,51 @@ In this task, you'll walk through some of the options available in Sentinel.
 
 1. From the left navigation panel, expand **Threat management (1)** and explore the options listed in threat management.
 
-1. Select **Hunting (2)**, then review the information provided in the **Hunts (Preview) (3)** tab.    
+1. Select **Incidents**, Although no incidents are found, review the **What is it?** section.    
 
-    ![Picture 1](../Images/lab7-l25.png)
+    ![Picture 1](../Images/lab7-02-13.png)
+
+    >**Note:** If you see the message **This page has been moved to the Defender portal for the optimal, unified SecOps experience**, Please refresh the page and continue this lab in the Microsoft Azure portal.
+
+1. Select **Hunting (1)**, then review the information provided in the **Hunts (Preview) (2)** tab.    
+
+    ![Picture 1](../Images/lab7-02-14.png)
+
+    >**Note:** If you see the message **This page has been moved to the Defender portal for the optimal, unified SecOps experience**, Please refresh the page and continue this lab in the Microsoft Azure portal.
 
 1. Select **Notebooks**, and review the **What is it?** section.
 
-    ![Picture 1](../Images/lab7-l26n.png) 
+     ![Picture 1](../Images/lab7-02-15.png)
 
-1. Select **Threat intelligence (1)**, click on **Open intel management (2)** and review the information on the page..    
+     >**Note:** If you see the message **This page has been moved to the Defender portal for the optimal, unified SecOps experience**, Please refresh the page and continue this lab in the Microsoft Azure portal.
 
-    ![Picture 1](../Images/lab7-l27.png) 
+1. Select **Threat intelligence** and review the information on the page.    
 
-    ![Picture 1](../Images/lab7-l28.png) 
-   
-1. From the left navigation panel, select **MITRE ATT&CK (Preview) (1)**. MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework. *Select any cell from the matrix* **(2)** and note the information available on the right side of the screen **(3)**.
+    ![Picture 1](../Images/lab7-02-16.png)
 
-   ![Picture 1](../Images/lab7-l29.png) 
+    >**Note:** If you see the message **This page has been moved to the Defender portal for the optimal, unified SecOps experience**, Please refresh the page and continue this lab in the Microsoft Azure portal.
 
-   >**Note:** You may need to select the "**>>**" at the far-right side of the window to see the information panel.
+1. From the left navigation panel, select **MITRE ATT&CK (Preview) (1)**. MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework. *Select any cell from the matrix* **(2)** and note the information available on the right side of the screen **(3)**. 
+
+    ![Picture 1](../Images/lab7-02-17.png)
+    
+    >**Note:** You may need to select the "**>>**" at the far-right side of the window to see the information panel.
+
+    >**Note:** If you see the message **This page has been moved to the Defender portal for the optimal, unified SecOps experience**, Please refresh the page and continue this lab in the Microsoft Azure portal.
 
 1. From the left navigation panel, expand **Content Management (1)**, then select **Community (2)**. The community page includes *Cybersecurity insights and updates from Microsoft Research, a link to a list of Microsoft Sentinel Blogs, a link to Microsoft Sentinel Forums, links the latest editions to the Microsoft Sentinel Hub, and more*. Explore this as well.
 
-    ![Picture 1](../Images/lab7-l30.png) 
+    ![Picture 1](../Images/lab7-02-18.png) 
 
-1. From the left navigation panel, select **Automation (2)** under **Configuration (1)**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create (3)** dropdown, and then select **Automation rule (4)**. Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel (5)** from the bottom of the screen.
+    >**Note:** If you see the message **This page has been moved to the Defender portal for the optimal, unified SecOps experience**, Please refresh the page and continue this lab in the Microsoft Azure portal.
+
+1. From the left navigation panel, select **Automation (2)** under **Configuration (1)**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create (3)** dropdown, and then select **Automation rule (4)**. Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
  
-    ![Picture 1](../Images/lab7-l31.png) 
+    ![Picture 1](../Images/lab7-02-19.png) 
 
-    ![Picture 1](../Images/lab7-l32.png) 
+    ![Picture 1](../Images/lab7-02-20.png) 
+
+    >**Note:** If you see the message **This page has been moved to the Defender portal for the optimal, unified SecOps experience**, Please refresh the page and continue this lab in the Microsoft Azure portal.
     
 ## Review
 In this lab, you have completed:
