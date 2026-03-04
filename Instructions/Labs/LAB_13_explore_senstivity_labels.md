@@ -52,7 +52,6 @@ In this task, you will gain an understanding of what sensitivity labels can do b
 
     ![](../Images/lab13-t1p4.png)
 
-
 1. In the left navigation panel of Microsoft Purview, go to **Solutions (1)**, select **Information Protection (2)**, and then choose **Sensitivity labels (3)**. On the Sensitivity labels page, click **Turn on now (4)** inside the yellow information box to enable processing of encrypted sensitivity labels in Office online files stored in OneDrive and SharePoint.
 
    > **Note**: There can be a delay for the setting to propagate through the system. Refresh the Page once.
@@ -79,23 +78,23 @@ In this task, you will gain an understanding of what sensitivity labels can do b
 
       ![](../Images/lab13-t1p11.png)
 
-1. On the Choose protection settings for labelled items page, check **Apply content marking (1)** options and then click **Next (2)**.
+1. On the **Choose protection settings for labelled items** page, check the box **Apply content marking (1)** options and then click **Next (2)**.
 
     ![](../Images/lab13-t1p12(1).png)
 
     >**Note:** The **Control access** option is not selected in this lab because it requires **Rights Management (Azure RMS / Microsoft Purview Information Protection)** to be enabled and fully configured in the organisation. Since RM services may not be activated in the newly created lab tenant, this option is intentionally skipped to avoid configuration or policy enforcement issues.
 
-1. On the content markings page, take note of the information box at the top of the page. **Turn on (1)** the Content Making and select **Add a watermark (2)**, **Add a header (3)**, & **Add a footer (4)**. Click on **Customize text (5),(6),(7)** on each and provide the text **customize watermark test** and click on **Save**.  Content markings will be applied to the documents, but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails. The content marking associated with this label is a watermark. Select **Next (8)** at the bottom of the page.
+1. On the **content markings** page, take note of the information box at the top of the page. **Turn on (1)** the Content Making and select **Add a watermark (2)**, **Add a header (3)**, & **Add a footer (4)**. Click on **Customize text (5),(6),(7)** on each and provide the text **customize watermark test** and click on **Save**.  Content markings will be applied to the documents, but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails. The content marking associated with this label is a watermark. Select **Next (8)** at the bottom of the page.
 
     ![](../Images/lab13-t1p15(1).png)
 
     ![](../Images/lab13-t1p15.png)
 
-1. You are now in the Auto-labelling for files and emails window. Turn on the **Auto-labeling for files and emails (1)** and read the description of auto-labeling on the top of the page and the information box below it. Select **Next (2)** at the bottom of the page.
+1. You are now in the **Auto-labelling for files and emails** window. Turn on the **Auto-labeling for files and emails (1)** and read the description of auto-labeling on the top of the page and the information box below it. Select **Next (2)** at the bottom of the page.
 
     ![](../Images/lab13-t1p16.png)
 
-1. This next window defines protection settings for groups and sites that have this label applied. This is not enabled, select **Next** at the bottom of the page.
+1. This next window **Defines protection settings for groups and sites** that have this label applied. This is not enabled, select **Next** at the bottom of the page.
 
     ![](../Images/lab13-t1p17.png)
       
@@ -115,7 +114,7 @@ In this task, you will gain an understanding of what sensitivity labels can do b
 
      ![](../Images/lab13-t1p21.png)
      
-1. Under the Sensitivity labels to publish.  Don’t change any settings.  Select **Next** on the bottom of the page.
+1. Under the **Sensitivity labels to publish**, do not change any settings.  Select **Next** on the bottom of the page.
 
      ![](../Images/sc-900-jap23.png)
      
@@ -123,27 +122,27 @@ In this task, you will gain an understanding of what sensitivity labels can do b
 
      ![](../Images/sc-900-jap24.png)   
 
-1. Read the description under **Publish to users and groups**.  Notice that this label is available to all users.  Don’t change any settings.  Select **Next** at the bottom of the page.
+1. Read the description under **Publish to users and groups**.  Notice that this label is available to all users. Do not change any settings.  Select **Next** at the bottom of the page.
 
     ![](../Images/sc-900-jap25.png)
 
-1. Under the policy settings.  Don’t change any settings.  Select **Next** at the bottom of the page.
+1. Under the **policy settings**, do not change any settings.  Select **Next** at the bottom of the page.
 
     ![](../Images/sc-900-jap26.png)
 
-1. Under the **Apply a default label to documents**.  Don’t change any settings.  Select **Next** at the bottom of the page.
+1. Under the **Apply a default label to documents**, do not change any settings.  Select **Next** at the bottom of the page.
 
     ![](../Images/sc-89.png)
 
-1. Under the **Apply a default label to emails**.  Don’t change any settings.  Select **Next** at the bottom of the page.
+1. Under the **Apply a default label to emails**, do not change any settings.  Select **Next** at the bottom of the page.
 
     ![](../Images/sc-90.png)
     
-1. Under the **Apply a default label to meetings and calendar events**.  Don’t change any settings.  Select **Next** at the bottom of the page.    
+1. Under the **Apply a default label to meetings and calendar events**, do not change any settings.  Select **Next** at the bottom of the page.    
 
     ![](../Images/sc-91.png)
     
-1. Under the **Apply a default label to Fabric and Power BI content**.  Don’t change any settings.  Select **Next** at the bottom of the page.
+1. Under the **Apply a default label to Fabric and Power BI content**, do not change any settings.  Select **Next** at the bottom of the page.
 
     ![](../Images/sc-92.png)
     
@@ -171,6 +170,10 @@ In this task, you will gain an understanding of what sensitivity labels can do b
 
       ![](../Images/lab13-t1p22.png)
 
+1. In the **What type of auto labeling policy do you want to create?** pop-up, select **Automatically apply labels only**.
+
+      ![](../Images/L13T1S36.png)
+
 1. Note the available options. Select **Medical and health (1)** then select one of the available templates **(2)**. Select **Next (3)**.  
 
       ![](../Images/sc-96.png)
@@ -191,7 +194,7 @@ In this task, you will gain an understanding of what sensitivity labels can do b
 
       ![](../Images/lab13-t1p25.png)   
 
-1. You can **Set up common or advanced rules** that define what the content the label is applied to. Leave the default set to Common rules and select **Next**.
+1. You can **Set up common or advanced rules** that define what the content the label is applied to. Leave the default set to **Common rules** and select **Next**.
 
       ![](../Images/lab13-t1p26.png)   
 
