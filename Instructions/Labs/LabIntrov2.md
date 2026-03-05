@@ -34,19 +34,13 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
 You can use the **Progress** tab to track your progress while working on the lab. A score will be provided after successful validation.
 
-![](../images/gs-progtab.png)
+![](../Images/gs-progtab.png)
 
 ## Managing Your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](../Images/gs-resourcetab.png)
-
-## Lab Validation
-
-1. After completing the task, hit the **Validate** button under the Validation tab integrated within your lab guide. If you receive a success message, you can proceed to the next task; if not, carefully read the error message and retry the step, following the instructions in the lab guide.
-
-   ![Inline Validation](../Images/new-get-start-25-5.png)
    
 ## Lab Duration Extension
 
@@ -86,11 +80,8 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](../Images/Sign-in-no.png)
 
-> **Note:** If you're prompted to set up Multi-Factor Authentication (MFA), please proceed with the next step. Otherwise, you can skip the MFA setup and continue with the remaining steps in the exercise.
-
 5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
  
-
 ## Support Contact
 
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
