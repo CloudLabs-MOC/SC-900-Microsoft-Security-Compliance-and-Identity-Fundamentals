@@ -41,7 +41,13 @@ You can use the **Progress** tab to track your progress while working on the lab
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](../Images/gs-resourcetab.png)
-   
+
+## Lab Validation
+
+After completing the task, hit the **Validate** button under the Validation tab integrated within your lab guide. If you receive a success message, you can proceed to the next task; if not, carefully read the error message and retry the step, following the instructions in the lab guide.
+
+   ![Inline Validation](../Images/new-get-start-25-5.png)
+
 ## Lab Duration Extension
 
 1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
