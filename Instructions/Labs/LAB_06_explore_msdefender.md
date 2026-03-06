@@ -1,4 +1,4 @@
-# Lab 06: Explore Microsoft Defender for Cloud (Ready-only)
+# Lab 06: Explore Microsoft Defender for Cloud (Read-only)
 
 ## Lab Overview
 
