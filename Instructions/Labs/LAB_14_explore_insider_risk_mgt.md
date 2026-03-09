@@ -35,7 +35,7 @@ In this task, you, as the global administrator, will enable permissions for Insi
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-    ![](../Images/lab13-t1p1.png)
+    ![](../Images/lab14-03-1.png)
 
 1. Under **Admin centers**, select **Microsoft Purview**.
 
@@ -75,7 +75,7 @@ In this task, you, as the global administrator, will enable permissions for Insi
 
 1. From the bottom of the Insider Risk Management page, select **Done**.
 
-    ![](../Images/L14T1S12upd.png)
+    ![](../Images/lab14-03-2.png)
 
 1. Please keep this tab open, as we will use it for upcoming tasks.
 
@@ -93,7 +93,7 @@ Insider risk management uses Microsoft 365 audit logs for user insights and acti
 
 1. When the pop-up appears, click **Yes**.
 
-   ![](../Images/sc-900-dec24-lab14-4.png)
+   ![](../Images/lab14-03-3.png)
 
 1. Return to the home page of the Microsoft 365 compliance center by selecting **Home** from the left navigation panel.
 
@@ -111,10 +111,10 @@ In this task, you will walk through the settings associated with the Insider Ris
       ![](../Images/lab14-t2p2.png)
     
    ii. **Policy indicators:** Once a policy triggering event occurs, activities that map to the selected indicators are used in determining the risk score for the user. 
-      Policy indicators selected here include the Insider risk policy templates.  Scroll to view all the indicators available and any associated information. Under 
+      Policy indicators selected here include the Insider risk policy templates.  Scroll to view all the indicators available and any associated information. Expand 
       **Office indicators**, select **Select all (1)**, scroll down and then select **Save (2)**.
 
-      ![](../Images/lab14-t2p3.png)
+      ![](../Images/lab14-03-4.png)
 
       ![](../Images/lab14-t2p3(1).png)
    
@@ -146,9 +146,9 @@ In this task, you will walk through the creation of a policy.
 
     ![](../Images/lab14-t3p1.png)
 
-1. **Policy template:**  From the list of categories, select **Data leaks**. Read the details associated with this template, then select **Next**.
+1. **Policy template:**  From the list of categories, select **Data leaks (1)**. Read the details associated with this template, then select **Next (2)**.
 
-    ![](../Images/sc-900-lab14-T3-8upd.png)
+    ![](../Images/lab14-03-5.png)
     
 1. **Name and description:**  enter a name, **SC900-InsiderRiskPolicy (1)**, then select **Next (2)**.
 
@@ -158,7 +158,7 @@ In this task, you will walk through the creation of a policy.
 
     ![](../Images/lab14-t3p3.png)
 
-1. **Exclude users and groups (optional) (preview):** Here, we can choose users and groups to exclude from this policy. For now, we will skip this and click **Next**.
+1. **Exclude users and groups (optional):** Here, we can choose users and groups to exclude from this policy. For now, we will skip this and click **Next**.
 
     ![](../Images/lab14-t3p4.png)
 
@@ -168,13 +168,13 @@ In this task, you will walk through the creation of a policy.
                
 1. **Triggers:** Review the detailed information. The policy is triggered by either the user performing an exfiltration activity as defined (select the information icons for each bullet point for more detailed information) OR a match to an existing Data Loss Prevention (DLP) policy.  Since you don’t have any DLP policy configured as part of this exercise, select **User performs an exfiltration activity**.  Scroll down to see what is automatically selected.  Note that the policy indicators you enabled in the previous task are checked.   Recall that these indicators will only be activated once the policy is triggered, and any activities that map to these indicators will be used in calculating a risk score for the user.  In addition, Sequence detection is enabled.  If a sequence of activities, as defined, is detected, then it suggests greater risk.  Select the information icon for detailed information on which indicators are required.  This selection requires that certain indicators be selected and that devices be onboarded. Scroll down and leave the defaults and click **Next**
 
-   ![](../Images/sc-900-dec24-lab14-7.png)
+   ![](../Images/lab14-03-6.png)
 
    >**Note:** If you don't see the indicators, Click on **Turn on indicators** and **Turn on all indicators** then click on **Save**. 
         
 1. **Triggering Thresholds:** Here, you can specify default or custom thresholds associated with the indicators.  Recall that  the indicators are activated only after the policy trigger occurs, so these thresholds do not influence when the policy is triggered. Select **Choose your own thresholds (1)**. By selecting this option, you can see the current default values. Leave the defaults and select **Next (2)**.
 
-    ![](../Images/sc-900-dec24-lab14-8.png)
+    ![](../Images/lab14-03-7.png)
     
 1. **Indicators:** Expand **Office indicators**. Note how the Office indicators area is already selected; this is based on the settings from the previous task. You can deselect some selected indicators or add new ones by selecting Choose indicators. For this exercise, leave the current settings as and select **Next**.  
 
@@ -201,6 +201,8 @@ In this task, you will walk through the creation of a policy.
     ![](../Images/lab14-t3p10.png)
 
     ![](../Images/lab14-t3p11.png)
+
+    > **Note:** It can take up to **24 hours** for the users to appear on the **Users** tab.
 
 ## Review
 

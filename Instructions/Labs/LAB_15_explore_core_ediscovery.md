@@ -75,7 +75,7 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-    ![](../Images/lab12-l1.png)
+    ![](../Images/lab14-03-1.png)
 
 1. Under Admin centers, select **Microsoft Purview**.  A new browser page opens to the welcome page of the Microsoft Purview portal. 
 
@@ -131,15 +131,19 @@ In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 
 1. You should still be on the compliance portal roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **https://purview.microsoft.com/** to get to the Microsoft Purview portal.
 
-1. From the left navigation panel, under **Solutions (1)**, expand **eDiscovery** then select **Cases (2)** click on **Create case (3)**. If you select the down arrow you will open the window to create a search and in the process of creating a search will create a case.
+1. From the left navigation pane, select **Solutions (1)**, then select **eDiscovery (2)**.
 
-     ![Picture 1](../Images/lab15-l10.png)
+     ![Picture 1](../Images/lab15-03-1.png)
+
+1. On the **eDiscovery** page, select **Cases (1)**, then select **Create case (2)**. If you select the down arrow you will open the window to create a search and in the process of creating a search will create a case.
+
+     ![Picture 1](../Images/lab15-03-2.png)
    
 1. In the New case window, enter a Case name, **SC900 Test Case (1)** then select the **Create (2)** at the bottom of the page.
 
      ![Picture 1](../Images/lab15-l11.png)
 
-1. The case should now appear on the list.
+1. On the case details page, select Cases from the top navigation to return to the Cases page where case should now appear on the list.
 
     ![Picture 1](../Images/lab15-l12.png)
 
@@ -176,6 +180,8 @@ With a case created, you can begin to work with the case. This includes creating
      ![Picture 1](../Images/lab15-l18.png)
 
      ![Picture 1](../Images/search.png)
+
+     > **Note:** The query may take **2–3 minutes** to complete and display the search results.
 
 1. With query results returned in the form of statistics, you can export results. Select **Export (1)** to vew available options then select **Cancel (2)**.
 
