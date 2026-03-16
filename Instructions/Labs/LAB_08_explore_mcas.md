@@ -214,11 +214,11 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
    ![Picture 1](../Images/lab08-t1p15.png)
    
-1. From the Microsoft Azure pop-up window, select **Connect Microsoft 365** then select **Done**.
+1. In the Select Microsoft 365 components pop-up window, first uncheck all the selected boxes **(1)**. Then select **Connect Microsoft 365 (2)** and click **Done (3)**.
 
-    ![Picture 1](../Images/Asc-900-image25.png)
+    ![Picture 1](../Images/sc-54(16).png)
 
-    ![Picture 1](../Images/Asc-900-image26.png)
+    ![Picture 1](../Images/sc-54(17).png)
 
 1. You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities. 
     
