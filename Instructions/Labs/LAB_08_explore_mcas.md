@@ -64,19 +64,19 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
 1. Under the **Report Details** tab, enter the following details.
 
-   - **Report name**: Enter **snapshot (1)**
+   - **Report name**: Enter **snapshot<inject key="DeploymentID"></inject> (1)**
 
    - **Description**: Enter **Creating a cloud Discovery snapshots (2)**
    
-   - **source**: Choose **Blue Coat ProxySG - Access log (W3C) (3)** from the drop-down to upload the log files. 
+   - **Source**: Choose **Blue Coat ProxySG - Access log (W3C) (3)** from the drop-down to upload the log files. 
    
    - Click on **View log format (4)**
    
-   - **Download sample log (5)** and then click on **Next**.
+   - **Download sample log (5)** and then click on **Next (6)**.
  
-     ![Picture 1](../Images/sc-49.png)
+     ![Picture 1](../Images/sc-54(3).png)
  
-1. Under **Upload Traffic Logs** tab, click on **browse (1)** and upload the log file which you downloaded **(2)**. Click **Upload logs > (3)**.
+1. Under **Upload Traffic Logs** tab, click on **Browse... (1)** and upload the log file which you downloaded **(2)**. Click **Upload logs > (3)**.
 
       ![Picture 1](../Images/Asc-900-image20.png)
 
@@ -88,7 +88,7 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
 1. Click on **Processing**.
 
-      ![Picture 1](../Images/lab08-t1p6.png)
+      ![Picture 1](../Images/sc-54(13).png)
 
 1. If you encounter an error, **All discovered cloud-related transactions are more than 90 days**. Follow the subpoints below, else proceed with the next step.
 
@@ -120,7 +120,11 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
     - Before proceeding to the next step, please delete the failed snapshots that you have created earlier. Click on the vertical **ellipsis (⋮) (1)** and then select **Delete (2)**.
 
-        ![Picture 1](../Images/lab08-t1p8.png)
+        ![Picture 1](../Images/sc-54(14).png)
+
+    - On the **Confirm delete** dialog, click on **Delete report**.
+
+        ![](../Images/sc-54(1).png)
     
     - On the **Cloud apps** page, Under **Cloud Discovery**, select **Snapshot Reports (1)**, and click **+ Create Snapshot Report (2)**.
 
@@ -128,9 +132,11 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
     - Under **Report Details** tab, Enter a **Report name** and a **Description**.
 
-    - Under the **Upload Traffic Logs** Tab, click on **browse** and upload the extracted log file that you modified. Click **Upload logs >**.
+    - Under the **Upload Traffic Logs** Tab, click on **Browse...** and upload the extracted log file that you modified. Click **Upload logs >**.
 
-    - After the upload completes, click on the **snapshot reports** link on the **Create new Cloud Discovery snapshot report** page.
+        ![](../Images/sc-54(2).png)
+
+    - After the upload completes, click on the **Snapshot reports** link on the **Create new Cloud Discovery snapshot report** page.
 
     - Click on **Progressing**, and this time you should not encounter the error **All discovered cloud related transactions are more than 90 days**. You should get the result like the screenshot.
 
@@ -294,7 +300,7 @@ In this task, you will explore Cloud Apps policies, review existing policies and
  
      ![Picture 1](../Images/lab08-t4p1.png)
      
-     ![Picture 1](../Images/L8T4S2.2-2412.png)
+     ![Picture 1](../Images/sc-54(4).png)
      
     >**Note**: You can also have the option to export policy information.
 
