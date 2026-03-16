@@ -213,6 +213,10 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 1. From the left side of the screen, under **Connected apps**, select **App Connectors (1)**. Now you'll set up a new app connector.  Select **+ Connect an app (2)** and from the drop-down list select **Microsoft 365 (3)**.
 
    ![Picture 1](../Images/lab08-t1p15.png)
+
+   >**Note:** If **Microsoft 365** or **Microsoft Azure** connectors already appear in the App Connectors list with the status Connected, they were preconfigured in the lab environment. In this case, skip the connector creation steps and only verify that both connectors are present and show Connected before continuing.
+
+    ![](../Images/sc-54(18).png)
    
 1. In the Select Microsoft 365 components pop-up window, first uncheck all the selected boxes **(1)**. Then select **Connect Microsoft 365 (2)** and click **Done (3)**.
 
