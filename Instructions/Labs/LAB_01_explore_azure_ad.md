@@ -14,7 +14,7 @@ In this lab, you will complete the following tasks:
 + Task 3: Create a new user in the Microsoft Entra ID and explore some of the services
 + Task 4: Sign in to the user first time
 
-## Estimated timing: 30 minutes
+## Estimated timing: 30 Minutes
 
 ## Architecture diagram
 
@@ -113,6 +113,8 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 1. In the **Assignments** tab :
 
     - Click **+ Add Group**, this displays the available groups.  Notice the list of available groups.
+
+        ![](../Images/sc56.png)
 
     - Select **Operations (1)**, you may need to scroll down, then press **Select (2)**. Notice how the text next to groups has been updated to reflect 1 group selected.  
 
