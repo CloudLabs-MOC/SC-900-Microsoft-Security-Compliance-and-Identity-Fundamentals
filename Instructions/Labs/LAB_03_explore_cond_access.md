@@ -147,7 +147,7 @@ In this task, you will see the impact of the conditional access policy, from the
     
     1. In the Sign in window enter **debrab@xxxxxx.onmicrosoft.com** (where xxxxxx can be found in the Environment Details Tab in the Lab Guide section) then select **Next**.
     
-    1. Enter the password you noted in the earlier task. Select **Sign in**.
+    1. On the Enter Temporary Access Pass page, select Use your password instead,Enter the password you noted in the earlier task. Select **Sign in**.
     
     1. Since the password provided when you, as the admin, reset the password is temporary you need to update your password.  Enter the current password, then for the new password and confirm password fields enter **SC900-Lab** and select **Sign in**.
     
