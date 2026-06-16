@@ -68,7 +68,7 @@ In this task, you, as the admin, will assign Diego Microsoft Entra role in Privi
 
    ![](../Images/lab4-06-l1.png)
 
-1. You're now in the **Roles** page.  In the search bar, on the top of the page, enter **user**.  From the search results, select **User Administrator**.
+1. You're now in the **Roles (1)** page.  In the search bar, on the top of the page, enter **user (2)**.  From the search results, select **User Administrator (3)**.
 
    ![](../Images/Asc-900-image65.png)
 
@@ -128,13 +128,13 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 
 1. Sign in as Diego Siciliani.
     
-    - In the Sign in window enter **<inject key="User 02 UPN"></inject>** (user email id of the Diego Siciliani) then select **Next**.
+     - In the Sign in window enter **<inject key="User 02 UPN"></inject>** (user email id of the Diego Siciliani) then select **Next**.
     
-    - On the **Enter Temporary Access Pass** page, select **Use your password instead**, enter the temporary password provided in the previous task, and then select **Sign in**.
+     - On the **Enter Temporary Access Pass** page, select **Use your password instead**, enter the temporary password provided in the previous task, and then select **Sign in**.
     
-    - Since the password you entered was only a temporary password you need to update it now. Enter the current password. For the new password and confirm password fields enter **SC900-Lab** and select **Sign in**
+     - Since the password you entered was only a temporary password you need to update it now. Enter the current password. For the new password and confirm password fields enter **SC900-Lab** and select **Sign in**
     
-    - If prompted, enter the provided Temporary Access Pass **<inject key="User 02 UPN"></inject>** and complete the sign-in process.
+     - If prompted, enter the provided Temporary Access Pass **<inject key="User 02 Password"></inject>** and complete the sign-in process.
 
         ![](../Images/lab4-06-l4.png)
    
@@ -172,14 +172,14 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 
 1. You will be navigated to New Group tab, provide the name of the group as **Mark 8 Project Team** and select **Create (5)** keeping rest of the settings as default.
 
-    | Setting | Value |
-    | --- | --- |
-    | Group type | **Security (1)** |
-    | Group name | **Mark 8 Project Team (2)** |
-    | Group description | Provide group description as per your need |
-    | Membership type | **Assigned (4)** |
+     | Setting | Value |
+     | --- | --- |
+     | Group type | **Security (1)** |
+     | Group name | **Mark 8 Project Team (2)** |
+     | Group description | Provide group description as per your need |
+     | Membership type | **Assigned (4)** |
 
-     ![](../Images/Asc-900-image72.png)
+      ![](../Images/Asc-900-image72.png)
 
 1. From the left navigation panel, expand **Entra ID**, then select **Users**, and go to **All users**.
 
@@ -195,7 +195,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 
 1. On the Groups page, notice that the **Mark 8 Project Team group** has been added to the list (if you don't immediately see it in list, select the **Refresh** button).
 
-    ![](../Images/lab4-06-l9.png)
+     ![](../Images/lab4-06-l9.png)
 
 1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then close all the browser windows.
 
