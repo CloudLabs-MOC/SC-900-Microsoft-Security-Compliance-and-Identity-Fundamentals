@@ -18,7 +18,7 @@ In this lab, you will complete the following tasks:
 
 ![](../Images/sc900lab3.png)
 
-## Task 1:  Reset the password for the user
+## Task 1: Reset the password for the user
 
 In this task, you, as the admin, will reset the password for the user Debra Berger.  This step is needed so you can initially sign in as the user in subsequent tasks.
 
@@ -81,8 +81,9 @@ In this task, you will go through the process of creating a conditional access p
 
     ![](../Images/lab3-06-l2.png)
    
-    >**Note**: If you see a message at the bottom "It looks like you're about to manage your organization's security configurations. That's great! You must first disable security defaults before enabling a Conditional Access policy", click on **Disable security defaults**, and select **Disabled** from the drop down menu. Select any of the reason listed and click on **Save** and then **Disable**.
-    > ![](../Images/disable-security-defaults.png)
+    > **Note:** If you see a message at the bottom "It looks like you're about to manage your organization's security configurations. That's great! You must first disable security defaults before enabling a Conditional Access policy", click on **Disable security defaults**, and select **Disabled** from the drop down menu. Select any of the reason listed and click on **Save** and then **Disable**.
+    
+    ![](../Images/disable-security-defaults.png)
 
 1. Enter the following details:
 
