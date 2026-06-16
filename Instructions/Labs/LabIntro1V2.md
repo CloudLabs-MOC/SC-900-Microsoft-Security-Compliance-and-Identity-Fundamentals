@@ -70,47 +70,21 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 2. You'll see the **Sign in to continue to Microsoft Azure** tab. Here, enter your credentials and click on **Next**:
  
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Email/Username:** **<inject key="AzureAdUserEmail"></inject>**
  
      ![Enter Your Username](../Images/sign-in-page.png)
  
-3. Next, provide your password and click on **Sign in**:
+   - **Password:** **<inject key="AzureAdUserPassword"></inject>**
  
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
-   
-   > **Note:** If you're asked to enter a Temporary Access Pass instead of a Password when signing in to the Azure portal, don't worry, it refers to the same credential. You can find it under the **Environment Details** tab.
- 
-     ![Enter Your Password](../Images/tap-password.png)
+      ![Enter Your Password](../Images/tap-password.png)
 
-4. If you see the pop-up **Stay-Signed in?**, click **No**.
+4. If you see the pop-up **Stay-Signed in?**, click **YNO**.
 
    ![](../Images/Sign-in-no.png)
-
-> **Note:** If you're prompted to set up Multi-Factor Authentication (MFA), please proceed with the next step. Otherwise, you can skip the MFA setup and continue with the remaining steps in the exercise.
-
-## Steps to Proceed with MFA Setup if "Ask Later" Option is Not Visible
-
-1. At the **"More information required"** prompt, select **Next**.
-
-1. On the **"Keep your account secure"** page, select **Next** twice.
-
-1. **Note:** If you don’t have the Microsoft Authenticator app installed on your mobile device:
-   - Open **Google Play Store** (Android) or **App Store** (iOS).
-   - Search for **Microsoft Authenticator** and tap **Install**.
-   - Open the **Microsoft Authenticator** app, select **Add account**, then choose **Work or school account**.
-
-1. A **QR code** will be displayed on your computer screen.
-
-1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
-
-1. After scanning, click **Next** to proceed.
-
-1. On your phone, enter the number shown on your computer screen in the Authenticator app and select **Next**.
-       
-1. If prompted to stay signed in, you can click "No."
  
-1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
- 
+1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Maybe Later** to skip the tour.
+
+   ![](../Images/maybe-later.png)
 
 ## Support Contact
 
