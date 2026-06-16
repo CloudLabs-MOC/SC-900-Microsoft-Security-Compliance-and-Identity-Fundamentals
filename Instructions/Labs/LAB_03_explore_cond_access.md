@@ -12,13 +12,13 @@ In this lab, you will complete the following tasks:
 - Task 2: Process of creating a conditional access policy in Microsoft Entra ID
 - Task 3: Impact of the conditional access policy
 
-## Estimated timing: 30 minutes
+## Estimated timing: 30 Minutes
 
 ## Architecture diagram
 
 ![](../Images/sc900lab3.png)
 
-## Task 1:  Reset the password for the user
+## Task 1: Reset the password for the user
 
 In this task, you, as the admin, will reset the password for the user Debra Berger.  This step is needed so you can initially sign in as the user in subsequent tasks.
 
@@ -34,13 +34,13 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
    
    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-     ![Enter Your Password](../Images/sc900-image-2.png)
+     ![Enter Your Password](../Images/tap-password.png)
 
 1. On the **Stay signed in ?** select **No**.   
 
-1. From the left navigation pane, expand **Identity**, expand **Users**, then select **All users**.
+1. From the left navigation pane, expand **Entra ID (1)**, expand **Users (2)**, then select **All users**.
 
-     ![](../Images/Asc-900-image1.png)
+     ![](../Images/lab3-06-l1.png)
 
 1. Select **Debra Berger** from the list of users.
 
@@ -79,18 +79,19 @@ In this task, you will go through the process of creating a conditional access p
 
 1.  From the left navigation panel, select **Policies (1)**. Select **+ New policy (2)**.
 
-    ![](../Images/sc-900-dec24-lab3-3.png)
+    ![](../Images/lab3-06-l2.png)
    
-    >**Note**: If you see a message at the bottom "It looks like you're about to manage your organization's security configurations. That's great! You must first disable security defaults before enabling a Conditional Access policy", click on **Disable security defaults**, and select **Disabled** from the drop down menu. Select any of the reason listed and click on **Save** and then **Disable**.
-    > ![](../Images/disable-security-defaults.png)
+    > **Note:** If you see a message at the bottom "It looks like you're about to manage your organization's security configurations. That's great! You must first disable security defaults before enabling a Conditional Access policy", click on **Disable security defaults**, and select **Disabled** from the drop down menu. Select any of the reason listed and click on **Save** and then **Disable**.
+    
+    ![](../Images/disable-security-defaults.png)
 
 1. Enter the following details:
 
     - In the Name field, enter **Block admin portals** **(1)**.
 
-    - Under Users or agents(Preview), select **0 users and groups selected** **(2)**.
+    - Under Users or agents(Preview), select **0 users and agents selected** **(2)**.
 
-      ![](../Images/sc-900-jan-17-lab-3-2.png)
+      ![](../Images/lab3-06-l3.png)
 
 1. Enter the following details:
 
@@ -98,7 +99,7 @@ In this task, you will go through the process of creating a conditional access p
 
     - Select the option for **Select users and groups (2)** and select **Users and groups (3)**.  The window to select users and groups opens.
 
-      ![](../Images/sc-900-jan-17-lab-3-3.png)
+      ![](../Images/lab3-06-l4.png)
    
 1. In the Search bar, enter **Debra (1)**.  Select **Debra Berger (2)** from beneath the search bar, then press the **Select (3)** button on the bottom of the page.  Note, a common practice is to assign the policy to users in a group.  For the purpose of expediency with this lab, we will assign the policy to a specific user. 
 
@@ -106,7 +107,7 @@ In this task, you will go through the process of creating a conditional access p
 
 1. Under **Target resources**, select **No target resources are selected (1)**. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure **Resources (formerly Cloud apps) (2)** is highlighted and **Include** is selected (underlined), then select **Select resources (3)**.  under **Select** click on **None (4)**, then the window to Select Resources opens.
 
-     ![](../Images/sc-900-jan-17-lab-3-5.png)
+     ![](../Images/lab3-06-l6.png)
    
 1. In the search bar, Type/Search and select **Microsoft admin portals (1)**, then press **Select (2)** at the bottom of the page.  Notice the warning.  
     
@@ -116,7 +117,7 @@ In this task, you will go through the process of creating a conditional access p
    
     ![](../Images/Asc-900-image10.png)
 
-    ![](../Images/sc-900-jan-17-lab-3-7.png)
+    ![](../Images/lab3-06-l10.png)
 
 1. Under Conditions, select **1 conditions selected**. Notice the different options you can configure. Through the policy, you can control user access based on signals from conditions including: user risk, sign-in risk, device platform, location, client apps, or filter for devices. Explore these configurable options, but do not set any conditions.
 
@@ -143,9 +144,15 @@ In this task, you will see the impact of the conditional access policy, from the
 1. Open Microsoft Edge.  In the address bar of the browser, enter **https://login.microsoftonline.com/**.
 
 1. Sign in as Debra Burger,
+    
     1. In the Sign in window enter **debrab@xxxxxx.onmicrosoft.com** (where xxxxxx can be found in the Environment Details Tab in the Lab Guide section) then select **Next**.
-    1. Enter the password you noted in the earlier task. Select **Sign in**.
+    
+    1. On the Enter Temporary Access Pass page, select Use your password instead,Enter the password you noted in the earlier task. Select **Sign in**.
+    
     1. Since the password provided when you, as the admin, reset the password is temporary you need to update your password.  Enter the current password, then for the new password and confirm password fields enter **SC900-Lab** and select **Sign in**.
+    
+       ![](../Images/lab3-06-l11.png)
+
     1. When prompted to stay signed- in, select **Yes**
 
 1. You should be successfully logged in to your Microsoft 365 account. 
