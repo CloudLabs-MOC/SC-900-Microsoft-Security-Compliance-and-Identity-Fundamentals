@@ -15,7 +15,7 @@ In this lab, you will complete the following tasks:
 + Task 4: Process of resetting your password
 + Task 5: View the Audit logs and the Usage & insights data associated with password reset.
 
-## Estimated timing: 30 minutes
+## Estimated timing: 30 Minutes
 
 ## Architecture diagram
 
@@ -63,7 +63,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
      ![](../Images/sc--21.png)   
  
-1. From the top of the page, select **+ Add members**.
+1. On the **SSPRSecurityGroupUsres** page, under the manage select **Members (1)**, then select **+ Add members (2)**.
 
    ![](../Images/sc22.png) 
 
@@ -71,11 +71,11 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/choose-members2.png)
    
-1. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen,
+1. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen.
 
-1. From the left navigation panel select **Users** under **Entra ID**.
-  
-1. Select **Adele Vance** from the list of users.
+1. From the left navigation panel select **Users (1)** under **Entra ID**, select **Adele Vance (2)** from the list of users.
+
+   ![](../Images/SC-234.png)
 
 1. Select **Reset password (1)** from the top of the page. Since you have not previously signed in as **Adele Vance**, you will need to reset the password
 
@@ -208,6 +208,10 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
 1. Sign in as **Adele Vance**, by entering your email **Adele@xxxx.onmicrosoft.com** (user email id of Adel Vance) and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for **Adele Vance**.
 
+1. From the Enter **Temporary Access Pass** window, select **Use your password instead**.
+
+   ![](../Images/instead-pass.png) 
+
 1. From the Enter password window, select **Forgot my password**.
 
    ![](../Images/forget-pass-0.png)   
@@ -219,6 +223,8 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 1. The screen shows Get back into your account and shows *Verification step 1 > choose a new password*. Leave the default setting **Text my mobile phone**.  *Initially your prompted to enter your phone number, enter then click on* **Text**. After that you are prompted to enter the code sent to your mobile phone number.  Once you have entered it, select the **Next** button.
    
    ![](../Images/forget-pass-1.png)
+
+   ![](../Images/forget-pass-20.png)
 
 1. In the next screen you are prompted to enter the new password and confirm the new password.  Enter those now and select the **Finish** button.
 
@@ -244,7 +250,7 @@ In this task, you, as the administrator, will briefly view the Audit logs and th
 
 1. Open Microsoft Edge.
 
-1. In the address bar enter and sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
+1. In the address bar enter and sign in to the Azure portal at **[entra.microsoft.com](https://entra.microsoft.com)** with the Azure credentials.
 
      * Email/Username: <inject key="AzureAdUserEmail"></inject>
 

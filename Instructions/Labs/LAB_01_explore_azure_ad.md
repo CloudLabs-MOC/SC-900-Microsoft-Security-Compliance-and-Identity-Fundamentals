@@ -150,7 +150,7 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
      ![](../Images/T3-S12a.png)
     
-1. From the left navigation panel, under **users (1)**, select **Active users (2)**.
+1. From the left navigation panel, under **Users (1)**, select **Active users (2)**.
 
      ![](../Images/T3-S13.png)
 
@@ -204,9 +204,38 @@ In this task, you will sign in as Sara Perez, for the first time.
    >**Note** : As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
 
      ![](../Images/sc900-image20.png)
-       
-1. If prompted to stay signed in, you can click **No.**
- 
+
+1. Since this is the first time you are logging in as Sara Perez, you may be prompted to setup MFA. Follow the prompts on the screen to setup MFA.
+
+1. In **android**, go to the play store and Search for **Microsoft Authenticator** and Tap on **Install**. 
+
+   ![](../Images/mfa1.png)
+
+   > **Note:** For IOS, Open the app store and repeat the steps.
+
+   > **Note:** Skip if already installed.
+
+1. On **Set up your account in app**, click **Next**.
+
+    ![](../Images/mfa2.png)
+
+1. Scan the QR code visible on the screen and click on **Next**.
+
+   ![QR code](../Images/mfa3.png)
+
+1. Enter the digit displayed on the Screen in the Authenticator app on mobile and tap on **Yes**.
+
+    ![QR code](../Images/mfa4.png)
+
+1. Once the notification is approved, click on **Next**.
+
+1. Click on **Done**.
+
+    ![](../Images/mfa5.png)
+
+1. If prompted to stay signed in, you can click **"No"**.
+
+
 1. You should now be successfully signed in to **Microsoft 365**.
 
      ![](../Images/sc18.png)
