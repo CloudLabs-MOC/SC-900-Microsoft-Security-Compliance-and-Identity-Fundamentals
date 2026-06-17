@@ -235,7 +235,6 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 1. If prompted to stay signed in, you can click **"No"**.
 
-
 1. You should now be successfully signed in to **Microsoft 365**.
 
      ![](../Images/sc18.png)
