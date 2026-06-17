@@ -113,7 +113,7 @@ In this task, you, as the admin, will assign Diego Microsoft Entra role in Privi
  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
  > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
+ > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
  <validation step="3bf29fd2-7b87-4aad-bd94-71ff0483cd5f" />  
 
@@ -204,7 +204,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  > - Hit the Validate button for the corresponding task. If you receive a success message, you have successfully completed the task. 
  > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
+ > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
  <validation step="8e3654ca-357a-4da8-b947-b5b897cd526b" />
 
