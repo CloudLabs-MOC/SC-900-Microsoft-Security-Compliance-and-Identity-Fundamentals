@@ -13,7 +13,7 @@ In this lab, you will complete the following tasks:
 + Task 3: Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM
 + Task 4: Allow outbound internet traffic to validate that you can connect to the internet
 
-## Estimated timing: 60 minutes
+## Estimated timing: 60 Minutes
  
 ## Architecture diagram
 
@@ -35,36 +35,39 @@ In this task, you’ll create a Windows 11 virtual machine to set up an isolated
 
    | Setting | Action |
    | -- | -- |
-   | **Subscription** |  Leave the default value (this is the Azure subscription provided by the authorized lab hoster) |
-   | **Resource group** |  Select the existing resource group **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>**. |
-   | **Virtual machines name** |  Enter **SC900-WinVM**. |
-   | **Region** |  Leave the default region. |
-   | **Availability Options** | Select **No infrastructure redundancy required** from the drop-down. |
-   | **Security type** |  Select **Standard** from the drop-down.
-   | **Image** |  From the drop-down, select **Windows 11 Pro, Version 24H2 – x64 Gen2**. (If you are unable to see it in the drop-down list, please click on the **See all images** option > Search for **Windows 11** and click on **Select** > Select the **Windows 11 Pro, Version 24H2 – x64 Gen2**. |
-   | **Size** |  Click on **See all sizes** option and from the drop-down. select **B2s**, then press **Select** on the bottom of the page. |
-   | **Username** |  Enter **AzureUser** |
-   | **Password** |  Enter **SC900AzureLabs** |
-   | **Confirm password** |  Enter **SC900AzureLabs** |   
-   | **Public inbounds ports** |  Select **None**. |
-   | **Licensing** |  Select **I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights**, so that a checkmark appears in the box. |
-   | **Select** | **Next: Disks**. | 
+   | **Subscription** |  Leave the default value **(1)** |
+   | **Resource group** |  Select the existing resource group **LabsSC900-<inject key="DeploymentID" enableCopy="false"/> (2)**. |
+   | **Virtual machines name** |  Enter **SC900-WinVM (3)**. |
+   | **Region** |  Leave the default region. **(4)** |
+   | **Availability Options** | Select **No infrastructure redundancy required** from the drop-down. **(5)**|
+   | **Security type** |  Select **Standard (6)** from the drop-down.
+   | **Image** |  From the drop-down, select **Windows 11 Pro, Version 24H2 – x64 Gen2 (7)**. (If you are unable to see it in the drop-down list, please click on the **See all images** option > Search for **Windows 11** and click on **Select** > Select the **Windows 11 Pro, Version 24H2 – x64 Gen2**. |
+   | **Size** |  Click on **See all sizes** option and from the drop-down. select **B2s (8)**, then press **Select** on the bottom of the page. |
+   | **Username** |  Enter **AzureUser (9)** |
+   | **Password** |  Enter **SC900AzureLabs (10)** |
+   | **Confirm password** |  Enter **SC900AzureLabs (11)** |   
+   | **Public inbounds ports** |  Select **None (12)**. |
+   | **Licensing** |  Select **I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights (13)**, so that a checkmark appears in the box. |
+   | **Select** | **Next: Disks (14)**. | 
+
+   ![Picture 1](../Images/sc900-lab5-27.png)
+   ![Picture 1](../Images/sc900-lab5-28.png)
         
 1. You are now in the **Disks** tab for the VM configuration, change the **OS disk type** to **Standard SSD**, and leave all other settings to the default.
 
     ![Picture 1](../Images/sc900-lab5-2.png)
       
-1. Switch to the **Networking** tab, and configure the following settings:
+1. Switch to the **Networking** tab, and configure the following settings, then select **Review + create (2)**
 
     | Settings | Values |
     | -- | -- |
-    | NIC network security group | **None**|
+    | NIC network security group | **None (1)**|
 
       ![Picture 1](../Images/sc900-5-11.png)
 
-1. Leave the remaining defaults and then click the **Review + Create** button at the bottom of the page.
-
 1. Once Validation is passed, click the **Create** button. It can take about five minutes to deploy the virtual machine.
+
+   ![Picture 1](../Images/sc900-lab5-29.png)
 
 1. Monitor the deployment. It may take a few minutes for the virtual machine to be created. 
 
@@ -76,17 +79,29 @@ In this task, you’ll create a Windows 11 virtual machine to set up an isolated
 
 1. You are now in the SC900-WinVM page.  Note the **Public IP address**. 
 
+   ![Picture 1](../Images/sc900-lab5-30.png)
+
 1. Note the name of the network interface, **sc900-winvmxxx** (the XXX will bea  random numeric value automatically concatenated to the network interface name of your VM).
 
-1. From the top of the page, select **Connect** > **Connect** then under **Native RDP** select **Download RDP file**. 
+   ![Picture 1](../Images/sc900-lab5-31.png)
 
-1. Open the downloaded file and select **Connect**. 
+1. From the top of the page, select **+ Connect (1)** then select **Connect (2)**.
+
+   ![Picture 1](../Images/sc900-lab5-32.png)
+
+1. Under **Native RDP** select **Download RDP file**.
+
+   ![Picture 1](../Images/sc900-lab5-33.png)
+
+1. Select file from **downloads** and open it, after the pop up appears select **Connect**.
+
+   ![Picture 1](../Images/sc900-lab5-34.png)
 
    > **Note:** The port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You'll do that in the next task, when you create a network security group.
 
    ![Picture 1](../Images/08.png)
    
-1. On **SC900-WinVM** virtual machine blade, navigate to **Networking**, select **Network Settings**. Please notice that there is currently no network security group associated with the virtual machine's network interface or the subnet linked to it.
+1. On **SC900-WinVM** virtual machine blade, navigate to **Networking (1)**, select **Network Settings (2)**. Please notice that there is currently no network security group **(3)** associated with the virtual machine's network interface or the subnet linked to it.
 
    ![Picture 1](../Images/add_network.png)
     
@@ -108,42 +123,57 @@ In this task, you’ll create a network security group, assign the network inter
 
 1. From the top of the Network security groups page, select **+ Create**.
 
+   ![](../Images/sc900-lab5-35.png)
+
 1. On the Basics tab of the Create network security group page, specify the following settings:
 
    | Setting | Action |
    | -- | -- |
-   | **Subscription** | Leave the default value (this is the Azure subscription provided by the authorized lab hoster) |
-   | **Resource group** | Select **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>** |
-   | **Name** |  **NSG-SC900** |
-   | **Region** |  leave the default value |
-   | **Select** | **Review + create** then select **Create**. |
+   | **Subscription** | Leave the default value **(1)** |
+   | **Resource group** | Select **LabsSC900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
+   | **Name** |  **NSG-SC900 (3)** |
+   | **Region** |  leave the default value **(4)** |
+   | **Select** | **Review + create (5)** |
+
+   ![](../Images/sc900-lab5-36.png)
+
+1. On create network security page, under the Review + create, select **Create**.
+
+   ![](../Images/sc900-lab5-37.png)
     
 1. Once the deployment is complete, select **Go to resource**.
 
+   ![](../Images/sc900-lab5-38.png)
+
 1. On the top of the page, underneath where it says **Essentials**, you'll see some basic information about the NSG you created.  Two points to note are that there are no Custom Security rules and there are no subnets or network interfaces associated with this NSG.  Although there are no custom security rules, there are default inbound and outbound rules that are included with every NSG, as shown on the page.  Review both the inbound and outbound rules. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer.  The outbound rules deny all outbound traffic except traffic between virtual networks and outbound traffic to the internet.
+
+   ![](../Images/sc900-lab5-39.png)
 
 1. From the left navigation pane on the **NSG-SC900** page, under **Settings (1)**, select **Network interfaces (2)**.
 
    ![](../Images/sc-900-lab5-2.png)
 
-1. Select the **Associate (1)**, and choose for the **sc900-winvmxxx** from the drop down.
+1. Select the **Associate (1)**, and choose for the **sc900-winvmxxx (2)** from the drop down, click **OK (3)**.
 
    ![](../Images/associate-1.png)
 
    >**Note**: **If the option is disabled in the dropdown for network interface associations, follow the steps below:**
-     - Go to the **sc900-winvmxxx** network interface, select **Network Security Group (1)** under settings. You will see the currently selected NSG; click on it, choose **None (2)** from the dropdown, and click on **save (3)**.
+
+     - Go to the **SC900-WinVM**, select **Networking (1)**, under networking select **Networking settings (2)**, then select **sc900-winvmxxx (3)** network interface.
+     
+       ![](../Images/sc900-lab5-40.png)
+     
+     - Select **Network Security Group (1)** under settings. You will see the currently selected NSG; click on it, choose **None (2)** from the dropdown, and click on **save (3)**.
 
        ![](../Images/sc-900.png)
    
-     - Then, proceed to complete steps 6 and 7.     
-
-1. In the associate network interface page, select **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM). Then select **ok** at the bottom of the window. As the interface is being associated, you will see a notification box in the top right corner of the screen.
+     - Then, proceed to complete steps 7 and 8.     
 
 1. Once the interface is associated with the NSG, it will show up on the list.
 
-1. Navigate to SC900-WinVM Overview page, under **Networking**  select **Network settings** from the left navigation pane and then **Inbound port rule** from the **+ Create port rule** drop down.
+1. Navigate to SC900-WinVM Overview page, under **Networking**  select **Network settings (1)** from the left navigation pane and select the **+ Create port rule (2)** drop down, then **Inbound port rule (3)**.
 
-    ![Picture 1](../Images/L5T2S10.png)
+    ![Picture 1](../Images/sc900-lab5-41.png)
 
 1. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer, so you need to set up a rule to allow inbound RDP 
     traffic (traffic on port 3389). Recall that you cannot remove the default rules, but you can override them by creating rules with higher priorities.
@@ -152,14 +182,16 @@ In this task, you’ll create a network security group, assign the network inter
     
     | Setting | Action |
     | -- | -- |
-    | **Source** |  **Any** |
-    | Source port ranges | **\*** |
-    | Destination |  **Any** |
-    | Service |  **RDP** |
-    | Action |  **Allow** |
-    | Priority |  **1000**. Note: rules with lower numbers have higher priority and are processed first. |
-    | Name |  **AllowAnyRDPInbound** |
-    | Select **Add** |
+    | **Source** |  **Any (1)** |
+    | Source port ranges | **\* (2)** |
+    | Destination |  **Any (3)** |
+    | Service |  **RDP (4)** |
+    | Action |  **Allow (5)** |
+    | Priority |  **1000 (6)**. Note: rules with lower numbers have higher priority and are processed first. |
+    | Name |  **AllowAnyRDPInbound (7)** |
+    | Select **Add (8)** |
+
+    ![](../Images/sc900-lab5-42.png)
     
     > **Note:** the warning sign at the bottom of the page. We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
   
@@ -177,7 +209,7 @@ In this task, you’ll create a network security group, assign the network inter
 
 In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM. Once inside the VM you'll work to check outbound connectivity to the internet from the VM. 
 
-1.  In the search bar on the top of the page, search for and select **Virtual machines**.
+1.  In the search bar on the top of the page, search for **Virtual machines (1)**  and select **Virtual machines (2)**.
 
     ![Picture 1](../Images/sc900-lab5-1.png)
 
@@ -185,15 +217,21 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
     ![](../Images/sc-900-lab5-3.png)
 
-1.  From the top of the page, select **Connect** > **Connect (1)** then select **Download RDP file (2)**.
+1.  From the top of the page, select **Connect (1)**, select **Connect (2)** again.
+
+    ![](../Images/sc900-lab5-43.png)
+
+1. On the Native RDP pane, select **Download RDP file (2)**.
 
     ![](../Images/sc-900-lab5-4.png)
+
+1. In **Downloads**, select the downloaded RDP file and open it. 
 
 1. A Remote Desktop Connection window opens, select **Connect**.
 
       ![](../Images/sc-900-lab5-5.png)
 
-1. You will be prompted for your credentials.  For Username, enter **AzureUser (1)**,  for the Password, enter **SC900AzureLabs (2)**, and click on **OK (3)**.
+1. You will be prompted for your credentials. For Username, enter **AzureUser (1)**,  for the Password, enter **SC900AzureLabs (2)**, and click on **OK (3)**.
 
    >**Note**: If you encounter **The logon attempt failed** click on **More choices** > **Use a different account** provide username:  **.\AzureUser** and password : **SC900AzureLabs**
 
@@ -226,12 +264,14 @@ In this task, you’ll configure outbound internet traffic for the VM to ensure 
 
 1. You should be on the SC900-WinVM | Networking page. If you previously closed the browser tab, select the blue search bar at the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**, then select **Network settings**.
 
+   ![](../Images/sc900-lab5-44.png)
+
 1. Select the **Outbound port rules** tab.  You'll see the default outbound rules.
 
    > **Note** the default rule "AllowInternetOutBound". This rule allows all outbound internet traffic. You cannot remove the default rule, but you can override it by 
       creating a rule with a higher priority. From the right side of the page,
 
-1. Select **Outbound port rule** from the **+ Create port rule** drop down
+1. From the **+ Create port rule (1)** drop down, select **Outbound port rule (2)**.
 
    ![Picture 1](../Images/L5T4S3.png)
 
@@ -239,23 +279,25 @@ In this task, you’ll configure outbound internet traffic for the VM to ensure 
 
     | Setting | Action |
     | -- | -- |
-    | Source |  **Any** |
-    | Source port ranges |  **\*** |
-    | Destination |  **Service Tag** |
-    | Destination service tag |  **Internet** |
-    | Service |  **Custom** (leave the default) |
-    | Destination port ranges |  * (be sure to put an asterisk in the destination port ranges field) |
-    | Protocol | **Any** |
-    | Action | **Deny** |
-    | Priority |  **4000** |
-    | Name |  **DenyInternet** |
-    | Select | **Add** |
+    | Source |  **Any (1)** |
+    | Source port ranges |  **\* (2)** |
+    | Destination |  **Service Tag (3)** |
+    | Destination service tag |  **Internet (4)** |
+    | Service |  **Custom (5)** (leave the default) |
+    | Destination port ranges |  **\* (6)** (be sure to put an asterisk in the destination port ranges field) |
+    | Protocol | **Any (7)** |
+    | Action | **Deny (8)** |
+    | Priority |  **4000 (9)** |
+    | Name |  **DenyInternet (10)** |
+    | Select | **Add (11)** |
+
+    ![](../Images/sc900-lab5-45.png)
     
 1. Once the rule is provisioned, it will appear on the list of outbound rules.  Although it appears on the list, it will take a few minutes to take effect (wait a few minutes before continuing with the next steps).  
 
 1. Return to your VM (the icon for the VM should be shown on the task bar on the bottom of the page).
 
-1. Open the Edge browser in your VM and enter **https://www.bing.com**.  The page should not display.
+1. Open the Edge browser in your VM and enter **`https://www.bing.com`**.  The page should not display.
 
    > **Note:** If you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes a few minutes for the rule to take effect.  Close the browser, wait a few minutes, and try again. Azure subscriptions in the lab environment may experience longer than normal delays.   
 
