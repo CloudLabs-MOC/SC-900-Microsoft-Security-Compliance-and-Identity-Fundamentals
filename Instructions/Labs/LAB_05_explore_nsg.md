@@ -93,7 +93,7 @@ In this task, you’ll create a Windows 11 virtual machine to set up an isolated
 
    ![Picture 1](../Images/sc900-lab5-33.png)
 
-1. Open the downloaded file and select **Connect**.
+1. Select file from **downloads** and open it, after the pop up appears select **Connect**.
 
    ![Picture 1](../Images/sc900-lab5-34.png)
 
