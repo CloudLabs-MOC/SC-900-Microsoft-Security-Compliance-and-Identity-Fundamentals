@@ -42,7 +42,8 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
     ![](../Images/lab08-t1p3.png)
 
-1. From the left navigation menu, scroll down and under **System (1)** select **Settings (2)**.
+1. From the left navigation menu, scroll 
+select **Show navigation (1)** down and under **System (2)** select **Settings (3)**.
 
      ![Picture 1](../Images/lab08-t1p4.png)
 
@@ -168,7 +169,9 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
 
     ![Picture 1](../Images/lab08-t1p10.png)
     
-1. If this is the first time you visit the Microsoft 365 Defender portal, you may get a pop-up window to take a quick tour.  Close this.
+1. If this is the first time you visit the Microsoft 365 Defender portal, you may get a pop-up window to take a quick tour.  **Close this**.
+
+    ![Picture 1](../Images/lab08-57.png)
 
 1. From the left navigation panel, select **Cloud apps (1)** to expand the list then select **Cloud Discovery (2)**. This takes you to the Dashboard view.  Note the information available on the dashboard. From the dashboard view, you can select different tabs from the top of the page.  
 
@@ -198,6 +201,8 @@ In this task, you will explore Cloud Discovery by creating snapshot reports, upl
    ![Picture 1](../Images/lab08-t1p13.png)
   
 1. From the top of the page, select **Users**.
+
+    ![Picture 1](../Images/lab08-56.png)
 
    >**Note:** This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific 
     user and export data for further analysis.
