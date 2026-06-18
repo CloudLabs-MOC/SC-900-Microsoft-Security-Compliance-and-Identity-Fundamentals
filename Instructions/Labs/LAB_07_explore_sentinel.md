@@ -24,7 +24,7 @@ In this lab, you will complete the following tasks:
 
 To create an instance of Microsoft Sentinel, you first have to create a Log Analytics workspace, used to store data from Microsoft Sentinel.  Once you have a Log Analytics workspace you can create an instance Microsoft Sentinel and add the log analytics workspace to it.  In this task you run through each of these steps.
 
-1. In the Azure portal, in the **Search resources, services, and docs** search for **Log Analytics (1)** then select **Log Analytics (2)** from the search results.
+1. In the Azure portal, in the **Search resources, services, and docs** search for **Log Analytics workspaces (1)** then select **Log Analytics workspaces (2)** from the search results.
 
    ![Picture 1](../Images/lab7-l1.png)
 
@@ -44,6 +44,8 @@ To create an instance of Microsoft Sentinel, you first have to create a Log Anal
     ![Picture 1](../Images/sc-lab7-l3.png)
 
 1. Once the Validation is passed, then select **Create**.
+
+   ![Picture 1](../Images/sc-lab7-l18.png)
 
 1. It may take a minute or two for the new workspace to be created. Once it's created, select **Go to resource** to view information about the workspace.
 
