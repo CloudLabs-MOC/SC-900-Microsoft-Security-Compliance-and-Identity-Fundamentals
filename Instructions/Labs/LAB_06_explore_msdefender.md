@@ -37,7 +37,7 @@ In this lab, you will complete the following tasks:
 
     ![Picture 1](../Images/lab6-02-4.png)
 
-1. From the left navigation pane, select **Defender plans**, set **Defender CSPM** to **On** if it is not already enabled, and then select **Save**.
+1. From the left navigation pane, select **Defender plans**, set **Defender CSPM** to **On (1)** if it is not already enabled, and then select **Save (2)**.
 
     ![Picture 1](../Images/lab6-02-5.png)
 
