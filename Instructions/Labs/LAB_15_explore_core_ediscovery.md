@@ -27,7 +27,7 @@ In this lab, you will complete the following tasks:
      https://www.office.com/
      ```
 
-     ![](../Images/lab15-l0.png)
+     ![](../Images/sc900-lab15-1.png)
 
 1. You'll see the **Sign in** tab. Here, enter your credentials:
  
@@ -43,11 +43,11 @@ In this lab, you will complete the following tasks:
 
 1. When prompted to stay signed in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
-1. On Welcome to Copilot Chat window, click **Apps (1)**, then select **word (2)**.
+1. In the Microsoft 365 portal, click **App launcher (1)** button, then select **word (2)**.
 
-     ![](../Images/lab15--l1.png)
+     ![](../Images/sc900-lab15-2.png)
 
-1. On word document select **Blank document** to create a new blank document and then enter the content **(1)** and enter name as **Sales Report Q1 (2)** 
+1. On word document select **+ Blank document** to create a new blank document and then enter the content **(1)** and enter name as **Sales Report Q1 (2)** 
 
     ```
     This document contains the Sales performance details for Q1.
@@ -185,7 +185,7 @@ With a case created, you can begin to work with the case. This includes creating
 
 1. With query results returned in the form of statistics, you can export results. Select **Export (1)** to vew available options then select **Cancel (2)**.
 
-     ![Picture 1](../Images/lab15--l19.png)
+     ![Picture 1](../Images/sc900-lab15-3.png)
 
 1. You can add to a review set for further processing.  Select **Add to review set (1)**. Enter a name for the new review set, **`SC900-review-set` (2)**, leave the default settings, then select **Add to review set (3)**. This can take several minutes to complete. Once the review set results are presented, you can explore the different options, which include Analytics, Query, Actions, Tag files, and Manage.
 
@@ -205,7 +205,7 @@ With a case created, you can begin to work with the case. This includes creating
 
      ![Picture 1](../Images/lab15--l23.png)
 
-     ![Picture 1](../Images/lab15--l24.png)
+     ![Picture 1](../Images/sc900-lab15-3.png)
 
 1. In the keyword box, enter **sales (1)**. From here you can select to **Apply hold (2)**, actions you can take on a hold policy include retry, turn off a policy, and deleting a hold policy.
 
