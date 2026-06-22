@@ -52,6 +52,8 @@ In this lab, you will complete the following tasks:
 10. The card section on the home page shows you, at a glance, how your organization is doing with your compliance posture, what solutions are available for your organization, available trials and recommendations, and more.
 
 11. View the information on the landing page. Scroll down to see your compliance posture status, information related to **Know your data**, and more.
+
+     ![](../Images/lab12-l3b.png)
    
 12. Scroll up and select the tile that says **View all solutions**.
     
@@ -63,7 +65,7 @@ In this lab, you will complete the following tasks:
 
 In this tak you will learn about your organization’s compliance posture through Compliance Manager.
 
-1. From the left navigation panel of the Microsoft Purview portal, select **Solutions** and select **Compliance Manager**. Alternatively, you could select the tile for Compliance Manager, under Risk and Compliance.
+1. From the left navigation panel of the Microsoft Purview portal, select **Solutions (1)** and select **Compliance Manager (2)**. Alternatively, you could select the tile for Compliance Manager, under Risk and Compliance.
 
       ![](../Images/lab12-l5.png)
 
@@ -75,7 +77,9 @@ In this tak you will learn about your organization’s compliance posture throug
 
      ![](../Images/lab12-l6.png)
 
-4. From the list of improvement actions, select **Enable self-service password reset**.  Each improvement action has an overview section along with the details page from which you can select implementation, testing, the related standards and regulatory requirements, and documents.
+4. From the list of improvement actions, search for **Enable self-service password reset (1)**, then select **Enable self-service password reset (2)**.  Each improvement action has an overview section along with the details page from which you can select implementation, testing, the related standards and regulatory requirements, and documents.
+
+     ![](../Images/lab12-7a.png)
 
      ![](../Images/lab12-7.png)
 
@@ -104,6 +108,8 @@ In this tak you will learn about your organization’s compliance posture throug
      ![](../Images/lab12-l14.png)
 
 11. From the left navigation pane, select **Alerts**. Here you can view and manage alerts for events that can affect your organization's compliance score. Since this is a newly created lab tenant, you should not be seeing any alerts.
+
+     ![](../Images/lab12-l15.png)
 
 12. From the left navigation panel, select **Home** to return to the landing page of the Microsoft Purview portal.
 
