@@ -9,7 +9,7 @@ In this lab, you will explore the features and content available from the Servic
 In this lab, you will complete the following tasks:
 
 + **Task 1:** Explore the Service Trust portal
-+ **Task 2:** Explore on Trust Center and navigate to Microsoft’s six, key privacy principles
++ **Task 2:** Explore Microsoft Trust Center: Trust, Privacy, Security, Compliance, and AI Governance
 
 ## Estimated timing: 30 Minutes
 
@@ -65,8 +65,6 @@ In this task you will explore the Service Trust portal and the different types o
 1. To verify that the document has been saved, scroll up to the top of the page and select **My Library**, view the document that we have saved.
 
    ![](../Images/lab11-10.png)
-   
-   ![](../Images/lab11-11.png)
 
 1. From the top of the My Library page, select **Service Trust Portal** to return to the Service Trust Portal home page.
 
@@ -96,29 +94,29 @@ In this task you will explore the Service Trust portal and the different types o
 
    ![](../Images/lab11-12.png)
     
-## Task 2: Explore on Trust Center and navigate to Microsoft’s six, key privacy principles
+## Task 2: Explore Microsoft Trust Center: Trust, Privacy, Security, Compliance, and AI Governance
 
-In this task you will visit the Trust Center and navigate to Microsoft’s six, key privacy principles.
+In this task, you will explore the **Microsoft Trust Center** to understand how Microsoft approaches **trust, privacy, security, compliance, and Responsible AI** across its cloud services.
 
-1. From the Service Trust Portal home page, scroll down to the **Reports, Whitepapers, and Artifacts (1)** category. Select **Privacy and Data Protection (2)**.  
+1. Open a new browser tab and navigate to the **Microsoft Trust Center** at  **`https://www.microsoft.com/trust-center`**.
+
+1. On the Trust Center home page, review the introductory content. Notice how Microsoft presents **trust** as a core principle that spans security, privacy, compliance, and transparency across its services.
 
    ![](../Images/lab11-18.png)
 
-1. In addition to listing all applicable documents, there is a description of the category followed by a link to Learn more.  Select **Learn more**.
+1. From the top navigation menu, explore **Privacy**, **Security**, and **Compliance**. Focus on understanding how Microsoft protects customer data, applies security by design, and supports regulatory and industry compliance requirements.
 
    ![](../Images/lab11-19.png)
 
-1. A new browser page opens to the Microsoft Trust Center where you find more information, including information about privacy and much more. Explore the contents of this page and navigate through different links.
+1. From the top navigation menu, select **Responsible AI** and **Products and services**. Review how Microsoft applies Responsible AI principles and how trust commitments are consistently implemented across Microsoft cloud products.
 
    ![](../Images/service-portal-12.png)
 
-   >**Note:** If you are unable to open the Microsoft Trust Center, this could be due to an issue in Microsoft’s official repository where the Learn more link is not redirecting to the expected page.This seems to be a temporary issue on Microsoft’s side and does not impact the completion of the lab.
-
-1. Close your browser windows to exit out the Service Trust Portal and the Trust Center.
+1. Close all open browser tabs.
 
 ## Review
 In this lab, you have completed:
 - Explored the Service Trust portal
-- Explored on Trust Center and navigate to Microsoft’s six, key privacy principles
+- Explore Microsoft Trust Center: Trust, Privacy, Security, Compliance, and AI Governance
   
 ## You have successfully completed the lab
