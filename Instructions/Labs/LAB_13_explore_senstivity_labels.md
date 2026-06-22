@@ -34,19 +34,15 @@ In this task, you will gain an understanding of what sensitivity labels can do b
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-    ![](../Images/lab13-t1p1.png)
+    ![](../Images/lab12-l1.png)
 
 1. Under **Admin centers**, select **Microsoft Purview**.
 
-    ![](../Images/lab13-t1p2.png)
-
-1. A new browser page will open. Since you are already signed in, your email will be listed. You can select your email address to log in to Microsoft Purview.
-    
-    ![](../Images/L13-T1-S7.png)
+    ![](../Images/lab12-l2.png)
 
 1. Upon logging in to the portal, a **Welcome to the new Microsoft Purview portal!** pop-up window will appear, select **Get started**.
 
-    ![](../Images/lab13-t1p3.png)
+    ![](../Images/lab12-l3.png)
 
 1. You are now on the homepage of the New Microsoft Purview portal.
 
@@ -122,7 +118,7 @@ In this task, you will gain an understanding of what sensitivity labels can do b
 
      ![](../Images/sc-900-jap24.png)   
 
-1. Read the description under **Publish to users and groups**.  Notice that this label is available to all users. Do not change any settings.  Select **Next** at the bottom of the page.
+1. Read the description under **Publish to users and groups**. Select **Exchange email (1)**. Notice that this label is available to all users. Do not change any settings.  Select **Next (2)** at the bottom of the page.
 
     ![](../Images/sc-900-jap25.png)
 
@@ -238,13 +234,15 @@ In this task, you will go through the process of applying a label from the persp
 
     ![](../Images/lab13-t2p2(1).png)
 
-1. From the left navigation pane, select **Apps (1)** and then select **Word (2)**.
+1. Under the **Apps** and then select **Word**.
 
     ![](../Images/lab13-t2p3.png)
 
 1. A new browser tab will open to the Word homepage. From there, select **+ Create blank document**.
 
     ![](../Images/lab13-t2p4.png)
+
+   > **Note:** If you are not signed in to your Microsoft word, **Sign in** before starting the task. 
 
 1. If a **Your privacy option** pop-up window appears, click on **Close**.
 

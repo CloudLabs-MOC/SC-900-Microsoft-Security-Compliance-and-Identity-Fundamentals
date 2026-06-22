@@ -21,13 +21,13 @@ In this lab, you will complete the following tasks:
 
 In this task, you will explore the Microsoft 365 Defender landing page, review and customize dashboard cards, and become familiar with navigation options across Microsoft’s XDR security features.
 
-1. Open Microsoft Edge. In the address bar, enter **admin.microsoft.com**.
+1. Open Microsoft Edge. In the address bar, enter **admin.microsoft.com**
 
 1. In the Sign-in window, enter the following **Email/Username** and click on **Next**.
 
     * **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
-1. Now enter the **Password** and click on Sign in.
+1. Now enter the **Password** and click on **Sign in**.
    
    * **Password:** <inject key="AzureAdUserPassword"></inject>
   
@@ -41,13 +41,9 @@ In this task, you will explore the Microsoft 365 Defender landing page, review a
 
      ![Picture 1](../Images/lab09-t1p1(1).png)
 
-1. A new browser page opens. Since you are already signed in, your email will be listed. You can select your email address, <inject key="AzureAdUserEmail"></inject> to log in to the Microsoft Defender portal. 
-
-     ![Picture 1](../Images/L9-T1-S7.png)
-
 1. If this is your first visit to the Microsoft Defender portal, a **Meet your improved security center** pop-up may appear. You can either **Take the quick tour** or click **X** to close it.
 
-     ![Picture 1](../Images/lab09-t1p2.png)
+     ![Picture 1](../Images/lab08-57.png)
 
 1. The welcome page of the Microsoft 365 Defender portal shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Scroll through the page to view the default set of cards for your role as a global admin.
 
@@ -85,7 +81,7 @@ In this task, you will explore how Microsoft Secure Score can help an organizati
 
      ![Picture 1](../Images/lab09-t2p2.png)
 
-1. The Microsoft Secure Score page opens to the Overview tab. Microsoft Secure Score is a measurement of an organization's security posture. Your organization’s secure score is shown as a percentage, along with the number of points you've achieved out of the total possible points and broken down by category. Select **Include**, next to where it says Your secure score. A small window opens that allows you to include the achievable score, Planned score, and Current license score in the breakdown of your organization's secure score. Select **Include** again to close the window.
+1. The Microsoft Secure Score page opens to the Overview tab. Microsoft Secure Score is a measurement of an organization's security posture. Your organization’s secure score is shown as a percentage, along with the number of points you've achieved out of the total possible points and broken down by category. Select **Include (1)**, next to where it says Your secure score. A small window opens that allows you to include the achievable score, Planned score, and Current license score in the breakdown of your organization's secure score **(2)**. Select **Include** again to close the window.
 
      ![Picture 1](../Images/lab09-t2p3.png)
 
