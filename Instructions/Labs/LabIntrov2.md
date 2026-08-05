@@ -86,7 +86,9 @@ After completing the task, hit the **Validate** button under the Validation tab 
 
    ![](../Images/Sign-in-no.png)
 
-5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
+5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Maybe Later** to skip the tour.
+
+   ![](../Images/maybelater.png)
  
 ## Support Contact
 
